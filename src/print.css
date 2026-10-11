@@ -2,25 +2,40 @@
   @page { size: A4; margin: 16mm; }
   :root { color: #1d1d1f; background: white; }
   body { font-size: 10pt; }
-  .site-header, .skip-link, .hero-actions, .overview-grid, .profile-note, .text-link, .credential-tools, .credential-actions, .contact, .site-footer, .empty-state { display: none !important; }
-  .section-shell { width: 100%; padding: 0 !important; }
-  .section-space { padding-block: 20px !important; }
-  .hero-intro { text-align: left; animation: none; padding-bottom: 20px !important; }
-  h1 { font-size: 34pt !important; max-width: none !important; margin: 0 !important; }
+  .site-header, .skip-link, .hero-actions, .hero-note, .projects, .credential-tools, .result-count, .credential-list, .empty-state, .site-footer { display: none !important; }
+  .print-only { display: block !important; }
+  .section-shell { width: 100%; }
+  .section-space, .overview { padding: 18px 0 !important; }
+  [data-reveal], .hero-intro h1, .hero-role, .hero-description { opacity: 1 !important; transform: none !important; animation: none !important; transition: none !important; }
+  .hero-intro h1 { font-size: 30pt !important; max-width: none; }
+  .hero-role { font-size: 14pt !important; margin-top: 12px; }
+  .hero-description { margin-top: 10px; }
+  .desktop-break { display: none; }
   h2 { font-size: 20pt !important; }
-  h3 { font-size: 11pt !important; }
+  h3 { font-size: 12pt !important; }
+  h4 { font-size: 11pt !important; }
   p { font-size: 10pt !important; }
-  .hero-role, .hero-description { margin: 10px 0 0 !important; max-width: none !important; }
-  .experience, .recognition { display: block; }
-  .section-aside { position: static; margin-bottom: 20px; }
-  .section-heading { margin-bottom: 20px; }
-  .career-item, .education-row, .credential-row, .award-row { break-inside: avoid; }
-  .section-band, .education-row { background: white; }
-  .education-row { grid-template-columns: 1fr auto; padding: 15px 0; border-bottom: 1px solid #ddd; }
-  .school-abbreviation { display: none; }
-  .school-date { grid-column: auto; }
-  .skills-block { display: block; margin-top: 20px; }
-  .skill-tags { margin-top: 12px; }
+  .section-heading { margin-bottom: 18px; }
+  .about-layout, .qualification-layout { display: block; }
+  .about-copy, .education-list { margin-top: 15px; }
+  .about-copy .lead { font-size: 11pt !important; }
+  .career-timeline { gap: 20px; }
+  .timeline-year { grid-template-columns: 52px 1fr; gap: 12px; }
+  .year-label { font-size: 14pt !important; }
+  .year-entries { padding-left: 15px; }
+  .career-item { grid-template-columns: 1fr; gap: 8px; break-inside: avoid; }
+  .career-meta { flex-direction: row; gap: 12px; }
+  .career-item + .career-item { margin-top: 18px; padding-top: 18px; }
+  .career-description { margin-top: 8px; }
+  .skill-list { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 20px; font-size: 10pt; }
+  .education-row, .credential-row, .award-row { break-inside: avoid; }
+  .qualification-subsection { padding-top: 25px; }
+  .credential-row { padding: 13px 0; }
   .award-list { grid-template-columns: 1fr 1fr; gap: 20px; }
+  .recognition { padding: 20px 0; margin-top: 0; background: white; }
+  .award-row { min-height: 0; padding: 0; }
+  .award-icon { display: none; }
+  .contact { padding-bottom: 0 !important; }
+  .contact-link { color: inherit; font-size: 10pt; }
   a { color: inherit; }
 }
