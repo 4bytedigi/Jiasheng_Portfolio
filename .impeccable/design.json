@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-09T17:33:50.784Z",
+  "title": "Design System: Chua Jia Sheng résumé",
+  "extensions": {
+    "colorMeta": {
+      "page": {
+        "role": "neutral",
+        "displayName": "White Ground",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Soft Gray",
+        "tonalRamp": [
+          "oklch(15.00% 0.00265 286.35)",
+          "oklch(26.43% 0.00265 286.35)",
+          "oklch(37.86% 0.00265 286.35)",
+          "oklch(49.29% 0.00265 286.35)",
+          "oklch(60.71% 0.00265 286.35)",
+          "oklch(72.14% 0.00265 286.35)",
+          "oklch(83.57% 0.00265 286.35)",
+          "oklch(95.00% 0.00265 286.35)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Near-Black Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.00381 286.10)",
+          "oklch(26.43% 0.00381 286.10)",
+          "oklch(37.86% 0.00381 286.10)",
+          "oklch(49.29% 0.00381 286.10)",
+          "oklch(60.71% 0.00381 286.10)",
+          "oklch(72.14% 0.00381 286.10)",
+          "oklch(83.57% 0.00381 286.10)",
+          "oklch(95.00% 0.00381 286.10)"
+        ]
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "Secondary Gray",
+        "tonalRamp": [
+          "oklch(15.00% 0.00933 286.07)",
+          "oklch(26.43% 0.00933 286.07)",
+          "oklch(37.86% 0.00933 286.07)",
+          "oklch(49.29% 0.00933 286.07)",
+          "oklch(60.71% 0.00933 286.07)",
+          "oklch(72.14% 0.00933 286.07)",
+          "oklch(83.57% 0.00933 286.07)",
+          "oklch(95.00% 0.00933 286.07)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Action Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.17709 255.83)",
+          "oklch(26.43% 0.17709 255.83)",
+          "oklch(37.86% 0.17709 255.83)",
+          "oklch(49.29% 0.17709 255.83)",
+          "oklch(60.71% 0.17709 255.83)",
+          "oklch(72.14% 0.17709 255.83)",
+          "oklch(83.57% 0.17709 255.83)",
+          "oklch(95.00% 0.17709 255.83)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Action Blue Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.15755 255.52)",
+          "oklch(26.43% 0.15755 255.52)",
+          "oklch(37.86% 0.15755 255.52)",
+          "oklch(49.29% 0.15755 255.52)",
+          "oklch(60.71% 0.15755 255.52)",
+          "oklch(72.14% 0.15755 255.52)",
+          "oklch(83.57% 0.15755 255.52)",
+          "oklch(95.00% 0.15755 255.52)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Fine Divider",
+        "tonalRamp": [
+          "oklch(15.00% 0.00673 286.27)",
+          "oklch(26.43% 0.00673 286.27)",
+          "oklch(37.86% 0.00673 286.27)",
+          "oklch(49.29% 0.00673 286.27)",
+          "oklch(60.71% 0.00673 286.27)",
+          "oklch(72.14% 0.00673 286.27)",
+          "oklch(83.57% 0.00673 286.27)",
+          "oklch(95.00% 0.00673 286.27)"
+        ]
+      },
+      "study-surface": {
+        "role": "neutral",
+        "displayName": "Study Tint",
+        "tonalRamp": [
+          "oklch(15.00% 0.01031 247.93)",
+          "oklch(26.43% 0.01031 247.93)",
+          "oklch(37.86% 0.01031 247.93)",
+          "oklch(49.29% 0.01031 247.93)",
+          "oklch(60.71% 0.01031 247.93)",
+          "oklch(72.14% 0.01031 247.93)",
+          "oklch(83.57% 0.01031 247.93)",
+          "oklch(95.00% 0.01031 247.93)"
+        ]
+      },
+      "study-text": {
+        "role": "neutral",
+        "displayName": "Study Text",
+        "tonalRamp": [
+          "oklch(15.00% 0.04111 247.42)",
+          "oklch(26.43% 0.04111 247.42)",
+          "oklch(37.86% 0.04111 247.42)",
+          "oklch(49.29% 0.04111 247.42)",
+          "oklch(60.71% 0.04111 247.42)",
+          "oklch(72.14% 0.04111 247.42)",
+          "oklch(83.57% 0.04111 247.42)",
+          "oklch(95.00% 0.04111 247.42)"
+        ]
+      },
+      "current-surface": {
+        "role": "neutral",
+        "displayName": "Current Role Tint",
+        "tonalRamp": [
+          "oklch(15.00% 0.00859 247.92)",
+          "oklch(26.43% 0.00859 247.92)",
+          "oklch(37.86% 0.00859 247.92)",
+          "oklch(49.29% 0.00859 247.92)",
+          "oklch(60.71% 0.00859 247.92)",
+          "oklch(72.14% 0.00859 247.92)",
+          "oklch(83.57% 0.00859 247.92)",
+          "oklch(95.00% 0.00859 247.92)"
+        ]
+      },
+      "current-text": {
+        "role": "neutral",
+        "displayName": "Current Role Text",
+        "tonalRamp": [
+          "oklch(15.00% 0.04419 254.78)",
+          "oklch(26.43% 0.04419 254.78)",
+          "oklch(37.86% 0.04419 254.78)",
+          "oklch(49.29% 0.04419 254.78)",
+          "oklch(60.71% 0.04419 254.78)",
+          "oklch(72.14% 0.04419 254.78)",
+          "oklch(83.57% 0.04419 254.78)",
+          "oklch(95.00% 0.04419 254.78)"
+        ]
+      },
+      "skill-line": {
+        "role": "neutral",
+        "displayName": "Skill Outline",
+        "tonalRamp": [
+          "oklch(15.00% 0.00815 286.23)",
+          "oklch(26.43% 0.00815 286.23)",
+          "oklch(37.86% 0.00815 286.23)",
+          "oklch(49.29% 0.00815 286.23)",
+          "oklch(60.71% 0.00815 286.23)",
+          "oklch(72.14% 0.00815 286.23)",
+          "oklch(83.57% 0.00815 286.23)",
+          "oklch(95.00% 0.00815 286.23)"
+        ]
+      },
+      "skill-text": {
+        "role": "neutral",
+        "displayName": "Skill Text",
+        "tonalRamp": [
+          "oklch(15.00% 0.01296 285.86)",
+          "oklch(26.43% 0.01296 285.86)",
+          "oklch(37.86% 0.01296 285.86)",
+          "oklch(49.29% 0.01296 285.86)",
+          "oklch(60.71% 0.01296 285.86)",
+          "oklch(72.14% 0.01296 285.86)",
+          "oklch(83.57% 0.01296 285.86)",
+          "oklch(95.00% 0.01296 285.86)"
+        ]
+      },
+      "category-text": {
+        "role": "neutral",
+        "displayName": "Category Gray",
+        "tonalRamp": [
+          "oklch(15.00% 0.01293 285.87)",
+          "oklch(26.43% 0.01293 285.87)",
+          "oklch(37.86% 0.01293 285.87)",
+          "oklch(49.29% 0.01293 285.87)",
+          "oklch(60.71% 0.01293 285.87)",
+          "oklch(72.14% 0.01293 285.87)",
+          "oklch(83.57% 0.01293 285.87)",
+          "oklch(95.00% 0.01293 285.87)"
+        ]
+      },
+      "secondary-hover": {
+        "role": "neutral",
+        "displayName": "Secondary Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.00670 286.27)",
+          "oklch(26.43% 0.00670 286.27)",
+          "oklch(37.86% 0.00670 286.27)",
+          "oklch(49.29% 0.00670 286.27)",
+          "oklch(60.71% 0.00670 286.27)",
+          "oklch(72.14% 0.00670 286.27)",
+          "oklch(83.57% 0.00670 286.27)",
+          "oklch(95.00% 0.00670 286.27)"
+        ]
+      },
+      "utility-hover": {
+        "role": "neutral",
+        "displayName": "Compact Action Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.00857 285.95)",
+          "oklch(26.43% 0.00857 285.95)",
+          "oklch(37.86% 0.00857 285.95)",
+          "oklch(49.29% 0.00857 285.95)",
+          "oklch(60.71% 0.00857 285.95)",
+          "oklch(72.14% 0.00857 285.95)",
+          "oklch(83.57% 0.00857 285.95)",
+          "oklch(95.00% 0.00857 285.95)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Centered identity."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heading."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Engineering role."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Experience and general entry title."
+      },
+      "credential-title": {
+        "displayName": "Credential Title",
+        "purpose": "Credential and recognition entry name."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Introduction and section descriptions."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Main action label."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Compact factual and control labels."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.23, 1, .32, 1)",
+        "purpose": "Entrance, press, arrow, and illustration easing."
+      },
+      {
+        "name": "intro-arrive",
+        "value": "650ms",
+        "purpose": "Single identity entrance: translateY(12px), opacity .6 to rest, opacity 1."
+      },
+      {
+        "name": "navigation-color",
+        "value": "160ms ease",
+        "purpose": "Desktop navigation color feedback."
+      },
+      {
+        "name": "control-color",
+        "value": "180ms ease",
+        "purpose": "Button and filter background/color feedback."
+      },
+      {
+        "name": "press",
+        "value": "140ms var(--ease); scale(.96)",
+        "purpose": "Main buttons and circular tile links."
+      },
+      {
+        "name": "link-arrow",
+        "value": "180ms var(--ease); translateX(2px)",
+        "purpose": "Fine-pointer text-link hover."
+      },
+      {
+        "name": "illustration-hover",
+        "value": "600ms var(--ease); scale(1.025)",
+        "purpose": "Fine-pointer engineering overview hover."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop-max",
+        "value": "1023px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "767px"
+      },
+      {
+        "name": "small-phone-max",
+        "value": "479px"
+      }
+    ],
+    "surfaceEffects": [
+      {
+        "name": "navigation-glass",
+        "value": "background: rgb(255 255 255 / 88%); backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid rgb(227 227 232 / 75%)",
+        "purpose": "Readable sticky navigation on the light page."
+      },
+      {
+        "name": "illustration-edge-mask",
+        "value": "mask-image: linear-gradient(to right, transparent, #000 18%), linear-gradient(to bottom, transparent, #000 22%); mask-composite: intersect",
+        "purpose": "Integrates raster edges; not a decorative background gradient."
+      }
+    ],
+    "accessibility": {
+      "focus": "3px solid var(--accent), outline-offset 5px",
+      "reducedMotion": "No animation, transitions, smooth scrolling, press movement, arrow movement, or illustration scaling.",
+      "reducedTransparency": "Opaque white header without backdrop blur.",
+      "unsupportedBackdrop": "Opaque white header.",
+      "search": "Accessible name, combined query/category filtering, polite live count, reset restores input focus.",
+      "mobileNavigation": "Escape restores toggle focus; selection closes menu and focuses the destination section."
+    },
+    "provenance": {
+      "sources": [
+        "src/App.jsx",
+        "src/styles.css",
+        "src/print.css",
+        "src/profile.json"
+      ],
+      "visualReferences": [
+        ".impeccable/review/redesign-desktop.jpg",
+        ".impeccable/review/redesign-mobile.jpg"
+      ],
+      "reference": "docs/design-references/apple.DESIGN.md",
+      "referenceProvenance": "docs/design-references/README.md",
+      "imageProvenance": "public/images/silicon-glass.provenance.json",
+      "tonalRamps": "Preview-only synthesized OKLCH ramps retaining source hue/chroma; not additional implemented palette tokens.",
+      "authority": "Explicitly approved frontend redesign with the pinned light Apple-inspired professional identity."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main résumé download and LinkedIn action.",
+      "html": "<a class=\"ds-button ds-button-primary\" href=\"/Chua-Jia-Sheng-Resume.pdf\" download>Download résumé <svg width=\"19\" height=\"19\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z\"></path></svg></a>",
+      "css": ".ds-button { text-decoration: none; cursor: pointer; } .ds-button { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-button a { text-decoration: none; text-underline-offset: 5px; } .ds-button button, .ds-button input { font-family: inherit; } .ds-button button { cursor: pointer; } .ds-button h2, .ds-button h3, .ds-button p { margin: 0; } .ds-button h2 { font-size: clamp(34px, 3.7vw, 48px); font-weight: 600; line-height: 1.1; letter-spacing: -.035em; text-wrap: balance; } .ds-button h3 { font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -.02em; text-wrap: balance; } .ds-button p { line-height: 1.6; } .ds-button svg { flex-shrink: 0; } .ds-button { display: inline-flex; gap: 10px; min-height: 48px; align-items: center; justify-content: center; padding: 13px 23px; border: 0; border-radius: 999px; font-size: 14px; font-weight: 400; white-space: nowrap; transition: background 180ms ease, transform 140ms var(--ease, cubic-bezier(.23, 1, .32, 1)); }\n.ds-button-primary { background: var(--accent, #0066cc); color: #fff; }\n.ds-button:active { transform: scale(.96); }\n@media (hover: hover) and (pointer: fine) {\n  .ds-button-primary:hover { background: var(--accent-hover, #0058b0); }\n}\n@media (prefers-reduced-motion: reduce) {\n  .ds-button:active { transform: none; }\n}\n .ds-button:is(a,button,input):focus-visible, .ds-button a:focus-visible, .ds-button button:focus-visible, .ds-button input:focus-visible { outline: 3px solid var(--accent, #0066cc); outline-offset: 5px; } .ds-button input { caret-color: var(--accent, #0066cc); } @media (prefers-reduced-motion: reduce) { .ds-button, .ds-button * { animation: none !important; transition: none !important; } }"
+    },
+    {
+      "name": "Secondary Action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Expands/collapses credentials; the empty-state reset uses a white background override.",
+      "html": "<button class=\"ds-button ds-button-secondary\" type=\"button\" aria-expanded=\"false\">View all 17 credentials <svg width=\"17\" height=\"17\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z\"></path></svg></button>",
+      "css": ".ds-button { text-decoration: none; cursor: pointer; } .ds-button { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-button a { text-decoration: none; text-underline-offset: 5px; } .ds-button button, .ds-button input { font-family: inherit; } .ds-button button { cursor: pointer; } .ds-button h2, .ds-button h3, .ds-button p { margin: 0; } .ds-button h2 { font-size: clamp(34px, 3.7vw, 48px); font-weight: 600; line-height: 1.1; letter-spacing: -.035em; text-wrap: balance; } .ds-button h3 { font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -.02em; text-wrap: balance; } .ds-button p { line-height: 1.6; } .ds-button svg { flex-shrink: 0; } .ds-button { display: inline-flex; gap: 10px; min-height: 48px; align-items: center; justify-content: center; padding: 13px 23px; border: 0; border-radius: 999px; font-size: 14px; font-weight: 400; white-space: nowrap; transition: background 180ms ease, transform 140ms var(--ease, cubic-bezier(.23, 1, .32, 1)); }\n.ds-button-secondary { background: var(--surface, #f5f5f7); color: var(--ink, #1d1d1f); }\n.ds-button:active { transform: scale(.96); }\n@media (hover: hover) and (pointer: fine) {\n  .ds-button-secondary:hover { background: #e8e8ed; }\n}\n@media (prefers-reduced-motion: reduce) {\n  .ds-button:active { transform: none; }\n}\n .ds-button:is(a,button,input):focus-visible, .ds-button a:focus-visible, .ds-button button:focus-visible, .ds-button input:focus-visible { outline: 3px solid var(--accent, #0066cc); outline-offset: 5px; } .ds-button input { caret-color: var(--accent, #0066cc); } @media (prefers-reduced-motion: reduce) { .ds-button, .ds-button * { animation: none !important; transition: none !important; } }"
+    },
+    {
+      "name": "Compact Résumé Action",
+      "kind": "button",
+      "refersTo": "button-utility",
+      "description": "Persistent header download with its actual compact desktop and mobile sizing.",
+      "html": "<a class=\"ds-button ds-button-small\" href=\"/Chua-Jia-Sheng-Resume.pdf\" download>Résumé <svg width=\"16\" height=\"16\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z\"></path></svg></a>",
+      "css": ".ds-button { text-decoration: none; cursor: pointer; } .ds-button { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-button a { text-decoration: none; text-underline-offset: 5px; } .ds-button button, .ds-button input { font-family: inherit; } .ds-button button { cursor: pointer; } .ds-button h2, .ds-button h3, .ds-button p { margin: 0; } .ds-button h2 { font-size: clamp(34px, 3.7vw, 48px); font-weight: 600; line-height: 1.1; letter-spacing: -.035em; text-wrap: balance; } .ds-button h3 { font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -.02em; text-wrap: balance; } .ds-button p { line-height: 1.6; } .ds-button svg { flex-shrink: 0; } .ds-button { display: inline-flex; gap: 10px; min-height: 48px; align-items: center; justify-content: center; padding: 13px 23px; border: 0; border-radius: 999px; font-size: 14px; font-weight: 400; white-space: nowrap; transition: background 180ms ease, transform 140ms var(--ease, cubic-bezier(.23, 1, .32, 1)); }\n.ds-button-small { min-height: 40px; padding: 9px 16px; font-size: 12px; background: var(--ink, #1d1d1f); color: white; }\n.ds-button:active { transform: scale(.96); }\n@media (hover: hover) and (pointer: fine) {\n  .ds-button-small:hover { background: #3b3b40; }\n}\n@media (max-width: 767px) {\n  .ds-button-small { min-height: 44px; padding-inline: 14px; }\n}\n@media (prefers-reduced-motion: reduce) {\n  .ds-button:active { transform: none; }\n}\n .ds-button:is(a,button,input):focus-visible, .ds-button a:focus-visible, .ds-button button:focus-visible, .ds-button input:focus-visible { outline: 3px solid var(--accent, #0066cc); outline-offset: 5px; } .ds-button input { caret-color: var(--accent, #0066cc); } @media (prefers-reduced-motion: reduce) { .ds-button, .ds-button * { animation: none !important; transition: none !important; } }"
+    },
+    {
+      "name": "Credential Search",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Accessible search with the source border, placeholder, leading icon, and mobile text-size change.",
+      "html": "<div class=\"ds-search-field\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z\"></path></svg><input type=\"search\" aria-label=\"Search credentials\" placeholder=\"Find a credential\" /></div>",
+      "css": ".ds-search-field { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-search-field a { text-decoration: none; text-underline-offset: 5px; } .ds-search-field button, .ds-search-field input { font-family: inherit; } .ds-search-field button { cursor: pointer; } .ds-search-field h2, .ds-search-field h3, .ds-search-field p { margin: 0; } .ds-search-field h2 { font-size: clamp(34px, 3.7vw, 48px); font-weight: 600; line-height: 1.1; letter-spacing: -.035em; text-wrap: balance; } .ds-search-field h3 { font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -.02em; text-wrap: balance; } .ds-search-field p { line-height: 1.6; } .ds-search-field svg { flex-shrink: 0; } .ds-search-field { position: relative; min-width: 210px; flex: 0 1 235px; }\n.ds-search-field > svg { position: absolute; top: 14px; left: 13px; color: var(--secondary, #68686e); pointer-events: none; }\n.ds-search-field input { width: 100%; min-height: 46px; border: 1px solid var(--line, #e3e3e8); border-radius: 10px; padding: 12px 14px 12px 39px; background: var(--page, #fff); color: var(--ink, #1d1d1f); font-size: 12px; }\n.ds-search-field input::placeholder { opacity: 1; color: var(--secondary, #68686e); }\n@media (max-width: 767px) {\n  .ds-search-field { order: -1; flex: 1 1 100%; }\n  .ds-search-field input { font-size: 16px; }\n}\n .ds-search-field:is(a,button,input):focus-visible, .ds-search-field a:focus-visible, .ds-search-field button:focus-visible, .ds-search-field input:focus-visible { outline: 3px solid var(--accent, #0066cc); outline-offset: 5px; } .ds-search-field input { caret-color: var(--accent, #0066cc); } @media (prefers-reduced-motion: reduce) { .ds-search-field, .ds-search-field * { animation: none !important; transition: none !important; } }"
+    },
+    {
+      "name": "Category Filters",
+      "kind": "button",
+      "refersTo": "filter",
+      "description": "Wrapping category buttons with a dark selected state; the application owns filtering logic.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Filter certifications\"><button type=\"button\" aria-pressed=\"true\">All</button><button type=\"button\" aria-pressed=\"false\">Cloud &amp; software</button><button type=\"button\" aria-pressed=\"false\">Security</button></div>",
+      "css": ".ds-filters { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-filters a { text-decoration: none; text-underline-offset: 5px; } .ds-filters button, .ds-filters input { font-family: inherit; } .ds-filters button { cursor: pointer; } .ds-filters h2, .ds-filters h3, .ds-filters p { margin: 0; } .ds-filters h2 { font-size: clamp(34px, 3.7vw, 48px); font-weight: 600; line-height: 1.1; letter-spacing: -.035em; text-wrap: balance; } .ds-filters h3 { font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -.02em; text-wrap: balance; } .ds-filters p { line-height: 1.6; } .ds-filters svg { flex-shrink: 0; } .ds-filters { display: flex; gap: 5px; flex-wrap: wrap; }\n.ds-filters button { min-height: 44px; border: 0; border-radius: 999px; padding: 11px 15px; background: transparent; color: var(--secondary, #68686e); font-size: 12px; transition: background 180ms ease, color 180ms ease; }\n.ds-filters button[aria-pressed='true'] { color: white; background: var(--ink, #1d1d1f); }\n@media (hover: hover) and (pointer: fine) {\n  .ds-filters button:not([aria-pressed='true']):hover { background: var(--surface, #f5f5f7); color: var(--ink, #1d1d1f); }\n}\n@media (max-width: 767px) {\n  .ds-filters { gap: 4px; }\n  .ds-filters button { font-size: 11px; padding: 11px 14px; }\n}\n .ds-filters:is(a,button,input):focus-visible, .ds-filters a:focus-visible, .ds-filters button:focus-visible, .ds-filters input:focus-visible { outline: 3px solid var(--accent, #0066cc); outline-offset: 5px; } .ds-filters input { caret-color: var(--accent, #0066cc); } @media (prefers-reduced-motion: reduce) { .ds-filters, .ds-filters * { animation: none !important; transition: none !important; } }"
+    },
+    {
+      "name": "Skill Tags",
+      "kind": "chip",
+      "refersTo": "skill-tag",
+      "description": "Static outlined factual tags, without action states.",
+      "html": "<div class=\"ds-skill-tags\"><span>Microcontroller integration</span><span>Data analysis</span></div>",
+      "css": ".ds-skill-tags { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-skill-tags a { text-decoration: none; text-underline-offset: 5px; } .ds-skill-tags button, .ds-skill-tags input { font-family: inherit; } .ds-skill-tags button { cursor: pointer; } .ds-skill-tags h2, .ds-skill-tags h3, .ds-skill-tags p { margin: 0; } .ds-skill-tags h2 { font-size: clamp(34px, 3.7vw, 48px); font-weight: 600; line-height: 1.1; letter-spacing: -.035em; text-wrap: balance; } .ds-skill-tags h3 { font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -.02em; text-wrap: balance; } .ds-skill-tags p { line-height: 1.6; } .ds-skill-tags svg { flex-shrink: 0; } .ds-skill-tags { display: flex; flex-wrap: wrap; gap: 9px; }\n.ds-skill-tags span { border: 1px solid #d8d8de; color: #53535b; padding: 9px 13px; border-radius: 8px; font-size: 12px; }\n@media (max-width: 767px) {\n  .ds-skill-tags span { font-size: 11px; padding: 9px 11px; }\n}\n .ds-skill-tags:is(a,button,input):focus-visible, .ds-skill-tags a:focus-visible, .ds-skill-tags button:focus-visible, .ds-skill-tags input:focus-visible { outline: 3px solid var(--accent, #0066cc); outline-offset: 5px; } .ds-skill-tags input { caret-color: var(--accent, #0066cc); } @media (prefers-reduced-motion: reduce) { .ds-skill-tags, .ds-skill-tags * { animation: none !important; transition: none !important; } }"
+    },
+    {
+      "name": "Desktop Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Desktop current-location links on the translucent header; the full app replaces these with its inline menu on mobile.",
+      "html": "<header class=\"ds-site-header\"><div class=\"ds-nav-shell\"><nav class=\"ds-desktop-nav\" aria-label=\"Main navigation\"><a href=\"#background\" aria-current=\"location\">Experience</a><a href=\"#education\">Education</a><a href=\"#credentials\">Credentials</a><a href=\"#contact\">Contact</a></nav></div></header>",
+      "css": ".ds-site-header { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-site-header a { text-decoration: none; text-underline-offset: 5px; } .ds-site-header button, .ds-site-header input { font-family: inherit; } .ds-site-header button { cursor: pointer; } .ds-site-header h2, .ds-site-header h3, .ds-site-header p { margin: 0; } .ds-site-header h2 { font-size: clamp(34px, 3.7vw, 48px); font-weight: 600; line-height: 1.1; letter-spacing: -.035em; text-wrap: balance; } .ds-site-header h3 { font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -.02em; text-wrap: balance; } .ds-site-header p { line-height: 1.6; } .ds-site-header svg { flex-shrink: 0; } .ds-site-header { position: sticky; z-index: 10; top: 0; background: rgb(255 255 255 / 88%); backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid rgb(227 227 232 / 75%); }\n.ds-nav-shell { width: min(100%, 1184px); height: 72px; margin: auto; padding-inline: 32px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }\n.ds-desktop-nav { display: flex; align-items: center; gap: 31px; }\n.ds-desktop-nav a { min-height: 44px; display: flex; align-items: center; font-size: 13px; color: var(--secondary, #68686e); transition: color 160ms ease; }\n.ds-desktop-nav a[aria-current] { color: var(--ink, #1d1d1f); }\n@media (hover: hover) and (pointer: fine) {\n  .ds-desktop-nav a:hover { color: var(--accent, #0066cc); }\n}\n@media (max-width: 767px) {\n  .ds-nav-shell { padding-inline: 24px; }\n  .ds-nav-shell { height: 68px; gap: 15px; }\n  .ds-desktop-nav { display: none; }\n}\n@media (max-width: 479px) {\n  .ds-nav-shell { padding-inline: 20px; }\n}\n@media (prefers-reduced-transparency: reduce) { .ds-site-header { background: white; backdrop-filter: none; } }\n@supports not (backdrop-filter: blur(20px)) { .ds-site-header { background: white; } }\n .ds-site-header:is(a,button,input):focus-visible, .ds-site-header a:focus-visible, .ds-site-header button:focus-visible, .ds-site-header input:focus-visible { outline: 3px solid var(--accent, #0066cc); outline-offset: 5px; } .ds-site-header input { caret-color: var(--accent, #0066cc); } @media (prefers-reduced-motion: reduce) { .ds-site-header, .ds-site-header * { animation: none !important; transition: none !important; } }"
+    },
+    {
+      "name": "Study Overview Tile",
+      "kind": "card",
+      "refersTo": "study-card",
+      "description": "Pale-blue factual overview with a circular destination action.",
+      "html": "<article class=\"ds-study-feature\"><svg width=\"29\" height=\"29\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M250.82,90.71l-120-64a5.94,5.94,0,0,0-5.64,0l-120,64a6,6,0,0,0,0,10.58L34,116.67v49.62a14,14,0,0,0,3.55,9.32C50.42,189.94,79.29,214,128,214a127.21,127.21,0,0,0,50-9.73V240a6,6,0,0,0,12,0V198.35a113.18,113.18,0,0,0,28.45-22.75,13.91,13.91,0,0,0,3.55-9.31V116.67l28.82-15.38a6,6,0,0,0,0-10.58ZM128,202c-44,0-70-21.56-81.52-34.41a2,2,0,0,1-.48-1.3V123.07l79.18,42.22a6,6,0,0,0,5.64,0L178,140.13v51C165,197.35,148.45,202,128,202Zm82-35.71a2,2,0,0,1-.48,1.3A100.25,100.25,0,0,1,190,184.3V133.73l20-10.66Zm-22.15-45a6.27,6.27,0,0,0-1-.71l-56-29.86a6,6,0,0,0-5.64,10.58L175.25,128,128,153.2,20.75,96,128,38.8,235.25,96Z\"></path></svg><h2>Computer<br />Engineering.</h2><p>Nanyang Technological University</p><div class=\"ds-study-meta\"><span>BEng (Hons)</span><span>Expected 2030</span></div><a class=\"ds-tile-link\" href=\"#education\" aria-label=\"View education\"><svg width=\"21\" height=\"21\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"></path></svg></a></article>",
+      "css": ".ds-study-feature { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-study-feature a { text-decoration: none; text-underline-offset: 5px; } .ds-study-feature button, .ds-study-feature input { font-family: inherit; } .ds-study-feature button { cursor: pointer; } .ds-study-feature h2, .ds-study-feature h3, .ds-study-feature p { margin: 0; } .ds-study-feature h2 { font-size: clamp(34px, 3.7vw, 48px); font-weight: 600; line-height: 1.1; letter-spacing: -.035em; text-wrap: balance; } .ds-study-feature h3 { font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -.02em; text-wrap: balance; } .ds-study-feature p { line-height: 1.6; } .ds-study-feature svg { flex-shrink: 0; } .ds-tile-link:active { transform: scale(.96); }\n.ds-study-feature { position: relative; padding: 28px 30px; border-radius: var(--radius, 18px); }\n.ds-study-feature { background: #ecf2f8; }\n.ds-study-feature > svg { color: #486077; margin-bottom: 12px; }\n.ds-study-feature h2 { font-size: 30px; letter-spacing: -.03em; }\n.ds-study-feature > p { color: #4d6276; font-size: 13px; margin-top: 12px; }\n.ds-study-meta { display: flex; flex-wrap: wrap; gap: 6px 18px; color: #4d6276; font-size: 11px; margin-top: 13px; padding-right: 25px; }\n.ds-tile-link { position: absolute; bottom: 20px; right: 20px; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: rgb(255 255 255 / 85%); color: var(--ink, #1d1d1f); transition: background 180ms ease, transform 140ms var(--ease, cubic-bezier(.23, 1, .32, 1)); }\n@media (hover: hover) and (pointer: fine) {\n  .ds-tile-link:hover { background: white; }\n}\n@media (max-width: 1023px) {\n  .ds-study-feature { padding: 25px; }\n  .ds-study-feature h2 { font-size: 28px; }\n}\n@media (max-width: 767px) {\n  .ds-study-feature { min-height: 264px; padding: 25px; }\n  .ds-study-feature h2 { font-size: 25px; }\n  .ds-study-feature > p { max-width: 150px; font-size: 12px; }\n  .ds-study-meta { display: grid; gap: 6px; font-size: 10px; }\n  .ds-tile-link { bottom: 16px; right: 16px; }\n}\n@media (max-width: 479px) {\n  .ds-study-feature { min-height: 225px; padding: 26px; }\n  .ds-study-feature h2 { font-size: 29px; }\n  .ds-study-feature h2 br { display: none; }\n  .ds-study-feature > p { max-width: unset; }\n  .ds-study-meta { display: flex; gap: 15px; }\n}\n@media (prefers-reduced-motion: reduce) {\n  .ds-tile-link:active { transform: none; }\n}\n .ds-study-feature:is(a,button,input):focus-visible, .ds-study-feature a:focus-visible, .ds-study-feature button:focus-visible, .ds-study-feature input:focus-visible { outline: 3px solid var(--accent, #0066cc); outline-offset: 5px; } .ds-study-feature input { caret-color: var(--accent, #0066cc); } @media (prefers-reduced-motion: reduce) { .ds-study-feature, .ds-study-feature * { animation: none !important; transition: none !important; } }"
+    },
+    {
+      "name": "Education Row",
+      "kind": "card",
+      "refersTo": "education-row",
+      "description": "Responsive white school record with abbreviation, details, and dates.",
+      "html": "<article class=\"ds-education-row\"><div class=\"ds-school-abbreviation\" aria-hidden=\"true\">NTU</div><div class=\"ds-school-info\"><h3>Nanyang Technological University</h3><p>Bachelor of Engineering (Hons) in Computer Engineering</p><span class=\"ds-school-detail\">Undergraduate programme; expected completion 2030.</span></div><span class=\"ds-school-date\">Aug 2026 - Aug 2030</span></article>",
+      "css": ".ds-education-row { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-education-row a { text-decoration: none; text-underline-offset: 5px; } .ds-education-row button, .ds-education-row input { font-family: inherit; } .ds-education-row button { cursor: pointer; } .ds-education-row h2, .ds-education-row h3, .ds-education-row p { margin: 0; } .ds-education-row h2 { font-size: clamp(34px, 3.7vw, 48px); font-weight: 600; line-height: 1.1; letter-spacing: -.035em; text-wrap: balance; } .ds-education-row h3 { font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -.02em; text-wrap: balance; } .ds-education-row p { line-height: 1.6; } .ds-education-row svg { flex-shrink: 0; } .ds-education-row { display: grid; grid-template-columns: 66px 1fr auto; align-items: start; gap: 24px; padding: 28px; background: var(--page, #fff); border-radius: 14px; }\n.ds-school-abbreviation { display: grid; place-items: center; width: 62px; height: 62px; background: var(--surface, #f5f5f7); border-radius: 12px; font-size: 17px; font-weight: 600; letter-spacing: -.025em; }\n.ds-school-info h3 { font-size: 19px; }\n.ds-school-info p { color: var(--secondary, #68686e); font-size: 14px; margin-top: 8px; }\n.ds-school-detail { display: block; font-size: 12px; color: var(--secondary, #68686e); margin-top: 10px; }\n.ds-school-date { font-size: 11px; color: var(--secondary, #68686e); padding-top: 5px; font-variant-numeric: tabular-nums; white-space: nowrap; }\n@media (max-width: 1023px) {\n  .ds-education-row { grid-template-columns: 58px 1fr; gap: 20px; }\n  .ds-school-date { grid-column: 2; padding-top: 0; margin-top: -8px; }\n  .ds-school-abbreviation { width: 56px; height: 56px; }\n}\n@media (max-width: 767px) {\n  .ds-education-row { padding: 24px; gap: 17px; grid-template-columns: 48px 1fr; }\n  .ds-school-abbreviation { width: 46px; height: 46px; font-size: 14px; border-radius: 10px; }\n  .ds-school-info h3 { font-size: 17px; }\n  .ds-school-info p { font-size: 13px; }\n  .ds-school-detail { font-size: 11px; }\n  .ds-school-date { font-size: 10px; margin-top: -4px; }\n}\n@media (max-width: 479px) {\n  .ds-education-row { gap: 16px; padding: 21px; grid-template-columns: 1fr; }\n  .ds-school-date { grid-column: 1; margin-top: 0; }\n  .ds-school-info h3 { font-size: 18px; }\n}\n .ds-education-row:is(a,button,input):focus-visible, .ds-education-row a:focus-visible, .ds-education-row button:focus-visible, .ds-education-row input:focus-visible { outline: 3px solid var(--accent, #0066cc); outline-offset: 5px; } .ds-education-row input { caret-color: var(--accent, #0066cc); } @media (prefers-reduced-motion: reduce) { .ds-education-row, .ds-education-row * { animation: none !important; transition: none !important; } }"
+    },
+    {
+      "name": "Credential Row",
+      "kind": "custom",
+      "refersTo": "credential-row",
+      "description": "Flat title/issuer and metadata row that preserves the course-completion distinction.",
+      "html": "<div class=\"ds-credential-list\"><article class=\"ds-credential-row\"><div class=\"ds-credential-details\"><h3>CompTIA Network+ N10-009 - 2026</h3><p>Udemy<span class=\"ds-course-note\">Course completion</span></p></div><div class=\"ds-credential-meta\"><span class=\"ds-credential-category\">Communications</span><span>Jul 2026</span></div></article></div>",
+      "css": ".ds-credential-list { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-credential-list a { text-decoration: none; text-underline-offset: 5px; } .ds-credential-list button, .ds-credential-list input { font-family: inherit; } .ds-credential-list button { cursor: pointer; } .ds-credential-list h2, .ds-credential-list h3, .ds-credential-list p { margin: 0; } .ds-credential-list h2 { font-size: clamp(34px, 3.7vw, 48px); font-weight: 600; line-height: 1.1; letter-spacing: -.035em; text-wrap: balance; } .ds-credential-list h3 { font-size: 20px; font-weight: 600; line-height: 1.35; letter-spacing: -.02em; text-wrap: balance; } .ds-credential-list p { line-height: 1.6; } .ds-credential-list svg { flex-shrink: 0; } .ds-credential-list { border-top: 1px solid var(--line, #e3e3e8); }\n.ds-credential-row { display: grid; grid-template-columns: 1fr 155px; gap: 34px; align-items: start; padding: 25px 4px; }\n.ds-credential-row + .ds-credential-row { border-top: 1px solid var(--line, #e3e3e8); }\n.ds-credential-details h3 { font-size: 17px; line-height: 1.4; max-width: 700px; text-wrap: pretty; }\n.ds-credential-details > p { color: var(--secondary, #68686e); margin-top: 7px; font-size: 13px; }\n.ds-course-note { display: inline-block; margin-left: 12px; color: #4e5b6b; font-size: 11px; }\n.ds-credential-meta { display: flex; flex-direction: column; gap: 8px; align-items: end; font-size: 11px; color: var(--secondary, #68686e); }\n.ds-credential-category { display: inline-block; background: var(--surface, #f5f5f7); color: #54545c; border-radius: 5px; padding: 5px 8px; white-space: nowrap; font-size: 10px; }\n.ds-credential-id { font-size: 10px; }\n@media (max-width: 767px) {\n  .ds-credential-row { grid-template-columns: 1fr; gap: 13px; padding: 24px 0; }\n  .ds-credential-details h3 { font-size: 17px; }\n  .ds-credential-meta { flex-direction: row; align-items: center; flex-wrap: wrap; gap: 13px; font-size: 10px; }\n}\n .ds-credential-list:is(a,button,input):focus-visible, .ds-credential-list a:focus-visible, .ds-credential-list button:focus-visible, .ds-credential-list input:focus-visible { outline: 3px solid var(--accent, #0066cc); outline-offset: 5px; } .ds-credential-list input { caret-color: var(--accent, #0066cc); } @media (prefers-reduced-motion: reduce) { .ds-credential-list, .ds-credential-list * { animation: none !important; transition: none !important; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Engineering with product clarity.",
+    "overview": "The user-approved redesign brings the clarity of an Apple-inspired product overview to a professional engineering profile. White space, soft-gray bands, dark neutral typography, and Action Blue establish a light and direct identity. The centered name introduces a visual overview before the detailed reading sections. This north-star phrase describes the implemented direction; it is not a separate brand name.\n\nGeist supplies one typographic voice at weights 400 and 600. The silver-and-glass processor carries the material depth; navigation translucency supports scrolling. Chronology, structured education rows, and a searchable credential list make qualifications easy to inspect. Surface changes, alignment, and hairline dividers supply hierarchy without shadows on interface chrome.",
+    "keyCharacteristics": [
+      "White ground and soft-gray section bands.",
+      "Centered identity followed by an asymmetric visual overview.",
+      "Geist at 400 and 600, with generous display scale and compact metadata.",
+      "Pill actions, rounded overview tiles, and flat reading lists.",
+      "Immediate search and category filtering, visible focus, and preference-aware motion."
+    ],
+    "rules": [
+      {
+        "name": "The Action Blue Rule",
+        "body": "Use the blue accent for links, primary actions, the input caret, and focus signals. Keep reading surfaces neutral or in the established pale study tint.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Weights Rule",
+        "body": "Use 400 for reading text and controls, and 600 for headings and identity. The implemented hierarchy does not need intermediate weights.",
+        "section": "typography"
+      },
+      {
+        "name": "The Material Carries Depth Rule",
+        "body": "Keep interface chrome shadow-free. Use the existing illustration, tonal surface changes, separators, and navigation translucency to establish depth.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the light canvas, soft-gray bands, dark reading text, and Action Blue hierarchy.",
+      "**Do** use the actual Geist hierarchy and the 400/600 weight relationship.",
+      "**Do** keep career chronology and credential rows readable before adding decoration.",
+      "**Do** preserve search labels, live results, visible focus, keyboard navigation, and reduced motion.",
+      "**Do** retain truthful distinctions between qualifications, course completions, current roles, and expected graduation."
+    ],
+    "donts": [
+      "**Don't** reintroduce the previous split hero, tinted page ground, or credential-card grid as incumbent patterns.",
+      "**Don't** import unimplemented dark navigation, proprietary fonts, or alternate palettes from the Apple reference.",
+      "**Don't** add CSS shadows to buttons, cards, text, or list rows.",
+      "**Don't** style informational labels or reading rows as controls without a real action.",
+      "**Don't** use compact metadata sizes for new body copy or remove semantic labels for visual simplicity."
+    ]
+  }
+}

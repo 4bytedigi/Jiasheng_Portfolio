@@ -1,0 +1,26 @@
+@media print {
+  @page { size: A4; margin: 16mm; }
+  :root { color: #1d1d1f; background: white; }
+  body { font-size: 10pt; }
+  .site-header, .skip-link, .hero-actions, .overview-grid, .profile-note, .text-link, .credential-tools, .credential-actions, .contact, .site-footer, .empty-state { display: none !important; }
+  .section-shell { width: 100%; padding: 0 !important; }
+  .section-space { padding-block: 20px !important; }
+  .hero-intro { text-align: left; animation: none; padding-bottom: 20px !important; }
+  h1 { font-size: 34pt !important; max-width: none !important; margin: 0 !important; }
+  h2 { font-size: 20pt !important; }
+  h3 { font-size: 11pt !important; }
+  p { font-size: 10pt !important; }
+  .hero-role, .hero-description { margin: 10px 0 0 !important; max-width: none !important; }
+  .experience, .recognition { display: block; }
+  .section-aside { position: static; margin-bottom: 20px; }
+  .section-heading { margin-bottom: 20px; }
+  .career-item, .education-row, .credential-row, .award-row { break-inside: avoid; }
+  .section-band, .education-row { background: white; }
+  .education-row { grid-template-columns: 1fr auto; padding: 15px 0; border-bottom: 1px solid #ddd; }
+  .school-abbreviation { display: none; }
+  .school-date { grid-column: auto; }
+  .skills-block { display: block; margin-top: 20px; }
+  .skill-tags { margin-top: 12px; }
+  .award-list { grid-template-columns: 1fr 1fr; gap: 20px; }
+  a { color: inherit; }
+}

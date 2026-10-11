@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.impeccable/review/
+.impeccable/previous/
+.impeccable/questions/
+*.log
+tmp/
+output/deploy/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db

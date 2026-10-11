@@ -1,0 +1,60 @@
+# Jia Sheng server deployment
+
+Deployed and verified on 10 October 2026.
+
+## Current status
+
+- Production build passed (`npm run build`).
+- Release `20261010T153151Z` is installed and running on the existing `4bytedigi` Ubuntu server.
+- All 12 served files match the local build's SHA-256 hashes; the résumé PDF returns `application/pdf`, hashed assets have immutable caching, and missing files return 404.
+- Cloudflare has saved a proxied CNAME for `jiasheng.4bytedigi.com` to the existing `4ByteDigi` tunnel. Public DNS resolves.
+- The public route is active and all 12 files return HTTP 200 over HTTPS. Eleven files match the release byte for byte. The HTML matches after removing the existing zone's Cloudflare Web Analytics beacon injection; no site or security setting was changed to remove that beacon.
+- The public browser checks passed: desktop at 1440 pixels, mobile at 390 pixels, loaded imagery, all five category filters, expansion to 17 credentials, search, empty-state reset, and Escape to close mobile navigation. No browser errors or warnings were recorded.
+- The browser's PDF download matches SHA-256 `7136ca5070b67e1180187a8924aed2ae14efa8d442af105a0a50ba42f43fb0b0`.
+- The shared tunnel has four ready connections and retains all 15 previous routes plus Jia Sheng's new route. The existing main website and server dashboard both returned HTTP 200 after activation.
+- Original tunnel configuration backup: `/etc/cloudflared/config.yml.before-jiasheng-20261010T153700Z`.
+
+## Runtime
+
+| Setting | Value |
+| --- | --- |
+| SSH alias | `4bytedigi` |
+| Server user | `pyie` |
+| Site directory | `/home/pyie/jiasheng-resume` |
+| Active release | `current` symlink into `releases/20261010T153151Z` |
+| Web server | Caddy 2.11.7, official Linux amd64 release, SHA-256 verified before execution |
+| Service | User systemd unit `jiasheng-resume.service` |
+| Origin | `http://127.0.0.1:9082` (loopback only) |
+| Public URL | `https://jiasheng.4bytedigi.com` |
+| Tunnel | `dc054a50-d5b1-4c37-b12a-b2c89d11ca56` |
+| Tunnel service | `dbstudios-tunnel.service` |
+
+The existing user already has systemd lingering enabled. The résumé service therefore survives SSH logout and starts at boot. Cloudflare supplies public HTTPS and carries requests through the existing tunnel to the loopback origin. No inbound public origin port or Docker installation was added.
+
+Caddy came from the [official release](https://github.com/caddyserver/caddy/releases/tag/v2.11.7). The archive SHA-256 is `727b91701a392de6ebc5027509f548bf39979e5216340d0faed8fa5e69c84f8b`. Its [file server documentation](https://caddyserver.com/docs/caddyfile/directives/file_server) describes the static serving behavior.
+
+## Initial hostname activation
+
+The completed administrator activation used this command. It can be rerun to check that the expected route is already installed:
+
+```powershell
+ssh -t 4bytedigi 'sudo python3 /home/pyie/jiasheng-resume/publish-route.py'
+```
+
+The uploaded `deploy/publish-route.py` checks the server and tunnel identity, verifies the served index against the uploaded release, and rejects a conflicting hostname route. It inserts only `jiasheng.4bytedigi.com` before the existing 404 catch-all. It verifies that every other parsed setting is unchanged, validates the candidate configuration with cloudflared, preserves the configuration's owner and mode, and creates a timestamped backup before replacing it.
+
+Applying the route briefly reconnects the shared tunnel. If validation or reconnection fails, the script restores the previous configuration. The original routes and catch-all remain present. Route preservation, repeat-run behavior, and conflict rejection were checked with the script's `--self-test` on the server.
+
+## Operations
+
+```powershell
+ssh 4bytedigi 'systemctl --user status jiasheng-resume.service --no-pager'
+ssh 4bytedigi 'journalctl --user -u jiasheng-resume.service -n 30 --no-pager'
+ssh 4bytedigi 'python3 /home/pyie/jiasheng-resume/verify-origin.py'
+```
+
+`deploy/Caddyfile` and `deploy/jiasheng-resume.service` are the installed configuration sources. `deploy/install-origin.py` verifies the archive and per-file manifest before installing an immutable release and switching the `current` symlink. It expects a freshly generated `release.json` and `jiasheng-resume.tar.gz`; preserve older release directories for rollback.
+
+Local build archive, manifest, and DNS screenshot are in ignored `output/deploy/`. They contain no deployment credentials. The brand guidelines PDF is a local artifact and is not part of the résumé website's published files.
+
+Public HTTPS integrity checks are saved in `output/deploy/public-verification.json`; browser checks are in `output/deploy/browser-verification.json`. `live-desktop.jpg`, `live-mobile.jpg` and `cloudflare-dns.jpg` provide visual evidence. Run `./deploy/verify-public.ps1` to compare the public files with the local release manifest again.

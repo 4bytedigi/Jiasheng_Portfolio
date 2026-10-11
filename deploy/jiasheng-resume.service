@@ -1,0 +1,16 @@
+[Unit]
+Description=Chua Jia Sheng resume website
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pyie/jiasheng-resume
+ExecStart=/home/pyie/jiasheng-resume/bin/caddy run --config /home/pyie/jiasheng-resume/Caddyfile --adapter caddyfile
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=15
+NoNewPrivileges=true
+UMask=0077
+
+[Install]
+WantedBy=default.target

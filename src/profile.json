@@ -1,0 +1,46 @@
+{
+  "name": "Chua Jia Sheng",
+  "location": "Singapore",
+  "headline": "Digital & Intelligence Systems Engineer | NTU Computer Engineering Undergraduate",
+  "summary": "NTU Computer Engineering undergraduate and NYP graduate, with hands-on experience in sensor fabrication, microcontroller integration and digital systems.",
+  "linkedin": "https://www.linkedin.com/in/chua-jia-sheng/",
+  "sourceDate": "2026-10-10",
+  "experience": [
+    { "title": "Senior Digital and Intelligence Systems Engineer (DISE) - ME4A", "organization": "The Digital and Intelligence Service (DIS)", "period": "Jun 2026 - Present", "location": "Singapore", "description": "Appointed as a ME4 Apprentice on 8 June 2026." },
+    { "title": "Senior Digital and Intelligence Systems Engineer (DISE) - Trainee", "organization": "The Digital and Intelligence Service (DIS)", "period": "Sep 2025 - Jun 2026", "location": "Singapore", "description": "Completed the joint term at OCS DIS Wing and professional-term training at SAFC4DC. Participated in DIS domain training and the Guardian Exercise Series." },
+    { "title": "National Serviceman", "organization": "Ministry of Defence of Singapore", "period": "May 2025 - Sep 2025", "location": "Singapore", "description": "Completed Basic Military Training, passing out on 6 September 2025." },
+    { "title": "Sensor Fabrication & Microcontroller Integration Intern", "organization": "Chinese Culture University", "period": "Apr 2024 - Jul 2024", "location": "Taipei, Taiwan", "description": "Collaborated with university researchers on humidity sensor fabrication and microcontroller integration. Gained hands-on experience in laboratory research, embedded systems and technical problem-solving within a multicultural team." },
+    { "title": "Shop Sales Assistant", "organization": "Lamch & Co Pte Ltd", "period": "Jan 2022 - Nov 2023", "location": "Singapore", "description": "Part-time position." }
+  ],
+  "education": [
+    { "institution": "Nanyang Technological University", "qualification": "Bachelor of Engineering (Hons) in Computer Engineering", "period": "Aug 2026 - Aug 2030", "detail": "Undergraduate programme; expected completion 2030." },
+    { "institution": "NYP School of Engineering", "qualification": "Diploma in Electronic and Computer Engineering", "period": "Jul 2022 - Apr 2025", "detail": "Grade: 3.67" },
+    { "institution": "Woodgrove Secondary School", "qualification": "O-level", "period": "Jan 2018 - Dec 2021", "detail": "" }
+  ],
+  "skills": ["IoT & embedded systems", "Microcontroller integration", "Sensor fabrication", "Software development", "Data analysis", "Cloud computing", "Telecommunications", "RF engineering", "Leadership", "Operational planning"],
+  "certifications": [
+    { "id": "networkplus", "title": "CompTIA Network+ N10-009 - 2026", "issuer": "Udemy", "date": "Jul 2026", "category": "Communications", "icon": "network", "note": "Course completion", "credentialId": "UC-617e1914-a304-49ff-9c9b-36d5f2b6ea15" },
+    { "id": "cloud", "title": "Cloud Technology Professional (CCTP)", "issuer": "BridgingMinds Network Pte Ltd", "date": "Apr 2026", "category": "Cloud & software", "icon": "cloud" },
+    { "id": "cyber", "title": "Cyber Defence Fundamentals +", "issuer": "NYP School of Information Technology", "date": "Apr 2026", "category": "Security", "icon": "shield" },
+    { "id": "software", "title": "Software Engineering & Generative AI Essentials", "issuer": "NYP School of Information Technology", "date": "Apr 2026", "category": "Cloud & software", "icon": "code" },
+    { "id": "data", "title": "Data Science & Cloud Computing Fundamentals", "issuer": "NYP School of Information Technology", "date": "Apr 2026", "category": "Cloud & software", "icon": "database" },
+    { "id": "telecom", "title": "ABCs of Telecommunications", "issuer": "Telefocal Asia", "date": "Apr 2026", "category": "Communications", "icon": "network" },
+    { "id": "rf", "title": "Fundamentals of RF Engineering", "issuer": "Nanyang ENC", "date": "Mar 2026", "category": "Communications", "icon": "wave", "credentialId": "6A5539" },
+    { "id": "ew", "title": "Fundamentals of Electronic Warfare", "issuer": "Nanyang ENC", "date": "Mar 2026", "category": "Security", "icon": "shield", "credentialId": "1B5548" },
+    { "id": "osint", "title": "Foundation of Open Source Intelligence", "issuer": "i-intelligence", "date": "Nov 2025", "category": "Security", "icon": "search" },
+    { "id": "protection", "title": "Introduction to Electronic Protection", "issuer": "Nanyang ENC", "date": "Nov 2025", "category": "Security", "icon": "shield", "credentialId": "1A5391" },
+    { "id": "reputation", "title": "Advanced Certificate in Online Reputation Management for Business Module 5: Controlling Online Narratives", "issuer": "Singapore Management University", "date": "Nov 2025", "category": "Communications", "icon": "globe" },
+    { "id": "telecom-networks", "title": "Basic Telecom & Networking", "issuer": "NYP School of Information Technology", "date": "Apr 2026", "category": "Communications", "icon": "network" },
+    { "id": "transmission", "title": "PDH, SDH, OTN & ASON for Telecom Transmission", "issuer": "Udemy", "date": "Jul 2026", "category": "Communications", "icon": "network", "note": "Course completion", "credentialId": "UC-f75033cc-6c98-4c0c-a7a2-58c0cd349d5c" },
+    { "id": "manager", "title": "New Manager: The Basics and More of Being a Great Leader", "issuer": "Udemy", "date": "Jul 2026", "category": "Leadership", "icon": "globe", "credentialId": "UC-47d1ec9d-de93-4075-92fe-4b66dab618cb" },
+    { "id": "emotional", "title": "Advanced Emotional Intelligence, Logic and Creativity", "issuer": "Udemy", "date": "Jun 2026", "category": "Leadership", "icon": "globe", "credentialId": "UC-83ec04a4-8540-4525-a919-66e9dd37e6f3" },
+    { "id": "leadership", "title": "Leadership +", "issuer": "Udemy", "date": "Jun 2026", "category": "Leadership", "icon": "globe", "credentialId": "UC-22cfdfef-9898-4d2d-9ac3-2cfba2fe5814" },
+    { "id": "goals", "title": "SMART Goals and Beyond: Goal Setting Using Latest Research", "issuer": "Udemy", "date": "Jun 2026", "category": "Leadership", "icon": "globe", "credentialId": "UC-e537b271-cb4a-4cd6-8aff-b0ab710c5be4" }
+  ],
+  "awards": [
+    { "title": "Certificate of Appreciation", "detail": "SAF Day Parade 2026", "issuer": "Ministry of Defence", "date": "Jun 2026" },
+    { "title": "Edusave Skills Award", "detail": "Professional and soft skills", "issuer": "Ministry of Education", "date": "Sep 2025" },
+    { "title": "Edusave Merit Bursary & Certificate of Academic Achievement", "detail": "Academic recognition", "issuer": "Ministry of Education", "date": "Sep 2025 & Sep 2024" },
+    { "title": "Edusave EAGLES Award", "detail": "Achievement, good leadership and service", "issuer": "Ministry of Education", "date": "Nov 2017" }
+  ]
+}
