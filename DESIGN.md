@@ -1,89 +1,42 @@
 ---
 name: "Chua Jia Sheng résumé"
-description: "A quiet Apple-inspired editorial résumé with cobalt actions and a visible professional record."
+description: "Apple-inspired editorial clarity with selective frosted glass and soft blue-purple light."
 colors:
   page: "#fff"
   ink: "#1d1d1f"
-  secondary: "#60616a"
-  accent: "#1460ed"
-  accent-hover: "#074bcb"
-  line: "#e5e6eb"
-  surface: "#f5f5f7"
-  scrollbar: "#c8cbd3"
-  scrollbar-track: "#fafafa"
-  transparent: "transparent"
-  selection-ink: "#073c9d"
-  selection-fill: "#d8e8ff"
-  header-glass: "rgb(255 255 255 / 82%)"
-  header-line: "rgb(229 230 235 / 75%)"
-  secondary-hover: "#e9edf5"
-  hero-role-ink: "#62626b"
+  secondary: "#656570"
+  accent: "#465bc4"
+  accent-hover: "#3549ac"
+  line: "#e7e8f0"
+  surface: "#f8f9ff"
+  pastel-blue: "#c7d9ff"
+  lavender: "#ddd0ff"
+  periwinkle: "#b6beff"
+  ambient-accent: "#6378e8"
+  glass-fill: "rgb(255 255 255 / 72%)"
+  glass-edge: "rgb(255 255 255 / 85%)"
+  header-glass: "rgb(255 255 255 / 76%)"
+  secondary-hover: "#e8ebfc"
+  navigation-active: "#edf0ff"
+  category-ink: "#485b9b"
   selected-filter-line: "#d6e3fa"
-  category-ink: "#45649a"
-  navigation-active: "#edf3ff"
-  project-art-mask: "#000"
-  project-glass-surface: "#e8f1ff"
-  project-glass-ink: "#123d8e"
-  project-orbit-surface: "#083d9d"
-  project-solid-blue: "rgb(20 96 237 / 78%)"
-  project-glass-shadow: "rgb(7 75 203 / 18%)"
-  project-glass-line: "rgb(255 255 255 / 90%)"
-  project-glass-overlay: "rgb(212 238 255 / 35%)"
-  project-cyan: "#69c9ef"
-  project-orbit-line: "rgb(212 238 255 / 55%)"
-  project-orbit-ring: "rgb(105 201 239 / 65%)"
-  project-orbit-center: "rgb(212 238 255 / 16%)"
-  project-fold-line: "rgb(255 255 255 / 65%)"
-  project-fold-overlay: "rgb(212 238 255 / 30%)"
-  project-fold-shadow: "rgb(8 61 157 / 60%)"
+  selection-ink: "#293a92"
+  selection-fill: "#dddfff"
+  scrollbar: "#b6bee2"
+  project-ink: "#293568"
+  project-form: "#a3b5f4"
   project-pagination: "#9b9da5"
-  project-glass-opaque: "#d4eeff"
+  project-opaque: "#e5eaff"
 typography:
-  headline:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "clamp(34px, 3.5vw, 48px)"
-    fontWeight: 600
-    lineHeight: 1.13
-    letterSpacing: "-.035em"
-  section-lead:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "17px"
-    lineHeight: 1.65
-    fontWeight: 400
-    letterSpacing: "normal"
-  monogram:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "26px"
-    fontWeight: 600
-    lineHeight: 1
-    letterSpacing: "-.04em"
-  navigation-label:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "13px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  button:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "14px"
-    fontWeight: 500
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  button-compact:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    fontWeight: 500
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  text-link:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "14px"
-    lineHeight: 1.5
-    fontWeight: 400
-    letterSpacing: "normal"
   display:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "clamp(48px, 6.2vw, 88px)"
+    fontWeight: 600
+    lineHeight: 1.12
+    letterSpacing: "-.04em"
+  display-mobile:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "clamp(43px, 8vw, 64px)"
     fontWeight: 600
     lineHeight: 1.12
     letterSpacing: "-.04em"
@@ -93,506 +46,135 @@ typography:
     fontWeight: 500
     lineHeight: 1.16
     letterSpacing: "-.03em"
-  hero-description:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "18px"
-    lineHeight: 1.65
-    fontWeight: 400
-    letterSpacing: "normal"
-  hero-note:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  about-lead:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "23px"
-    lineHeight: 1.5
-    letterSpacing: "-.02em"
-    fontWeight: 400
-  about-body:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "16px"
-    lineHeight: 1.75
-    fontWeight: 400
-    letterSpacing: "normal"
-  year-label:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "32px"
-    fontWeight: 500
-    lineHeight: 1.2
-    letterSpacing: "-.035em"
-  career-meta:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    lineHeight: 1.65
-    fontWeight: 400
-    letterSpacing: "normal"
-  career-title:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "20px"
-    lineHeight: 1.4
-    fontWeight: 600
-    letterSpacing: "-.02em"
-  career-organization:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "15px"
-    lineHeight: 1.65
-    fontWeight: 400
-    letterSpacing: "normal"
-  career-description:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "15px"
-    lineHeight: 1.75
-    fontWeight: 400
-    letterSpacing: "normal"
-  project-title:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "clamp(30px, 4vw, 48px)"
-    lineHeight: 1.1
-    fontWeight: 600
-    letterSpacing: "-.02em"
-  project-caption:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "15px"
-    lineHeight: 1.6
-    fontWeight: 400
-    letterSpacing: "normal"
-  project-gesture:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  skills-title:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "19px"
-    fontWeight: 600
-    lineHeight: "normal"
-    letterSpacing: "-.02em"
-  skill-list:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "15px"
-    lineHeight: 1.6
-    fontWeight: 400
-    letterSpacing: "normal"
-  school-date:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  institution-title:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "20px"
-    lineHeight: 1.4
-    fontWeight: 600
-    letterSpacing: "-.02em"
-  school-qualification:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "16px"
-    lineHeight: 1.6
-    fontWeight: 400
-    letterSpacing: "normal"
-  school-detail:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "13px"
-    lineHeight: 1.65
-    fontWeight: 400
-    letterSpacing: "normal"
-  subsection-title:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "36px"
-    lineHeight: 1.15
-    letterSpacing: "-.03em"
-    fontWeight: 600
-  subsection-lead:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "15px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  filter-label:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  search-input:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "14px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  result-count:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  credential-title:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "16px"
-    lineHeight: 1.5
-    fontWeight: 600
-    letterSpacing: "-.02em"
-  credential-issuer:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "13px"
-    lineHeight: 1.6
-    fontWeight: 400
-    letterSpacing: "normal"
-  course-note:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  credential-meta:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  credential-id:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "11px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  empty-title:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "21px"
-    fontWeight: 600
-    lineHeight: "normal"
-    letterSpacing: "-.02em"
-  award-date:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  award-title:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "20px"
-    lineHeight: 1.4
-    fontWeight: 600
-    letterSpacing: "-.02em"
-  award-detail:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "14px"
-    lineHeight: 1.6
-    fontWeight: 400
-    letterSpacing: "normal"
-  award-issuer:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    lineHeight: 1.6
-    fontWeight: 400
-    letterSpacing: "normal"
-  contact-headline:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "clamp(42px, 5vw, 64px)"
-    letterSpacing: "-.035em"
-    fontWeight: 600
-    lineHeight: 1.13
-  contact-body:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "18px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  contact-link:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "18px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  footer:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  navigation-label-mobile:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  display-mobile:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "clamp(43px, 8vw, 64px)"
-    fontWeight: 600
-    lineHeight: 1.12
-    letterSpacing: "-.04em"
   hero-role-mobile:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "clamp(28px, 4.5vw, 36px)"
     fontWeight: 500
     lineHeight: 1.16
     letterSpacing: "-.03em"
-  hero-description-mobile:
+  headline:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "16px"
-    lineHeight: 1.65
-    fontWeight: 400
-    letterSpacing: "normal"
-  hero-note-mobile:
+    fontSize: "clamp(34px, 3.5vw, 48px)"
+    fontWeight: 600
+    lineHeight: 1.13
+    letterSpacing: "-.035em"
+  contact-headline:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "11px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  about-lead-mobile:
+    fontSize: "clamp(42px, 5vw, 64px)"
+    fontWeight: 600
+    lineHeight: 1.13
+    letterSpacing: "-.035em"
+  subsection:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "21px"
+    fontSize: "36px"
+    fontWeight: 600
+    lineHeight: 1.15
+    letterSpacing: "-.03em"
+  about-lead:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "23px"
     lineHeight: 1.5
     letterSpacing: "-.02em"
-    fontWeight: 400
-  about-body-mobile:
+  about-body:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "16px"
+    lineHeight: 1.75
+  responsibility:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "15px"
     lineHeight: 1.75
-    fontWeight: 400
-    letterSpacing: "normal"
-  section-lead-mobile:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "16px"
-    lineHeight: 1.65
-    fontWeight: 400
-    letterSpacing: "normal"
-  year-label-mobile:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "25px"
-    fontWeight: 500
-    lineHeight: 1.2
-    letterSpacing: "-.035em"
-  career-title-mobile:
+  hero-description:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "18px"
-    lineHeight: 1.4
-    fontWeight: 600
-    letterSpacing: "-.02em"
-  career-organization-mobile:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "14px"
     lineHeight: 1.65
-    fontWeight: 400
-    letterSpacing: "normal"
-  career-description-mobile:
+  record-title:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "20px"
+    fontWeight: 600
+    lineHeight: 1.4
+    letterSpacing: "-.02em"
+  credential-title:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "16px"
+    fontWeight: 600
+    lineHeight: 1.5
+    letterSpacing: "-.02em"
+  skill-heading:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "14px"
-    lineHeight: 1.75
-    fontWeight: 400
-    letterSpacing: "normal"
+    fontWeight: 600
+    lineHeight: 1.5
+    letterSpacing: "-.02em"
+  skill-list:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "13px"
+    lineHeight: 1.6
   skill-list-mobile:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "14px"
     lineHeight: 1.6
-    fontWeight: 400
-    letterSpacing: "normal"
-  institution-title-mobile:
+  button:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "18px"
-    lineHeight: 1.4
-    fontWeight: 600
-    letterSpacing: "-.02em"
-  school-qualification-mobile:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "15px"
-    lineHeight: 1.6
-    fontWeight: 400
-    letterSpacing: "normal"
-  subsection-title-mobile:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "30px"
-    lineHeight: 1.15
-    letterSpacing: "-.03em"
-    fontWeight: 600
-  filter-label-mobile:
+    fontSize: "14px"
+    fontWeight: 500
+  button-small:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "12px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
+    fontWeight: 500
+  navigation:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "13px"
+  brand:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "18px"
+    fontWeight: 600
+    lineHeight: 1
+    letterSpacing: "-.04em"
+  metadata:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "12px"
+  search-input:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "14px"
   search-input-mobile:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "16px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  contact-body-mobile:
+  project-title:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "16px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  contact-link-mobile:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "16px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  footer-mobile:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "11px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  hero-text-link-phone:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "13px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  project-title-phone:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "30px"
+    fontSize: "clamp(30px, 4vw, 48px)"
+    fontWeight: 600
     lineHeight: 1.1
-    fontWeight: 600
     letterSpacing: "-.02em"
-  project-caption-phone:
+  project-caption:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12px"
+    fontSize: "15px"
     lineHeight: 1.6
-    fontWeight: 400
-    letterSpacing: "normal"
-  contact-link-phone:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "14px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  navigation-label-narrow:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "11px"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  body-print:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "10pt"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
-  display-print:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "30pt"
-    fontWeight: 600
-    lineHeight: 1.12
-    letterSpacing: "-.04em"
-  hero-role-print:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "14pt"
-    fontWeight: 500
-    lineHeight: 1.16
-    letterSpacing: "-.03em"
-  headline-print:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "20pt"
-    fontWeight: 600
-    lineHeight: 1.13
-    letterSpacing: "-.035em"
-  record-title-print:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "12pt"
-    fontWeight: 600
-    lineHeight: "normal"
-    letterSpacing: "-.02em"
-  credential-title-print:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "11pt"
-    fontWeight: 600
-    lineHeight: "normal"
-    letterSpacing: "-.02em"
-  about-lead-print:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "11pt"
-    lineHeight: 1.5
-    letterSpacing: "-.02em"
-    fontWeight: 400
-  year-label-print:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "14pt"
-    fontWeight: 500
-    lineHeight: 1.2
-    letterSpacing: "-.035em"
-  skill-list-print:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "10pt"
-    lineHeight: 1.6
-    fontWeight: 400
-    letterSpacing: "normal"
-  contact-link-print:
-    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "10pt"
-    fontWeight: 400
-    lineHeight: "normal"
-    letterSpacing: "normal"
 rounded:
   input: "10px"
   skip-link: "12px"
   navigation-compact: "8px"
+  header: "20px"
+  header-compact: "18px"
+  skill-panel: "18px"
+  panel: "24px"
   project-art: "16px"
-  achievement-panel: "24px"
-  achievement-panel-compact: "20px"
-  achievement-card: "16px"
+  award-card: "16px"
   pill: "999px"
   circle: "50%"
 spacing:
-  negative-4: "-4px"
-  negative-1: "-1px"
-  step-2: "2px"
-  step-3: "3px"
-  step-4: "4px"
-  step-5: "5px"
-  step-6: "6px"
-  step-7: "7px"
-  step-8: "8px"
-  step-9: "9px"
-  step-10: "10px"
-  step-11: "11px"
-  step-12: "12px"
-  step-13: "13px"
-  step-14: "14px"
-  step-15: "15px"
-  step-16: "16px"
-  step-16-mm: "16mm"
-  step-17: "17px"
-  step-18: "18px"
-  step-19: "19px"
-  step-20: "20px"
-  step-22: "22px"
-  step-23: "23px"
-  step-24: "24px"
-  step-25: "25px"
-  step-26: "26px"
-  step-27: "27px"
-  step-28: "28px"
-  step-30: "30px"
-  step-31: "31px"
-  step-34: "34px"
-  step-35: "35px"
-  step-38: "38px"
-  step-40: "40px"
-  step-44: "44px"
-  step-48: "48px"
-  step-50: "50px"
-  step-52: "52px"
-  step-55: "55px"
-  step-62: "62px"
-  step-64: "64px"
-  step-65: "65px"
-  step-70: "70px"
-  step-76: "76px"
-  step-80: "80px"
-  step-82: "82px"
-  step-84: "84px"
-  step-92: "92px"
-  step-100: "100px"
-  step-104: "104px"
+  compact: "8px"
+  control-gap: "10px"
+  mobile-header-inset: "12px"
+  grid-gap: "16px"
+  mobile-gutter: "20px"
+  card-inset: "22px"
+  comfortable: "24px"
+  mobile-panel-inset: "28px"
+  desktop-gutter: "40px"
+  section-heading: "48px"
+  contact-inset: "56px"
+  section-top: "92px"
+  section-bottom: "100px"
 components:
   button-primary:
     backgroundColor: "{colors.accent}"
@@ -613,20 +195,15 @@ components:
   button-small:
     backgroundColor: "{colors.surface}"
     textColor: "{colors.accent}"
-    typography: "{typography.button-compact}"
+    typography: "{typography.button-small}"
     rounded: "{rounded.pill}"
     padding: "10px 17px"
-  button-small-hover:
-    backgroundColor: "{colors.secondary-hover}"
   filter:
-    backgroundColor: "{colors.transparent}"
+    backgroundColor: "transparent"
     textColor: "{colors.secondary}"
-    typography: "{typography.filter-label}"
+    typography: "{typography.metadata}"
     rounded: "{rounded.pill}"
     padding: "10px 12px"
-  filter-hover:
-    backgroundColor: "{colors.surface}"
-    textColor: "{colors.accent}"
   filter-selected:
     backgroundColor: "{colors.surface}"
     textColor: "{colors.accent}"
@@ -636,68 +213,28 @@ components:
     typography: "{typography.search-input}"
     rounded: "{rounded.input}"
     padding: "12px 14px 12px 40px"
-  search-input-mobile:
-    typography: "{typography.search-input-mobile}"
   navigation:
     backgroundColor: "{colors.header-glass}"
-    textColor: "{colors.secondary}"
+    rounded: "{rounded.header}"
   navigation-active:
     backgroundColor: "{colors.navigation-active}"
     textColor: "{colors.accent}"
-  navigation-mobile:
-    padding: "10px 0 3px"
-  monogram:
-    textColor: "{colors.ink}"
-    typography: "{typography.monogram}"
-  career-row:
-    textColor: "{colors.ink}"
-  education-row:
-    textColor: "{colors.ink}"
-  credential-row:
-    textColor: "{colors.ink}"
-    padding: "26px 0"
-  award-row:
-    backgroundColor: "{colors.page}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.achievement-card}"
+  skill-panel:
+    backgroundColor: "{colors.glass-fill}"
+    rounded: "{rounded.skill-panel}"
+    padding: "22px"
+  contact-panel:
+    backgroundColor: "{colors.glass-fill}"
+    rounded: "{rounded.panel}"
+    padding: "56px"
+  award-card:
+    backgroundColor: "rgb(255 255 255 / 86%)"
+    rounded: "{rounded.award-card}"
     padding: "28px"
-  achievement-panel:
-    backgroundColor: "{colors.surface}"
-    rounded: "{rounded.achievement-panel}"
-    padding: "44px"
-  achievement-panel-mobile:
-    rounded: "{rounded.achievement-panel-compact}"
-    padding: "28px"
-  award-row-mobile:
-    padding: "24px"
-  achievement-panel-phone:
-    padding: "24px 18px"
-  category-label:
-    textColor: "{colors.category-ink}"
-    typography: "{typography.credential-meta}"
-  empty-state:
-    padding: "48px 0"
-  contact-link:
-    textColor: "{colors.accent}"
-    typography: "{typography.contact-link}"
-  project-glass:
-    backgroundColor: "{colors.project-glass-surface}"
-    textColor: "{colors.project-glass-ink}"
-  project-orbit:
-    backgroundColor: "{colors.project-orbit-surface}"
-    textColor: "{colors.page}"
-  project-fold:
-    backgroundColor: "{colors.accent}"
-    textColor: "{colors.page}"
-  project-caption:
+  project-preview:
+    textColor: "{colors.project-ink}"
+    rounded: "{rounded.panel}"
     typography: "{typography.project-title}"
-  project-pagination:
-    backgroundColor: "{colors.project-pagination}"
-    rounded: "{rounded.pill}"
-    width: "7px"
-  project-pagination-active:
-    backgroundColor: "{colors.accent}"
-    width: "27px"
 ---
 
 # Design System: Chua Jia Sheng résumé
@@ -706,154 +243,162 @@ components:
 
 **Creative North Star: "A quiet engineering record."**
 
-The current user-directed design is a white, Apple-inspired editorial résumé. The name appears once in the visible introduction, followed by a concise About section, a reverse-chronological professional record, a clearly labelled Projects preview, combined skills and education, grouped credentials and achievements, and a direct LinkedIn invitation. Generous spacing and aligned typography create the hierarchy.
+The portfolio combines Apple-inspired editorial clarity with selective frosted glass and soft blue-purple light. White space, charcoal reading text and aligned typography keep the professional record easy to scan. The established self-hosted Geist family supplies the whole hierarchy.
 
-Cobalt identifies actions, the hero’s opening role phrase and the current career year; near-black and cool gray carry the reading experience. Geist remains self-hosted. Glass is restrained to the sticky navigation and abstract project-preview material; pill controls use quiet solid surfaces. Responsibilities remain fully visible. Flat reading rows, minimal dividers and a quiet achievement-card group replace the superseded decorative Portfolio cover, acrylic shapes, glass reading cards and alternating horizontal axis.
+Pastel blue, lavender and periwinkle light the hero and selected panels. A deeper blue-purple accent marks actions, the opening role phrase and the current year. The floating header, grouped skills, project previews and contact panel carry the material character; experience, education and credentials remain flat. Responsibilities and all matching credentials are visible without disclosure steps.
 
 **Key Characteristics:**
-- One visible hero name, followed by concise editorial sections.
-- White ground, near-black reading text, cool gray support and cobalt actions.
-- Self-hosted Geist at 400, 500 and 600 with restrained tracking.
-- Flat reading rows, restrained achievement cards, pill controls, a translucent header and blue project previews.
-- Visible responsibilities, all matching credentials and reduced-motion-aware reveals.
 
-This source-derived system follows the latest authorized editorial refinement, which supersedes the earlier cover/timeline reference interpretation. `src/App.jsx`, `src/styles.css` and `src/print.css` own implementation behavior; `src/profile.json` owns professional facts. Frontmatter primitives and `.impeccable/design.json` extensions are synchronized. The local Apple reference and MIT attribution remain in `docs/design-references/`; this is an independent website.
+- White ground, charcoal reading text and contrast-safe blue-purple actions.
+- Self-hosted Geist at 400, 500 and 600 with restrained tracking.
+- Selective frosted panels, soft local light and flat factual reading rows.
+- One visible hero name, a discreet Portfolio. navigation label and explicitly labelled project placeholders.
+- Visible responsibilities, searchable credentials and preference-aware motion and transparency.
+
+This is the source-derived system for the approved 12 October 2026 refinement. `src/styles.css`, `src/App.jsx` and `src/print.css` own presentation and behaviour; `src/profile.json` owns professional facts. Frontmatter is normative for primitives; `.impeccable/design.json` extends it with shadows, motion, breakpoints and self-contained component previews. The current surface direction is recorded in `.impeccable/surfaces/src-app-jsx.md`. Local Apple reference attribution remains in `docs/design-references/`; this is an independent portfolio.
 
 ## Colors
 
-White and neutral ink establish a quiet editorial canvas. Cobalt is the single action accent; the Projects artwork intentionally expands into cyan, deep blue and translucent blue material. Frontmatter records the actual colors, including browser selection, scrollbar, selected-filter border and header alpha values; no CSS gradient color palette is implemented. Project artwork uses a black-to-transparent fade mask to leave its caption area readable; the mask is not a text or surface color. The additional project colors are scoped artwork tokens, not alternate reading palettes.
+White and neutral ink establish the reading canvas. Soft pastel blue, lavender and periwinkle create diffused local light; the contrast-safe action accent is distinct from the lighter ambient accent. Values in frontmatter preserve the source CSS colour syntax.
 
 ### Primary
 
-- **Cobalt Action** (accent / accent-hover): primary résumé action, text links, hero role accent, current navigation, current year, input caret and focus ring.
+- **Deep Blue-Purple Action** (`accent`, `accent-hover`): primary experience CTA, links, hero phrase, current navigation/year, focus ring and caret.
+
 ### Secondary
 
-- **Muted Category Blue** (category-ink): credential category metadata, subordinate to title and issuer.
-- **Project Blues / Cyan** (project families): pale glass, deep orbit and cobalt fold placeholder treatments; overlay, ring, line and shadow tokens remain scoped to this abstract preview artwork.
+- **Pastel Blue / Lavender / Periwinkle** (`pastel-blue`, `lavender`, `periwinkle`): atmospheric gradients around the hero, skills and contact.
+- **Ambient Blue** (`ambient-accent`): abstract project forms and material accents, not small reading text.
+- **Muted Category Blue** (`category-ink`): credential category metadata.
+- **Project Ink / Form Blue** (`project-ink`, `project-form`): the three pastel CSS-built project placeholders. Their distinct gradients and translucent form layers are component-level artwork, recorded in the sidecar.
 
 ### Neutral
 
-- **White Ground / Ink** (page / ink): page canvas and primary text.
-- **Cool Supporting Gray** (secondary): body descriptions, inactive navigation, dates, organizations and secondary labels.
-- **Role Gray** (hero-role-ink): the large engineering role in the introduction.
-- **Quiet Surface / Hover Tint** (surface / secondary-hover): secondary/compact actions and category filters.
-- **Fine Divider** (line): section boundaries, year gutters and flat record separators.
-- **Frosted Navigation / Header Divider** (header-glass / header-line): translucent white navigation and its faint lower border.
-- **Selected Filter Line** (selected-filter-line): restrained inset outline around the active category.
-- **Selection / Scrollbar** (selection-ink / selection-fill / scrollbar / scrollbar-track): native browser affordances.
+- **White Ground / Charcoal Ink** (`page`, `ink`): page canvas and primary text.
+- **Supporting Gray** (`secondary`): descriptions, inactive navigation, dates, organisations and skill items.
+- **Near-White Surface / Hover Tint** (`surface`, `secondary-hover`): quiet solid controls and filters.
+- **Fine Divider** (`line`): section boundaries, year gutters, search border and flat record separators.
+- **Frosted White / Highlight Edge** (`glass-fill`, `glass-edge`, `header-glass`): readable translucent selected surfaces and inset top highlights.
+- **Current Location / Selected Filter Edge** (`navigation-active`, `selected-filter-line`): current-state colour and inset filter outline.
+- **Browser Affordances** (`selection-ink`, `selection-fill`, `scrollbar`): native selection and scrollbar treatments. The track uses Near-White Surface.
 
-**The Reading First Rule.** Keep blue abstract material scoped to the labelled Projects previews; solid text and white space carry the professional record.
+**The Reading First Rule.** Use the deeper action accent for text and controls; reserve the lighter ambient accent and pastels for material and light.
 
 ## Typography
 
 **Display Font:** Geist Variable with the platform sans-serif fallback stack recorded in frontmatter.
 
-**Body Font:** the same self-hosted family, loaded by `@fontsource-variable/geist`; no secondary serif or monospace family is implemented.
+**Body Font:** the same self-hosted family, loaded through `@fontsource-variable/geist`.
 
-**Character:** tightly tracked headings, medium-weight professional role and year markers, open paragraphs, compact factual metadata. The scale is role-based rather than mathematical. Frontmatter roles with mobile, phone, narrow, compact-desktop or print suffixes preserve actual exceptions; omitted properties inherit the source cascade rather than declaring fabricated values.
+**Character:** tightly tracked headings, medium professional-role and year markers, open reading paragraphs and compact factual metadata. Sizes are assigned by role rather than a mathematical scale. Omitted token properties inherit the source cascade.
 
 ### Hierarchy
 
-- **Display:** the visible hero name uses a fluid desktop scale and one fluid mobile override. It remains the sole visible occurrence of the full name.
-- **Professional role:** medium weight, larger than body, with supporting gray, a cobalt opening phrase and a responsive fluid scale.
-- **Headline:** semibold section headings; Contact uses a larger fluid scale.
-- **Subsection:** Credentials & courses and Achievements use explicit 36px semibold subsection headings under Skills & education, reducing to 30px in the compact composition. About also has its own explicit heading.
-- **Record titles:** experience and institutions use semibold entry type; credentials and awards use a smaller fourth-level hierarchy.
-- **Body / Lead:** About lead uses larger tightly tracked reading type; supporting About paragraphs, responsibilities and school qualifications use open line heights.
-- **Controls / Metadata:** medium pill labels, regular filter/input text and compact regular dates/issuers. Credential IDs are the smallest screen text and wrap anywhere. Year/date metadata uses tabular numerals.
+- **Display:** fluid semibold hero name, with the source mobile override. It is the sole visible full-name occurrence.
+- **Professional role:** medium weight and charcoal, with the opening phrase in the action accent; desktop and mobile scales are separate.
+- **Headline:** semibold section headings. Contact uses its larger fluid headline.
+- **Subsection:** Credentials & courses and Achievements use 36px semibold type, reducing to 30px at 900px and below. Skills and Education have separate 23px third-level headings; skill-group labels use 14px.
+- **Record titles:** experience and institutions use 20px, reducing to 18px in the compact layout. Credentials use 16px; awards retain 20px.
+- **Body / Lead:** About lead is 23px / 1.5, reducing to 21px. About body uses 16px / 1.75, reducing to 15px. Responsibilities use 15px / 1.75, reducing to 14px. Hero support uses 18px / 1.65, reducing to 16px.
+- **Skills / Metadata:** skill items use 13px / 1.6 on desktop and phones, 14px in the intervening compact layout. Dates and control metadata are commonly 12px; credential IDs are 11px and wrap anywhere. Year/date metadata uses tabular numerals.
 
-Headings use balanced wrapping and paragraphs use pretty wrapping. About/responsibility measure is capped at 65ch, hero description at 55ch and career titles at 45ch. On narrow phones the name is capped at 9ch and professional role at 16ch. Mobile search text is 16px. Typography tokens are exact extraction from declarations; shared heading weight and inherited reading font remain source-cascade rules.
+Headings balance wrapping; paragraphs use pretty wrapping. About and responsibilities cap reading measure at 65ch, hero support at 55ch and career titles at 45ch. At 540px and below the name and role cap at 9ch and 16ch respectively, and manual desktop breaks disappear. Mobile search uses 16px text.
 
 **The Weight Roles Rule.** Use 400 for reading copy, 500 for actions and chronology, and 600 for headings; preserve the source’s role-specific size and line-height relationships.
 
 ## Layout
 
-Visible section headings are explicit: About, Experience, Projects, Skills & education, Credentials & courses, Achievements and Contact.
+The centred reading shell is `min(1120px, calc(100% - 80px))`. Gutters reduce to 32px at 1100px and below and 20px at 900px and below. Body supports a 320px minimum width. Main sections use 92px upper / 100px lower padding, reducing to 64px / 70px. Heading-to-content spacing is 48px, reducing to 34px. Page/header/skip-link layers are 0 / 10 / 20.
 
-The centered shell is `min(1120px, calc(100% - 80px))`. Side gutters reduce from 40px to 32px at 1100px and below, then 20px at 900px and below. Body supports a 320px minimum width. Main sections use 92px upper / 100px lower padding, reducing to 64px / 70px in the compact composition. Heading-to-content distance is 48px desktop and 34px compact. Frontmatter spacing steps are extracted from margins, padding, gaps and focus-offset declarations; composite assignments remain component/layout context.
+The floating header has a maximum 1184px width, 20px side clearance, 12px top inset and a 72px minimum-height inner grid (`1fr auto 1fr`). Portfolio., five anchors and the compact résumé download balance across it. Desktop anchor scroll offset is 118px. Hero top/bottom padding is 98px / 38px and text caps at 900px. Decorative light/panes sit behind the text in an isolated, clipped region. Role, description and actions have 27px, 25px and 31px upper spacing. A 76px gap precedes the note/divider.
 
-The 72px minimum-height sticky navigation uses `1fr auto 1fr` to balance the monogram, centered five-anchor navigation and compact résumé action. Page/header/skip-link layers are 0 / 10 / 20. Desktop scroll offset is 106px. The hero uses 104px top / 38px bottom padding with a 900px text cap, 27px role spacing, 25px description spacing, 31px action spacing and a 76px gap before the 24px-inset note/divider.
+About uses `.95fr 1.25fr` columns with an 80px gap. Skills & education uses `1fr 1.12fr` columns with 64px gap. Four skill panels form two equal columns with 16px gaps and 22px inset. The ten original skills are divided across Embedded systems, Software & cloud, Communications and Leadership & planning. Education retains three flat rows with 30px spacing and hairlines.
 
-About and Skills & education use `.95fr 1.25fr` columns with an 80px gap. About starts with 82px top spacing. The professional record is vertically ordered 2026, 2025, 2024, 2022. Year groups use `120px minmax(0, 1fr)` with 34px gap, 44px group separation and a 34px left inset/hairline for entries. Each career row uses `164px minmax(0, 1fr)` for metadata and content with 25px gap. Two roles in one year receive 35px margin/padding and a separator.
+Experience remains a flat vertical timeline ordered 2026, 2025, 2024, 2022. Year groups use `120px minmax(0, 1fr)` with 34px gap, 44px group separation and a 34px inset/hairline for entries. Each career row uses `164px minmax(0, 1fr)` with 25px gap. Adjacent roles in a year have 35px margin/padding and a divider. Both 2025 roles retain their dates and newest-first order.
 
-Skills are a plain list with 12px gaps. Education rows use 30px spacing and hairlines between subsequent records. Credentials & courses and Achievements are grouped beneath Skills & education with 84px subsection spacing. Credential tools place wrapping category filters beside a 240px search field with 22px gap. All current matches form two equal columns with 50px horizontal gaps, 26px row padding and bottom dividers. Achievements uses a soft-gray panel with 44px inset, a 24px radius and 70px upper margin. Four white cards form two equal columns with 20px gaps, 28px inset, 16px radius and 276px minimum height. Decorative 42px cobalt icons sit at the bottom with 24px upper spacing; title type is 20px with 1.4 line height. Contact and the 84px minimum-height footer use restrained section dividers.
+Credential tools place wrapping filters beside a 240px search field. Matching records form two columns with 50px gap and 26px row padding. Subsections start after 84px. Achievements retains a 44px-inset softly tinted enclosure, 70px upper margin and four white cards in two columns with 20px gaps. Cards use 28px inset and 276px minimum height. Contact uses a two-column glass panel with 56px inset and 48px gap; the footer remains a flat divider row.
 
+Projects breaks out of the reading shell after Experience. The active preview is centred with neighbouring peeks; width is `min(1000px, 82vw)`, gap 20px and aspect ratio 16:9. Captions use 42px side and 36px lower inset. The 66px control row pairs a swipe/drag instruction with noninteractive pagination dots. All previews are explicit placeholders, with no case-study claims.
 
-Projects deliberately break out of the reading shell into an Apple TV-style horizontally sliding preview after Experience. Slides have width `min(1000px, 82vw)`, 20px gaps and a 16:9 aspect ratio; centered track padding leaves neighboring previews visible. Three distinct blue abstract treatments are labelled Coming soon / Project placeholder / Details to follow. Captions use 42px side and 36px lower inset. A 66px minimum-height row pairs a swipe/drag instruction with noninteractive pagination dots. Browsing occurs directly on the focusable gesture rail; there are no carousel buttons or autoplay. At 900px and below slides use 86vw / 12px gaps with caption inset 28px / 26px. Real project details and imagery remain future input rather than inferred facts.
+### Responsive behaviour
 
-### Responsive exceptions
-
-- **At 1100px and below:** About/qualification gaps become 48px. Career metadata columns become 140px with 20px gap; year columns become 88px with 25px gap and entry left inset 26px. Credential tools stack with 14px gap, and search fills available width up to 360px.
-- **At 900px and below:** the navigation becomes a 108px minimum-height two-row grid. Monogram/action stay in the top row and all five navigation links remain visible beneath, with 44px targets; no menu toggle is used. Scroll offset becomes 138px. Hero padding becomes 65px / 20px; hero description becomes 16px, and note spacing 48px. About/qualification columns stack with 28px gaps. Year groups and career rows stack; metadata flows horizontally with wrapping, entry gutter becomes 20px, years become 25px and career titles 18px. Skills become two columns; education follows with 12px top spacing. Qualification subsections reduce to 62px. Credentials retain two columns with 30px gap and search fills width with 16px text. Achievements panel inset becomes 28px, radius 20px and upper margin 55px; cards use 24px inset, 270px minimum height and 16px gaps. Contact/footer type becomes more compact.
-- **At 540px and below:** desktop manual line breaks disappear; hero name/role use narrow text measures. Action insets become 19px, the secondary hero link becomes 13px, and credentials/awards become single columns. Navigation horizontal link inset becomes 2px. Project slides change from 16:9 to 6:5, captions use 22px side/bottom inset with 30px title and 12px supporting text, and the instruction/dot row reduces its gap to 10px. The achievements enclosure uses 24px / 18px inset; its single-column cards have 240px minimum height. The LinkedIn URL becomes 14px, wraps anywhere, and its icons reduce to 18px.
-- **At 375px and below:** navigation labels reduce to 11px; all five links remain visible.
-- **Print:** A4 with 16mm margins, full-width shell and 18px section padding. Hero name is 30pt, role 14pt, section headings 20pt, third-level headings 12pt, fourth-level headings 11pt and body 10pt. The header, hero actions/note, Projects preview, filter/search/count, screen credential list, empty results and footer disappear. Dedicated print content includes all 17 credentials independently of filters. Career descriptions are already visible; reveal transforms, opacity and animation are reset. Entries avoid page breaks. Achievement backgrounds/insets/minimum heights and blue icons simplify to plain print records: enclosing background becomes white, outer padding is 20px / 0, cards use zero inset/minimum height and icons are hidden. Contact remains as a readable LinkedIn reference. The download still serves the separate generated résumé PDF.
+- **At 1100px and below:** About/qualification gaps become 48px; year/metadata columns narrow and search/tools stack. Search caps at 360px.
+- **At 900px and below:** header clearance/top inset become 12px / 8px. Navigation uses a 108px two-row grid with all five 44px targets visible. Scroll offset becomes 142px. Hero padding becomes 65px / 20px. About/qualification/contact columns stack. Skill panels retain two columns with 24px inset. Year groups/roles stack; metadata wraps above copy. Search fills width; credentials retain two columns with 30px gap. Achievements inset becomes 28px and cards 24px / 270px minimum. Contact inset becomes 36px. Preview width/gap become 86vw / 12px, caption inset 28px / 26px. Hero decoration reduces opacity.
+- **At 540px and below:** skills inset becomes 20px / 18px, and item text becomes 13px. Credential/award lists become single columns. Contact inset becomes 28px / 24px; the URL wraps anywhere at 14px. Project ratio becomes 6:5, caption inset 22px, title 30px and support 12px. Hero panes become smaller and quieter. Achievements uses 24px / 18px enclosure inset and 240px-minimum cards.
+- **At 375px and below:** skills become a single column to preserve full text at the 320px minimum. Navigation labels become 11px; all five remain visible. At 390px skills retain two columns.
+- **Print:** A4 with 16mm margins, full-width shell and 18px section padding. Header, decorative hero light/panes, actions/note, Projects, screen search/filter/count/list, empty results and footer are hidden. The independent print credential list includes all 17 regardless of filters. Reading text remains visible; glass becomes white without blur or shadow, skill groups stack, contact becomes plain content and award icons disappear. Hero name is 30pt, role 14pt, section headings 20pt and body 10pt. Records avoid page breaks. Browser print is separate from the existing downloadable résumé PDF.
 
 **The Visible Record Rule.** Keep every responsibility visible and every matching credential available without an expansion step; filters refine the reading list rather than gate it.
 
 ## Elevation & Depth
 
-The sticky header uses translucent white with blur(22px) and saturate(160%). The labelled glass project preview uses blur(16px), alpha overlays and an abstract blue material shadow; the orbit/fold previews use translucent lines and shapes. For the header, reduced-transparency preference removes filtering and makes it white; unsupported backdrop filtering also makes the header white. Reduced transparency makes the project glass overlay opaque blue. Professional record content stays flat; Achievements uses its established white-card/gray-panel grouping. White ground, aligned text, generous space and hairlines provide hierarchy. Reading rows, buttons and achievement cards have no ambient shadows. Outside abstract project artwork, the only `box-shadow` is a one-pixel inset selected-filter outline; its exact value is recorded in the sidecar.
+Frosted material is selective. The floating header uses 22px blur and 130% saturation; skill/contact surfaces use 20px blur, high-opacity white and an inset highlight. A shared gentle double shadow separates those surfaces from local light. Hero panes use translucent white gradients, 20px blur and a more diffuse decorative shadow. Project artwork uses its own pastel gradients, translucent forms and a 16px-blurred overlay. Experience, education and credential rows remain flat; achievements retain softly tinted boxed grouping and static white cards.
 
-**The Quiet Glass Rule.** Keep glass in the sticky header and labelled abstract project previews; use flat rows and hairlines for the professional record, with the established soft achievement-card group as a reading exception.
+The reusable shadow is `0 12px 32px rgb(68 83 153 / 7%), 0 3px 8px rgb(68 83 153 / 3%)`. Glass adds an inset `0 1px 0` highlight using the edge token. The hero pane shadow is `0 24px 64px rgb(74 83 146 / 6%)`; project glass artwork uses `12px 28px 60px rgb(70 91 196 / 12%)`. Exact shadow/motion extensions live in the sidecar.
+
+Reduced transparency makes header and selected panels solid white without blur, hides panel reflections and hero atmosphere, and gives the project glass overlay its opaque fallback. Unsupported backdrop filtering also makes header and glass surfaces opaque white. These fallbacks retain readable content and controls.
+
+**The Selective Glass Rule.** Use frosted material for the header, skill groups, project previews and contact panel; retain flat rows for experience, education and credentials.
 
 ## Shapes
 
-Primary/secondary/compact actions and category filter buttons use pills. The search field is a gently rounded rectangle. The skip link uses its own slightly larger rounded rectangle. Career, institution, credential and skill lists remain flat. Achievement records use rounded white cards inside a soft-gray rounded panel, with restrained blue icons. The textual monogram is unboxed. A quiet blue current-navigation fill adds state. Desktop links are pills; compact links use the smaller navigation radius. Functional Phosphor SVG icons support downloads, direction, location and LinkedIn; decorative cover shapes and illustrations are absent from the résumé introduction. Project-preview glass rectangles, orbit rings and folded squares are explicitly abstract placeholders, not factual project imagery.
+Header and skill panels use gently rounded rectangles, with their source radii recorded in frontmatter. Contact, project slides and the desktop achievement enclosure use the larger panel radius. Actions and filter controls use pills; compact navigation links use small rounded corners. Search and skip link have their own radii. Flat career, institution and credential rows have no enclosing card. Abstract project forms use rectangles, circles and rotated squares; they are not factual project imagery. Functional Phosphor SVGs support direction, download, location and LinkedIn. Award icons are decorative.
 
 ## Components
 
-### Buttons
+### Buttons and links
 
-Primary actions use cobalt and white; secondary and compact actions use Quiet Surface and cobalt. Main pills are 48px minimum height with 13px / 23px inset. The header résumé action is 44px with 10px / 17px inset and 12px type. Hover darkens cobalt or deepens the quiet tint. Press scales to .98, with 200ms background/transform feedback. Visible focus is a 3px cobalt outline offset 5px. Text links have 44px targets, underline on hover and translate their SVG arrow 2px horizontally over 250ms with the shared ease.
+The hero offers Explore experience as the primary pill and Get in touch as a text link. The résumé download is available in navigation. Primary pills use action blue-purple with white text; secondary/compact pills use Near-White Surface with action-coloured text. Main pills are at least 48px high with 13px / 23px inset; compact download is at least 44px with 10px / 17px inset. Hover deepens colour; press scales to .98. Background/transform/shadow feedback uses 400ms. Focus is a 3px accent outline offset 5px. Text links have 44px targets, underline on hover and move their arrow 2px over 250ms.
 
 ### Inputs / Fields
 
-Search has a persistent accessible name, leading SVG, white background, fine divider border and input radius. Minimum height is 48px, with 12px / 14px / 12px / 40px inset. The caret is cobalt and placeholder uses full-opacity supporting gray. Category and trimmed case-insensitive title/issuer/category text matching combine immediately. All current matches are rendered; no show-more state remains. A polite live count reports results. Empty results offer a secondary reset that clears both filters and restores input focus. No error/disabled variant is implemented.
+Credential search has a persistent accessible name, leading SVG, white fill and fine border. Minimum height is 48px; inset is 12px / 14px / 12px / 40px. Placeholder uses supporting gray at full opacity and caret uses the action accent. Trimmed case-insensitive title/issuer/category matching combines with the active category. The polite live result count updates immediately. Empty results offer Reset search, which clears query and category and restores input focus. No error/disabled variant is implemented.
 
-### Chips
+### Filters
 
-Category filters are semantic pill buttons with `aria-pressed`. Active and hover states use quiet surface and cobalt; active adds a subtle inset line. Skills are plain list items and credential category metadata is solid blue-gray text without a chip fill. Neither has a button state.
-
-### Cards / Containers
-
-Achievements is the intentional reading-card exception: a soft-gray enclosing panel with white rounded cards, factual date/title/detail/issuer, and blue bottom-aligned icons. These cards are static records, with no press state or glass blur. Education, career and credentials remain flat semantic records; separators establish their existing boundaries. Empty results remain an unfilled reading block. Projects is a separate media-preview surface.
+Categories are semantic pill buttons with `aria-pressed`, 44px minimum height and 10px / 12px inset. Active/hover use Near-White Surface and the action accent; active adds a one-pixel inset selected-filter line. Skill items and credential categories are text, without button semantics.
 
 ### Navigation
 
-The header has an unboxed monogram, five anchor links and a compact résumé action. Links use 13px desktop / 12px compact / 11px narrow-phone type, with 40px desktop and 44px compact targets. Hover/current color is cobalt; current location adds the established pale-blue fill. Desktop link gaps are 4px with 13px horizontal inset, compact inset is 4px and phone inset 2px. Selecting an anchor focuses the destination without an extra scroll jump. Scroll and resize schedule one animation frame to track the latest section above the header-height +64px marker; page bottom selects Contact, avoiding a narrow observer band on wide screens. An initial URL hash scrolls its section into view instantly before active-state calculation. All links stay visible in the compact second row. A focus-visible skip link reaches the main region. External contact opens a new tab with an accessible announcement.
+Portfolio. is an unboxed discreet label. Five anchors and the résumé action remain visible at every breakpoint. Hover/current colour uses the action accent; current location adds a quiet filled background and `aria-current="location"`. Anchor selection focuses its destination. Scroll/resize schedule one animation frame to calculate the current section relative to header height +64px; page bottom selects Contact. Initial section hashes scroll after rendering. The skip link reaches the main region. LinkedIn opens a new tab with an accessible announcement.
 
-### Professional record
+### Skills, contact and achievements
 
-Reverse-chronological year groups separate metadata from the role title, organization and fully visible responsibility text. The current year alone is cobalt. Compact layouts move dates/locations above content while retaining a simple vertical gutter. Responsibilities are concise rendering-level paraphrases tied to the unchanged profile source; no disclosure control hides them.
+Skill panels group all ten unchanged skills into four readable lists. Their reflections shift by at most 12px horizontally and 8px vertically under fine-pointer movement; touch and reduced motion skip that movement. Only skill panels lift 3px on fine-pointer hover without reduced motion. Contact uses the same glass material for its existing LinkedIn invitation. These surfaces remain static reading containers, without a press action. Achievements remains a softly tinted enclosure with four white rounded factual records and bottom-aligned blue-purple icons; it has no blur or interactive lift.
 
-### Qualifications
+### Professional record and qualifications
 
-Skills & education combines a plain technical list with three institution records. Credentials & courses follows with filters/search and all matching records, including explicit course-completion notes and wrapping IDs. Achievements is grouped next in its explicit headed panel (`achievements` anchor), retaining date, award title, detail and issuer. Medal, SealCheck, GraduationCap and Trophy icons are decorative and hidden from assistive technology. Print uses a dedicated all-credential list independent of screen state.
+Reverse-chronological year groups separate dates/locations from title, organisation and visible responsibility text. Education retains three flat institution rows. Credentials & courses includes all current matches, explicit course-completion notes and wrapping IDs. Achievements retains date, title, detail and issuer. Print uses an independent complete credential list.
 
 ### Projects carousel
 
-The centered active panel and neighboring peeks provide the requested Apple TV-style browsing pattern. Blue glass, deep orbit and cobalt fold are CSS-built abstract treatments; captions explicitly say Coming soon and Project placeholder. Only the active slide is exposed to assistive technology. The rail has keyboard focus and an instruction describing swipe/drag and Left/Right keys. Pagination dots are plain, aria-hidden spans, not actions. A polite live status announces the active placeholder.
+Three light pastel abstract treatments are labelled Coming soon / Project placeholder / Details to follow. Only the active slide is exposed to assistive technology. The focusable rail supports Left/Right keys and has accessible gesture instructions; a polite status announces its position. Dots are noninteractive, aria-hidden spans. There are no carousel buttons or autoplay.
 
-The panel follows horizontal pointer movement directly through a bounded drag offset while vertical touch scrolling remains available. A horizontal release of at least 24px that exceeds vertical movement commits exactly one adjacent panel; shorter gestures and cancellation settle back. Horizontal wheel input accumulates to a 28px threshold and commits once per gesture, with a 200ms idle gesture lock; vertical wheel input continues normal page scrolling. Left/Right keys on the focusable rail also commit one panel. In-flight moves lock another commit. At the track’s transform transition end, endpoint clones rebase instantly to their equivalent original for continuous wrapping. The short swipe threshold does not depend on panel width. There is no autoplay or carousel button. Projects is hidden in print. Real project details/assets must be supplied before these previews become professional claims.
+The panel follows horizontal pointer movement through a bounded CSS drag offset while vertical touch scrolling remains available. A horizontal release of at least 24px, exceeding vertical movement, commits one adjacent preview; short/cancelled gestures settle back. Horizontal wheel input accumulates to 28px and commits once per gesture, with a 200ms idle lock. In-flight transitions lock additional commits. Endpoint clones rebase instantly after the track transition, preserving continuous wrapping. Reduced motion commits the original target immediately. Projects is omitted from print; real project facts and assets remain future input.
 
 ### Motion
 
-The shared ease is `cubic-bezier(.16, 1, .3, 1)`. The hero name enters over 700ms from opacity .15 / translateY(16px); role is delayed 80ms and description/actions 160ms. Scroll-reveal targets rise 18px with 650ms opacity/transform transitions once they enter the observer threshold (0.08, 36px lower root margin). A second role within a year adds 80ms stagger. Reveal hiding applies only after JavaScript enables `motion-ready` and only without reduced motion. Focus-within makes reveal content visible. Reduced motion disables animations/transitions, smooth scrolling, press scaling and arrow translation and forces every reveal visible. Print also forces visibility. Navigation color/background feedback takes 200ms. Projects track transform uses 450ms with `cubic-bezier(.22, .68, 0, 1)`, active-panel opacity uses 450ms with the shared ease, and caption opacity/rise uses 400ms after 60ms. Pagination width/color takes 400ms. Drag following and loop rebasing have no transition. Reduced motion commits the target original immediately and disables all transitions.
+The shared ease is `cubic-bezier(.16, 1, .3, 1)`. Hero name enters over 700ms from opacity .15 / 16px upward offset; role delays 80ms and description/actions 160ms. Reveals rise 18px with 650ms opacity/transform transitions, observer threshold .08 and 36px lower root margin. Adjacent roles add 80ms stagger. Reveals hide only after JavaScript enhancement and only without reduced motion; focus-within makes them visible.
+
+Hero ambient light drifts slowly over 32s; its front pane drifts 8px over 28s. Movement stays local to that decorative region. Selected panel reflection transitions use 600ms and skill lift 500ms, with fine-pointer and preference guards. Navigation feedback uses 200ms. Carousel track/slide transitions use 450ms; caption feedback uses 400ms after 60ms and dots use 400ms. Drag following and loop rebasing have no transition.
+
+Reduced motion disables animations/transitions, smooth scrolling, press scaling and arrow movement and forces all reveal content visible. Reduced transparency removes selected blur and atmosphere. Print resets reveal visibility and decoration. Motion is enhancement, not a requirement for reading.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** keep the visible name in the hero and use the monogram elsewhere.
-- **Do** preserve white ground, solid reading text, cobalt actions and the Geist hierarchy.
-- **Do** keep responsibilities visible, qualifications grouped by purpose and project placeholders explicitly labelled.
+
+- **Do** keep the full visible name in the hero and use Portfolio. as the navigation label.
+- **Do** preserve white ground, solid reading text, soft local light and the Geist hierarchy.
+- **Do** keep responsibilities visible, skills grouped by purpose and project placeholders explicitly labelled.
 - **Do** retain visible focus, named search, live counts and usable anchor navigation at every breakpoint.
 - **Do** keep all reveal content visible under reduced motion, without reveal enhancement, and when printing.
 - **Do** print all 17 credentials independently of active screen filters.
 
 ### Don't:
-- **Don't** restore the oversized Portfolio cover or glass reading cards; abstract material belongs to labelled Projects previews.
-- **Don't** turn skills or category metadata into decorative button chips.
+
+- **Don't** turn every section into a glass card or use saturated ambient colour for small reading text.
+- **Don't** give static skill lists or category metadata decorative button states.
 - **Don't** hide responsibilities inside disclosures or credentials behind show-more controls.
-- **Don't** spread project artwork shadows into reading rows or invent project names, clients, results or professional claims.
-- **Don't** make motion a prerequisite for reading or interacting with the page.
+- **Don't** invent project names, clients, results or professional claims from abstract placeholder artwork.
+- **Don't** make motion, blur or pointer hover a prerequisite for reading or interacting with the page.
