@@ -1,8 +1,16 @@
 # Jia Sheng server deployment
 
-Latest portfolio refinement verified publicly on 12 October 2026.
+Latest portfolio refinement verified publicly on 13 October 2026.
 
-## Managed deployment update — 12 October 2026
+## Apple cinematic refinement — 13 October 2026
+
+The existing linked Server Manager project automatically deployed UI source `6feb62efbe1d4180bb96e6633940ee1766d2b9e9` from GitHub `main`. The dashboard marked it Ready after an 18-second deployment and the project Live. No host, route, connection or runtime setting was changed.
+
+The public browser loads `/assets/index-CLVNPsVl.js` and `/assets/index-BKswYrMv.css`, matching the reviewed production build references. Desktop at 1440px and mobile at 390px show no document overflow. The page retains one visible full name, five roles, three education records, ten skills, 17 credentials and four award records. Project keyboard browsing moved 1→2; `network` search returned three credentials and clearing restored 17. Browser warning/error logs were empty.
+
+Current evidence is `.impeccable/review/apple-motion-server-ready.jpg`, `apple-motion-live-desktop.jpg` and `apple-motion-live-mobile.jpg`. This is browser-loaded reference and interaction verification, not a full byte-hash comparison of public assets. The profile and local downloadable PDF are unchanged; the PDF was not downloaded again for this revision. Full verification limits and review disposition are in `docs/redesign-verification.md`.
+
+## Prior managed deployment update — 12 October 2026
 
 The current `jiasheng` project is connected to the existing `4bytedigi` GitHub account in [Server Manager](https://server.4bytedigi.com/). It builds `main` from `4bytedigi/Jiasheng_Portfolio` with the Vite / React preset, `npm run build`, and output `dist`. Automatic deployment checks the production branch every minute.
 
