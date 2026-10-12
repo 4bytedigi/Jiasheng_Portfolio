@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-12T23:41:08.122052+08:00",
+  "generatedAt": "2026-10-12T16:39:56.039351+00:00",
   "title": "Design System: Chua Jia Sheng résumé",
   "extensions": {
     "colorMeta": {
@@ -372,103 +372,155 @@
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Source-derived display role; mobile exceptions follow the source cascade."
+        "purpose": "Once-visible masked hero name; desktop cap 96px."
       },
       "display-mobile": {
         "displayName": "Display Mobile",
-        "purpose": "Source-derived display mobile role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived display mobile role; responsive exceptions follow the source cascade."
       },
       "hero-role": {
         "displayName": "Hero Role",
-        "purpose": "Source-derived hero role role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived hero role role; responsive exceptions follow the source cascade."
       },
       "hero-role-mobile": {
         "displayName": "Hero Role Mobile",
-        "purpose": "Source-derived hero role mobile role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived hero role mobile role; responsive exceptions follow the source cascade."
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Source-derived headline role; mobile exceptions follow the source cascade."
+        "purpose": "Top-level sections, including distinct Skills and Education; cap 64px."
       },
       "contact-headline": {
         "displayName": "Contact Headline",
-        "purpose": "Source-derived contact headline role; mobile exceptions follow the source cascade."
+        "purpose": "Closing Contact heading; cap 80px."
       },
       "subsection": {
         "displayName": "Subsection",
-        "purpose": "Source-derived subsection role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived subsection role; responsive exceptions follow the source cascade."
       },
       "about-lead": {
         "displayName": "About Lead",
-        "purpose": "Source-derived about lead role; mobile exceptions follow the source cascade."
+        "purpose": "First of two still factual About columns."
       },
       "about-body": {
         "displayName": "About Body",
-        "purpose": "Source-derived about body role; mobile exceptions follow the source cascade."
+        "purpose": "Second About column; 16px at 900px and below."
       },
       "responsibility": {
         "displayName": "Responsibility",
-        "purpose": "Source-derived responsibility role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived responsibility role; responsive exceptions follow the source cascade."
       },
       "hero-description": {
         "displayName": "Hero Description",
-        "purpose": "Source-derived hero description role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived hero description role; responsive exceptions follow the source cascade."
       },
       "record-title": {
         "displayName": "Record Title",
-        "purpose": "Source-derived record title role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived record title role; responsive exceptions follow the source cascade."
       },
       "credential-title": {
         "displayName": "Credential Title",
-        "purpose": "Source-derived credential title role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived credential title role; responsive exceptions follow the source cascade."
       },
       "skill-heading": {
         "displayName": "Skill Heading",
-        "purpose": "Source-derived skill heading role; mobile exceptions follow the source cascade."
+        "purpose": "Flat category headings across the desktop skills grid."
       },
       "skill-list": {
         "displayName": "Skill List",
-        "purpose": "Source-derived skill list role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived skill list role; responsive exceptions follow the source cascade."
       },
       "skill-list-mobile": {
         "displayName": "Skill List Mobile",
-        "purpose": "Source-derived skill list mobile role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived skill list mobile role; responsive exceptions follow the source cascade."
       },
       "button": {
         "displayName": "Button",
-        "purpose": "Source-derived button role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived button role; responsive exceptions follow the source cascade."
       },
       "button-small": {
         "displayName": "Button Small",
-        "purpose": "Source-derived button small role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived button small role; responsive exceptions follow the source cascade."
       },
       "navigation": {
         "displayName": "Navigation",
-        "purpose": "Source-derived navigation role; mobile exceptions follow the source cascade."
+        "purpose": "Five visible desktop anchors inside the floating pill."
       },
       "brand": {
         "displayName": "Brand",
-        "purpose": "Source-derived brand role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived brand role; responsive exceptions follow the source cascade."
       },
       "metadata": {
         "displayName": "Metadata",
-        "purpose": "Source-derived metadata role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived metadata role; responsive exceptions follow the source cascade."
       },
       "search-input": {
         "displayName": "Search Input",
-        "purpose": "Source-derived search input role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived search input role; responsive exceptions follow the source cascade."
       },
       "search-input-mobile": {
         "displayName": "Search Input Mobile",
-        "purpose": "Source-derived search input mobile role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived search input mobile role; responsive exceptions follow the source cascade."
       },
       "project-title": {
         "displayName": "Project Title",
-        "purpose": "Source-derived project title role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived project title role; responsive exceptions follow the source cascade."
       },
       "project-caption": {
         "displayName": "Project Caption",
-        "purpose": "Source-derived project caption role; mobile exceptions follow the source cascade."
+        "purpose": "Source-derived project caption role; responsive exceptions follow the source cascade."
+      },
+      "editorial-statement": {
+        "displayName": "Editorial Statement",
+        "purpose": "Two-line research-to-practice statement; cap 76px."
+      },
+      "editorial-statement-mobile": {
+        "displayName": "Editorial Statement Mobile",
+        "purpose": "Statement ramp at 900px and below."
+      },
+      "section-support": {
+        "displayName": "Section Support",
+        "purpose": "Source-derived section support role; responsive exceptions follow the source cascade."
+      },
+      "about-body-mobile": {
+        "displayName": "About Body Mobile",
+        "purpose": "Source-derived about body mobile role; responsive exceptions follow the source cascade."
+      },
+      "education-title": {
+        "displayName": "Education Title",
+        "purpose": "Flat academic institution titles; 21px at 900px and below."
+      },
+      "education-title-mobile": {
+        "displayName": "Education Title Mobile",
+        "purpose": "Source-derived education title mobile role; responsive exceptions follow the source cascade."
+      },
+      "year-marker": {
+        "displayName": "Year Marker",
+        "purpose": "Pinned desktop year label within its own timeline group."
+      },
+      "year-marker-mobile": {
+        "displayName": "Year Marker Mobile",
+        "purpose": "Source-derived year marker mobile role; responsive exceptions follow the source cascade."
+      },
+      "skill-heading-phone": {
+        "displayName": "Skill Heading Phone",
+        "purpose": "Source-derived skill heading phone role; responsive exceptions follow the source cascade."
+      },
+      "navigation-mobile": {
+        "displayName": "Navigation Mobile",
+        "purpose": "Source-derived navigation mobile role; responsive exceptions follow the source cascade."
+      },
+      "navigation-narrow": {
+        "displayName": "Navigation Narrow",
+        "purpose": "Source-derived navigation narrow role; responsive exceptions follow the source cascade."
+      },
+      "contact-lead": {
+        "displayName": "Contact Lead",
+        "purpose": "Source-derived contact lead role; responsive exceptions follow the source cascade."
+      },
+      "contact-lead-phone": {
+        "displayName": "Contact Lead Phone",
+        "purpose": "Source-derived contact lead phone role; responsive exceptions follow the source cascade."
       }
     },
     "shadows": [
@@ -501,6 +553,11 @@
         "name": "selected-filter",
         "value": "inset 0 0 0 1px #d6e3fa",
         "purpose": "Selected category boundary."
+      },
+      {
+        "name": "project-hover",
+        "value": "0 30px 72px rgb(48 107 159 / 18%), 0 8px 22px rgb(48 107 159 / 7%), inset 0 1px 0 white",
+        "purpose": "Active preview on eligible fine-pointer hover."
       }
     ],
     "motion": [
@@ -510,59 +567,119 @@
         "purpose": "Shared natural easing."
       },
       {
-        "name": "hero",
-        "value": "700ms / 16px / 80ms and 160ms stagger",
-        "purpose": "Initial introduction."
+        "name": "hero-sequence",
+        "value": "1090ms total",
+        "purpose": "Authored initial hero, completed by the second decorative pane."
+      },
+      {
+        "name": "ambient-enter",
+        "value": "900ms / both fill",
+        "purpose": "Hero light fade."
+      },
+      {
+        "name": "name-reveal",
+        "value": "700ms / 120ms delay / translateY(105%) / both fill",
+        "purpose": "Masked once-visible name."
+      },
+      {
+        "name": "hero-role",
+        "value": "600ms / 230ms delay / 14px / both fill",
+        "purpose": "Role entrance."
+      },
+      {
+        "name": "hero-description",
+        "value": "600ms / 340ms delay / 14px / both fill",
+        "purpose": "Supporting introduction entrance."
+      },
+      {
+        "name": "hero-actions",
+        "value": "600ms / 430ms and 480ms delay / 14px / backwards fill",
+        "purpose": "Entrance relinquishes transform after completion for hover/press."
+      },
+      {
+        "name": "glass-settle",
+        "value": "850ms / 180ms and 240ms delay / 16px / blur 3px→0",
+        "purpose": "Decorative back/front panes settle."
       },
       {
         "name": "reveal",
         "value": "650ms / 18px / 80ms adjacent-role stagger",
-        "purpose": "Progressive heading and career reveals."
+        "purpose": "One-time heading and career reveals."
+      },
+      {
+        "name": "statement-reveal",
+        "value": "750ms / 80ms second-line delay / translateY(110%)",
+        "purpose": "Two masked About lines."
+      },
+      {
+        "name": "about-scroll",
+        "value": "scale(.97→1)",
+        "purpose": "Bounded 3% entrance; factual paragraphs stay still."
+      },
+      {
+        "name": "projects-scroll",
+        "value": "scale(.96→1)",
+        "purpose": "Bounded 4% featured rail entrance."
       },
       {
         "name": "ambient",
-        "value": "32s ease-in-out infinite alternate",
-        "purpose": "Local hero light drift."
+        "value": "20s ease-in-out infinite alternate / (-12px,0)→(14px,10px)",
+        "purpose": "Local hero light drift; paused offscreen/hidden."
       },
       {
         "name": "glass-drift",
-        "value": "28s ease-in-out infinite alternate / -8px",
-        "purpose": "Local front-pane drift."
+        "value": "20s / 1090ms delay / 0→-8px",
+        "purpose": "Local front-pane drift; paused offscreen/hidden."
       },
       {
         "name": "reflection",
-        "value": "600ms / max 12px x and 8px y",
-        "purpose": "Fine-pointer glass reflection; skipped for reduced motion/touch."
+        "value": "300ms / ±12px x and ±8px y",
+        "purpose": "Fine-pointer glass reflection; skipped for touch/reduced motion."
+      },
+      {
+        "name": "glass-depth",
+        "value": "300ms / 1400px perspective / ±.35deg X and ±.55deg Y",
+        "purpose": "Bounded hero/contact tilt; skipped for touch/reduced motion."
       },
       {
         "name": "skill-lift",
-        "value": "500ms / -3px",
-        "purpose": "Fine-pointer hover only without reduced motion."
+        "value": "300ms / -3px",
+        "purpose": "Static chips on fine-pointer hover only with normal motion."
       },
       {
         "name": "button",
-        "value": "400ms",
-        "purpose": "Background/press feedback."
+        "value": "400ms / -3px hover / .98 active",
+        "purpose": "Hover excludes :active; reduced motion removes press transform."
+      },
+      {
+        "name": "contact-lift",
+        "value": "500ms / -3px",
+        "purpose": "LinkedIn action on eligible fine-pointer hover."
+      },
+      {
+        "name": "project-lift",
+        "value": "300ms / -4px",
+        "purpose": "Active preview only, eligible fine-pointer hover."
       },
       {
         "name": "navigation",
-        "value": "200ms",
-        "purpose": "Hover/current feedback."
+        "value": "200ms colour/background; 300ms height/padding",
+        "purpose": "Current-state feedback and directional contraction."
       },
       {
         "name": "carousel",
         "value": "450ms cubic-bezier(.22, .68, 0, 1)",
-        "purpose": "One-panel rail commits."
+        "purpose": "Existing one-panel rail commits."
       },
       {
         "name": "caption",
         "value": "400ms / 60ms delay / 12px",
-        "purpose": "Active preview caption."
+        "purpose": "Existing active-preview caption continuity."
       },
       {
         "name": "reduced-motion",
         "value": "none",
-        "purpose": "Immediate carousel commits, visible reveals, no smooth scroll/animations/transitions."
+        "purpose": "Immediate rail commits, visible reveals, no spatial effects/smooth scrolling/animations/transitions."
       }
     ],
     "breakpoints": [
@@ -646,6 +763,58 @@
         "name": "achievement-enclosure",
         "value": "linear-gradient(135deg, #edf6f8, #eef4fd)"
       }
+    ],
+    "layout": [
+      {
+        "name": "reading-shell",
+        "value": "min(1120px, calc(100% - 80px))",
+        "purpose": "32px gutters ≤1100px; 20px ≤900px; minimum page width 320px."
+      },
+      {
+        "name": "section-rhythm",
+        "value": "104px 112px / 52px heading gap",
+        "purpose": "64px 70px / 34px gap at 900px and below."
+      },
+      {
+        "name": "about-copy",
+        "value": "repeat(2,1fr) / 52px gap",
+        "purpose": "40px gap ≤1100px, one column / 20px gap ≤900px."
+      },
+      {
+        "name": "skills-grid",
+        "value": "repeat(4,minmax(0,1fr)) / 28px 24px gap",
+        "purpose": "Two columns / 32px gap ≤1100px; one column ≤375px."
+      },
+      {
+        "name": "education",
+        "value": "112px separation / 168px minmax(0,1fr) / 32px gap",
+        "purpose": "Separate full-width section; 62px separation and stacked flat rows ≤900px."
+      },
+      {
+        "name": "year-label",
+        "value": "sticky / top 110px / align-self start",
+        "purpose": "Pins within its own year group; static flow ≤900px and in print."
+      },
+      {
+        "name": "header-reservation",
+        "value": "74px desktop / 110px mobile",
+        "purpose": "Sticky flow reservation prevents page movement during contraction."
+      },
+      {
+        "name": "header-inner",
+        "value": "72px→60px desktop / 108px→96px mobile",
+        "purpose": "With border: 74px→62px / 110px→98px; mobile targets remain 44px."
+      },
+      {
+        "name": "header-trigger",
+        "value": "12px directional travel after 100px scroll",
+        "purpose": "Down compacts; up expands; near top remains expanded."
+      },
+      {
+        "name": "projects",
+        "value": "min(1000px,82vw) / 20px gap / 16:9",
+        "purpose": "86vw / 12px ≤900px; 6:5 ≤540px."
+      }
     ]
   },
   "components": [
@@ -653,33 +822,33 @@
       "name": "Glass experience action",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Clear blue gradient and white text.",
-      "html": "<button class=\"ds-button-primary\">Explore experience</button>",
-      "css": ".ds-button-primary {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); backdrop-filter: blur(20px) saturate(160%); -webkit-backdrop-filter: blur(20px) saturate(160%); box-shadow: 0 12px 28px rgb(48 107 159 / 12%), inset 0 1px 0 rgb(255 255 255 / 70%); font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), transform .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .4s var(--ease,cubic-bezier(.16, 1, .3, 1));  background: linear-gradient(135deg, #1473cf, #0764bb); color: white; border-color: rgb(255 255 255 / 45%); }.ds-button-primary:hover { background: linear-gradient(135deg, #0868c1, #0055a4); box-shadow: 0 18px 38px rgb(48 107 159 / 17%), inset 0 1px 0 white; }.ds-button-primary:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}.ds-button-primary:active {transform:scale(.98);}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-button-primary:hover{transform:translateY(-3px);}}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none;}.ds-button-primary:active{transform:none;}}@media(prefers-reduced-transparency:reduce){.ds-button-primary{background:#0764bb;color:white;backdrop-filter:none;-webkit-backdrop-filter:none;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}"
+      "description": "Blue gradient anchor with white lettering, hover lift and an independent press scale.",
+      "html": "<a class=\"ds-button-primary\" href=\"#background\">Explore experience<svg viewBox=\"0 0 256 256\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M40 128h176M144 56l72 72-72 72\"/></svg></a>",
+      "css": ".ds-button-primary {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); backdrop-filter: blur(20px) saturate(160%); -webkit-backdrop-filter: blur(20px) saturate(160%); box-shadow: 0 12px 28px rgb(48 107 159 / 12%), inset 0 1px 0 rgb(255 255 255 / 70%); font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), transform .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .4s var(--ease,cubic-bezier(.16, 1, .3, 1));text-decoration:none;background: linear-gradient(135deg, #1473cf, #0764bb); color: white; border-color: rgb(255 255 255 / 45%);}.ds-button-primary:hover {background: linear-gradient(135deg, #0868c1, #0055a4); box-shadow: 0 18px 38px rgb(48 107 159 / 17%), inset 0 1px 0 white;}.ds-button-primary:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}.ds-button-primary:active {transform:scale(.98);}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-button-primary:hover:not(:active) {transform:translateY(-3px);}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-motion:reduce){.ds-button-primary:active {transform:none;}}@media(prefers-reduced-transparency:reduce){.ds-button-primary {background:#0764bb;color:white;backdrop-filter:none;-webkit-backdrop-filter:none;}}@supports not (backdrop-filter:blur(20px)){.ds-button-primary {background:#0764bb;color:white;}}"
     },
     {
       "name": "Glass contact action",
       "kind": "button",
       "refersTo": "button-secondary",
-      "description": "Bright pale-glass pill with deep blue text.",
-      "html": "<button class=\"ds-button-secondary\">Get in touch</button>",
-      "css": ".ds-button-secondary {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); backdrop-filter: blur(20px) saturate(160%); -webkit-backdrop-filter: blur(20px) saturate(160%); box-shadow: 0 12px 28px rgb(48 107 159 / 12%), inset 0 1px 0 rgb(255 255 255 / 70%); font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), transform .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .4s var(--ease,cubic-bezier(.16, 1, .3, 1));  color: #174c7b; background: linear-gradient(135deg, rgb(255 255 255 / 76%), rgb(230 244 244 / 55%), rgb(187 235 251 / 35%)); }.ds-button-secondary:hover { background: rgb(230 244 244 / 90%); box-shadow: 0 18px 38px rgb(48 107 159 / 15%), inset 0 1px 0 white; }.ds-button-secondary:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}.ds-button-secondary:active {transform:scale(.98);}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-button-secondary:hover{transform:translateY(-3px);}}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none;}.ds-button-secondary:active{transform:none;}}@media(prefers-reduced-transparency:reduce){.ds-button-secondary{background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}"
+      "description": "Pale-glass contact anchor with deep blue text and the same feedback states.",
+      "html": "<a class=\"ds-button-secondary\" href=\"#contact\">Get in touch<svg viewBox=\"0 0 256 256\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M64 192 192 64M64 64h128v128\"/></svg></a>",
+      "css": ".ds-button-secondary {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); backdrop-filter: blur(20px) saturate(160%); -webkit-backdrop-filter: blur(20px) saturate(160%); box-shadow: 0 12px 28px rgb(48 107 159 / 12%), inset 0 1px 0 rgb(255 255 255 / 70%); font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), transform .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .4s var(--ease,cubic-bezier(.16, 1, .3, 1));text-decoration:none;color: #174c7b; background: linear-gradient(135deg, rgb(255 255 255 / 76%), rgb(230 244 244 / 55%), rgb(187 235 251 / 35%));}.ds-button-secondary:hover {background: rgb(230 244 244 / 90%); box-shadow: 0 18px 38px rgb(48 107 159 / 15%), inset 0 1px 0 white;}.ds-button-secondary:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}.ds-button-secondary:active {transform:scale(.98);}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-button-secondary:hover:not(:active) {transform:translateY(-3px);}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-motion:reduce){.ds-button-secondary:active {transform:none;}}@media(prefers-reduced-transparency:reduce){.ds-button-secondary {background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}@supports not (backdrop-filter:blur(20px)){.ds-button-secondary {background:#f4f9fc;}}"
     },
     {
       "name": "Compact résumé action",
       "kind": "button",
       "refersTo": "button-small",
-      "description": "Bright pale-glass pill with deep blue text.",
-      "html": "<button class=\"ds-button-small\">Résumé</button>",
-      "css": ".ds-button-small {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); backdrop-filter: blur(20px) saturate(160%); -webkit-backdrop-filter: blur(20px) saturate(160%); box-shadow: 0 12px 28px rgb(48 107 159 / 12%), inset 0 1px 0 rgb(255 255 255 / 70%); font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), transform .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .4s var(--ease,cubic-bezier(.16, 1, .3, 1));  color: #174c7b; background: linear-gradient(135deg, rgb(255 255 255 / 76%), rgb(230 244 244 / 55%), rgb(187 235 251 / 35%));  min-height: 44px; padding: 10px 17px; font-size: 12px; }.ds-button-small:hover { background: rgb(230 244 244 / 90%); box-shadow: 0 18px 38px rgb(48 107 159 / 15%), inset 0 1px 0 white; }.ds-button-small:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}.ds-button-small:active {transform:scale(.98);}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-button-small:hover{transform:translateY(-3px);}}@media(prefers-reduced-motion:reduce){.ds-button-small{transition:none;}.ds-button-small:active{transform:none;}}@media(prefers-reduced-transparency:reduce){.ds-button-small{background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}"
+      "description": "Compact 44px résumé download retained in the floating navigation.",
+      "html": "<a class=\"ds-button-small\" href=\"/Chua-Jia-Sheng-Resume.pdf\" download=\"Chua-Jia-Sheng-Resume.pdf\">Résumé<svg viewBox=\"0 0 256 256\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M128 24v144m-48-48 48 48 48-48M40 168v48h176v-48\"/></svg></a>",
+      "css": ".ds-button-small {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); backdrop-filter: blur(20px) saturate(160%); -webkit-backdrop-filter: blur(20px) saturate(160%); box-shadow: 0 12px 28px rgb(48 107 159 / 12%), inset 0 1px 0 rgb(255 255 255 / 70%); font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), transform .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .4s var(--ease,cubic-bezier(.16, 1, .3, 1));text-decoration:none;color: #174c7b; background: linear-gradient(135deg, rgb(255 255 255 / 76%), rgb(230 244 244 / 55%), rgb(187 235 251 / 35%));}.ds-button-small {min-height: 44px; padding: 10px 17px; font-size: 12px;}.ds-button-small:hover {background: rgb(230 244 244 / 90%); box-shadow: 0 18px 38px rgb(48 107 159 / 15%), inset 0 1px 0 white;}.ds-button-small:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}.ds-button-small:active {transform:scale(.98);}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-button-small:hover:not(:active) {transform:translateY(-3px);}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-motion:reduce){.ds-button-small:active {transform:none;}}@media(prefers-reduced-transparency:reduce){.ds-button-small {background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}@supports not (backdrop-filter:blur(20px)){.ds-button-small {background:#f4f9fc;}}"
     },
     {
       "name": "Credential search",
       "kind": "input",
       "refersTo": "search-input",
-      "description": "White accessible credential field with a lavender border.",
-      "html": "<label for=\"ds-search\" class=\"ds-search-label\">Search credentials</label><input id=\"ds-search\" class=\"ds-search\" placeholder=\"Search credentials\">",
-      "css": ".ds-search-label{font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:block;color:var(--secondary,#566171);font-size:12px;margin-bottom:8px;}.ds-search{font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:48px;padding:12px 14px 12px 40px;border-radius:10px;color:var(--ink,#17181c);border:1px solid var(--line,#dfe7ee);background:white;font-size:14px;caret-color:var(--accent,#1765ad);}.ds-search::placeholder{color:var(--secondary,#566171);opacity:1;}.ds-search:focus-visible{outline:3px solid var(--accent,#1765ad);outline-offset:5px;}@media(max-width:900px){.ds-search{font-size:16px;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}"
+      "description": "White credential search with a cool border, blue caret and 16px mobile text.",
+      "html": "<div class=\"ds-search-field\"><svg viewBox=\"0 0 256 256\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" aria-hidden=\"true\"><circle cx=\"112\" cy=\"112\" r=\"80\"/><path d=\"m168 168 64 64\"/></svg><input class=\"ds-search\" type=\"search\" aria-label=\"Search credentials\" placeholder=\"Find a credential\"></div>",
+      "css": ".ds-search-field {position: relative; width: 240px; flex-shrink: 0;}.ds-search-field > svg {position: absolute; top: 15px; left: 14px; color: var(--secondary,#566171); pointer-events: none;}.ds-search {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;width: 100%; min-height: 48px; padding: 12px 14px 12px 40px; border-radius: 10px; color: var(--ink,#17181c); border: 1px solid var(--line,#dfe7ee); background: white; font-size: 14px; caret-color: var(--accent,#1765ad);}.ds-search::placeholder {color: var(--secondary,#566171); opacity: 1;}.ds-search:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}@media(max-width:1100px){.ds-search-field{width:100%;max-width:360px;}}@media(max-width:900px){.ds-search-field{max-width:none;}.ds-search{font-size:16px;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}"
     },
     {
       "name": "Category filters",
@@ -693,52 +862,60 @@
       "name": "Floating glass navigation",
       "kind": "nav",
       "refersTo": "navigation",
-      "description": "Frosted Portfolio. header and current-location anchors.",
-      "html": "<nav class=\"ds-nav\" aria-label=\"Preview navigation\"><span>Portfolio.</span><a href=\"#about\">About</a><a href=\"#background\" aria-current=\"location\">Experience</a></nav>",
-      "css": ".ds-nav {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; position: sticky; top: 12px; z-index: 10; width: min(1184px, calc(100% - 40px)); margin: 12px auto 0; border-radius: 20px; background: linear-gradient(135deg, rgb(255 255 255 / 72%), rgb(230 244 244 / 48%), rgb(255 255 255 / 62%)); border: 1px solid rgb(255 255 255 / 80%); box-shadow: var(--glass-shadow,0 14px 36px rgb(48 107 159 / 10%), 0 3px 10px rgb(48 107 159 / 4%)), inset 0 1px 0 rgb(255 255 255 / 85%); backdrop-filter: blur(28px) saturate(170%); -webkit-backdrop-filter: blur(28px) saturate(170%); position:relative;top:auto;width:auto;margin:0;display:flex;flex-wrap:wrap;align-items:center;gap:24px;padding:14px 24px;}.ds-nav>span { font-size: 18px; font-weight: 600; line-height: 1; letter-spacing: -.04em; }.ds-nav a { font-size: 13px; color: var(--secondary,#566171); display: grid; place-items: center; min-height: 40px; padding-inline: 13px; border-radius: 999px; transition: color .2s, background .2s; text-decoration:none;}.ds-nav a:hover { color: var(--accent-hover,#0c5296); background: rgb(255 255 255 / 55%); }.ds-nav a[aria-current] { color: var(--accent-hover,#0c5296); background: rgb(218 236 252 / 85%); box-shadow: inset 0 1px 0 rgb(255 255 255 / 85%); }.ds-nav a:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-transparency:reduce){.ds-nav{background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}"
+      "description": "Reserved sticky header, five anchors and résumé download; 74→62px desktop, 110→98px mobile.",
+      "html": "<div class=\"ds-header-anchor\"><header class=\"ds-site-header\"><div class=\"ds-nav-shell\"><a href=\"#overview\" class=\"ds-brand\" aria-label=\"Portfolio. Back to introduction\"><span class=\"ds-monogram\">Portfolio.</span></a><nav class=\"ds-main-nav\" aria-label=\"Preview main navigation\"><a href=\"#about\">About</a><a href=\"#background\" aria-current=\"location\">Experience</a><a href=\"#projects\">Projects</a><a href=\"#education\">Qualifications</a><a href=\"#contact\">Contact</a></nav><a class=\"ds-nav-resume\" href=\"/Chua-Jia-Sheng-Resume.pdf\" download>Résumé<svg viewBox=\"0 0 256 256\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M128 24v144m-48-48 48 48 48-48M40 168v48h176v-48\"/></svg></a></div></header></div>",
+      "css": ".ds-header-anchor {position: sticky; top: 12px; z-index: 10; width: min(1184px, calc(100% - 40px)); height: 74px; margin: 12px auto 0;}.ds-site-header {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;position: relative; width: 100%; border-radius: 999px; background: linear-gradient(135deg, rgb(255 255 255 / 72%), rgb(230 244 244 / 48%), rgb(255 255 255 / 62%)); border: 1px solid rgb(255 255 255 / 80%); box-shadow: var(--glass-shadow,0 14px 36px rgb(48 107 159 / 10%), 0 3px 10px rgb(48 107 159 / 4%)), inset 0 1px 0 rgb(255 255 255 / 85%); backdrop-filter: blur(28px) saturate(170%); -webkit-backdrop-filter: blur(28px) saturate(170%);}.ds-nav-shell {width: calc(100% - 48px); min-height: 72px; margin: auto; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 24px; transition: min-height .3s var(--ease,cubic-bezier(.16, 1, .3, 1)), padding .3s var(--ease,cubic-bezier(.16, 1, .3, 1));}.ds-is-compact .ds-nav-shell {min-height: 60px;}.ds-brand {width: fit-content; display: inline-flex; align-items: center; min-height: 44px;text-decoration:none;}.ds-monogram {font-size: 18px; font-weight: 600; line-height: 1; letter-spacing: -.04em;}.ds-main-nav {display: flex; align-items: center; gap: 4px;}.ds-main-nav a {font-size: 13px; color: var(--secondary,#566171); display: grid; place-items: center; min-height: 40px; padding-inline: 13px; border-radius: 999px; transition: color .2s, background .2s;text-decoration:none;}.ds-main-nav a:hover {color: var(--accent-hover,#0c5296); background: rgb(255 255 255 / 55%);}.ds-main-nav a[aria-current] {color: var(--accent-hover,#0c5296); background: rgb(218 236 252 / 85%); box-shadow: inset 0 1px 0 rgb(255 255 255 / 85%);}.ds-main-nav a:focus-visible,.ds-brand:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}.ds-nav-resume {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); backdrop-filter: blur(20px) saturate(160%); -webkit-backdrop-filter: blur(20px) saturate(160%); box-shadow: 0 12px 28px rgb(48 107 159 / 12%), inset 0 1px 0 rgb(255 255 255 / 70%); font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), transform .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .4s var(--ease,cubic-bezier(.16, 1, .3, 1));text-decoration:none;color: #174c7b; background: linear-gradient(135deg, rgb(255 255 255 / 76%), rgb(230 244 244 / 55%), rgb(187 235 251 / 35%));}.ds-nav-resume {min-height: 44px; padding: 10px 17px; font-size: 12px;}.ds-nav-resume:hover {background: rgb(230 244 244 / 90%); box-shadow: 0 18px 38px rgb(48 107 159 / 15%), inset 0 1px 0 white;}.ds-nav-resume:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}.ds-nav-resume:active {transform:scale(.98);}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-nav-resume:hover:not(:active) {transform:translateY(-3px);}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-motion:reduce){.ds-nav-resume:active {transform:none;}}@media(prefers-reduced-transparency:reduce){.ds-nav-resume {background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}@supports not (backdrop-filter:blur(20px)){.ds-nav-resume {background:#f4f9fc;}}.ds-nav-resume {justify-self:end;}@media(max-width:1100px){.ds-nav-shell{width:calc(100% - 40px);}}@media(max-width:900px){.ds-header-anchor{top:8px;margin-top:8px;width:calc(100% - 24px);height:110px;}.ds-site-header{border-radius:20px;}.ds-nav-shell{width:calc(100% - 24px);min-height:108px;grid-template-columns:1fr auto;gap:0 18px;padding:10px 0 3px;}.ds-is-compact .ds-nav-shell{min-height:96px;padding-block:4px;}.ds-brand{grid-column:1;grid-row:1;}.ds-nav-resume{grid-column:2;grid-row:1;}.ds-main-nav{grid-column:1/-1;grid-row:2;justify-content:space-between;gap:4px;}.ds-main-nav a{font-size:12px;min-width:44px;min-height:44px;padding-inline:4px;border-radius:8px;}}@media(max-width:540px){.ds-main-nav a{padding-inline:2px;}}@media(max-width:375px){.ds-main-nav{gap:0;}.ds-main-nav a{font-size:11px;}}@media(prefers-reduced-transparency:reduce){.ds-site-header{background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}"
     },
     {
-      "name": "Individual frosted skill chip",
+      "name": "Grouped frosted skills and flat Education",
       "kind": "chip",
       "refersTo": "skill-chip",
-      "description": "A static skill item under a flat category heading.",
-      "html": "<span class=\"ds-skill-chip\">Embedded Systems</span>",
-      "css": ".ds-skill-chip {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; position: relative; isolation: isolate; overflow: hidden; background: linear-gradient(135deg, rgb(255 255 255 / 78%), var(--glass-fill,rgb(255 255 255 / 62%)) 50%, rgb(230 244 244 / 55%)); border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); box-shadow: var(--glass-shadow,0 14px 36px rgb(48 107 159 / 10%), 0 3px 10px rgb(48 107 159 / 4%)), inset 0 1px 0 rgb(255 255 255 / 92%), inset 0 -1px 0 rgb(255 255 255 / 20%); backdrop-filter: blur(28px) saturate(170%); -webkit-backdrop-filter: blur(28px) saturate(170%);  max-width: 100%; padding: 9px 13px; border-radius: 16px; overflow-wrap: anywhere; color: #174c7b; transition: transform .5s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .5s var(--ease,cubic-bezier(.16, 1, .3, 1)); display:inline-block;font-size:13px;line-height:1.6;}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-skill-chip:hover{transform:translateY(-3px);}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-transparency:reduce){.ds-skill-chip{background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}"
+      "description": "Four flat categories hold the ten unchanged glass chips; Education has its own full-width heading and rows.",
+      "html": "<section class=\"ds-skills\"><h2>Skills.</h2><div class=\"ds-skill-groups\"><div class=\"ds-skill-group\"><h3>Embedded systems</h3><ul class=\"ds-skill-list\"><li class=\"ds-skill-chip\">IoT &amp; embedded systems</li><li class=\"ds-skill-chip\">Microcontroller integration</li><li class=\"ds-skill-chip\">Sensor fabrication</li></ul></div><div class=\"ds-skill-group\"><h3>Software & cloud</h3><ul class=\"ds-skill-list\"><li class=\"ds-skill-chip\">Software development</li><li class=\"ds-skill-chip\">Data analysis</li><li class=\"ds-skill-chip\">Cloud computing</li></ul></div><div class=\"ds-skill-group\"><h3>Communications</h3><ul class=\"ds-skill-list\"><li class=\"ds-skill-chip\">Telecommunications</li><li class=\"ds-skill-chip\">RF engineering</li></ul></div><div class=\"ds-skill-group\"><h3>Leadership & planning</h3><ul class=\"ds-skill-list\"><li class=\"ds-skill-chip\">Leadership</li><li class=\"ds-skill-chip\">Operational planning</li></ul></div></div><section class=\"ds-academic\"><h2>Education.</h2><article class=\"ds-education-row\"><p class=\"ds-school-date\">Aug 2026 - Aug 2030</p><div><h3>Nanyang Technological University</h3><p class=\"ds-school-qualification\">Bachelor of Engineering (Hons) in Computer Engineering</p><p class=\"ds-school-detail\">Undergraduate programme; expected completion 2030.</p></div></article></section></section>",
+      "css": ".ds-skills {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--ink,#17181c);}.ds-skills h2 {font-size: clamp(38px, 4.8vw, 64px); font-weight: 600; line-height: 1.08; letter-spacing: -.035em;margin:0 0 52px;}.ds-skill-groups {display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 28px 24px;}.ds-skill-group {min-width: 0;}.ds-skill-group h3 {font-size: 18px; line-height: 1.4; margin-bottom: 18px;font-weight:600;letter-spacing:-.02em;margin-top:0;}.ds-skill-list {list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; font-size: 13px; line-height: 1.6; color: var(--secondary,#566171);}.ds-skill-chip {position: relative; isolation: isolate; overflow: hidden; background: linear-gradient(135deg, rgb(255 255 255 / 78%), var(--glass-fill,rgb(255 255 255 / 62%)) 50%, rgb(230 244 244 / 55%)); border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); box-shadow: var(--glass-shadow,0 14px 36px rgb(48 107 159 / 10%), 0 3px 10px rgb(48 107 159 / 4%)), inset 0 1px 0 rgb(255 255 255 / 92%), inset 0 -1px 0 rgb(255 255 255 / 20%); backdrop-filter: blur(28px) saturate(170%); -webkit-backdrop-filter: blur(28px) saturate(170%);max-width: 100%; padding: 9px 13px; border-radius: 16px; overflow-wrap: anywhere; color: #174c7b; transition: transform .3s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .3s var(--ease,cubic-bezier(.16, 1, .3, 1));}.ds-skill-chip::before {content: ''; position: absolute; z-index: -1; inset: -20px; pointer-events: none; background: linear-gradient(135deg, rgb(255 255 255 / 40%), transparent 48%), radial-gradient(ellipse at 95% 5%, rgb(187 235 251 / 24%), transparent 58%), radial-gradient(ellipse at 5% 100%, rgb(122 180 249 / 15%), transparent 56%); transform: translate(var(--reflection-x, 0px), var(--reflection-y, 0px)); transition: transform .3s var(--ease,cubic-bezier(.16, 1, .3, 1));}.ds-academic {padding-top:112px;}.ds-education-row {display: grid; grid-template-columns: 168px minmax(0,1fr); gap: 32px;}.ds-school-date {color: var(--secondary,#566171); font-size: 12px; line-height: 1.7; font-variant-numeric: tabular-nums; padding-top: 5px;margin:0;}.ds-education-row h3 {font-size: 24px; line-height: 1.4;font-weight:600;letter-spacing:-.02em;margin:0;}.ds-school-qualification {margin-top: 8px; font-size: 16px; line-height: 1.6; color: var(--secondary,#566171);}.ds-school-detail {margin-top: 10px; font-size: 13px; line-height: 1.65; color: var(--secondary,#566171);}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-skill-chip:hover{transform:translateY(-3px);}}@media(max-width:1100px){.ds-skill-groups{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;}}@media(max-width:900px){.ds-skill-list{font-size:14px;}.ds-education-row{grid-template-columns:1fr;gap:12px;}.ds-education-row h3{font-size:21px;}.ds-school-qualification{font-size:15px;}.ds-skills h2{margin-bottom:34px;}}@media(max-width:540px){.ds-skill-chip{padding:9px 11px;}.ds-skill-group h3{font-size:16px;}.ds-skill-list{font-size:13px;}}@media(max-width:375px){.ds-skill-groups{grid-template-columns:1fr;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-transparency:reduce){.ds-skill-chip{background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}.ds-skill-chip::before{display:none;}}"
     },
     {
       "name": "Frosted hero content panel",
       "kind": "card",
       "refersTo": "hero-panel",
-      "description": "Spacious blue-led showcase panel; one name on the real page.",
-      "html": "<section class=\"ds-hero\"><h1>Chua Jia Sheng.</h1><p>Digital &amp; Intelligence<br>Systems Engineer.</p></section>",
-      "css": ".ds-hero {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; position: relative; isolation: isolate; overflow: hidden; background: linear-gradient(135deg, rgb(255 255 255 / 78%), var(--glass-fill,rgb(255 255 255 / 62%)) 50%, rgb(230 244 244 / 55%)); border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); box-shadow: var(--glass-shadow,0 14px 36px rgb(48 107 159 / 10%), 0 3px 10px rgb(48 107 159 / 4%)), inset 0 1px 0 rgb(255 255 255 / 92%), inset 0 -1px 0 rgb(255 255 255 / 20%); backdrop-filter: blur(28px) saturate(170%); -webkit-backdrop-filter: blur(28px) saturate(170%);  max-width: none; padding: 50px 58px; border-radius: 24px; box-shadow: var(--glass-shadow-deep,0 24px 64px rgb(48 107 159 / 14%), 0 6px 18px rgb(48 107 159 / 6%)), inset 0 1px 0 white; }.ds-hero h1 { font-size: clamp(48px, 5.7vw, 80px); font-weight: 600; letter-spacing: -.04em; line-height: 1.12; margin:0;}.ds-hero p { margin-top: 27px; font-size: clamp(29px, 3.3vw, 46px); font-weight: 500; letter-spacing: -.03em; line-height: 1.16; color: var(--ink,#17181c); color:var(--accent,#1765ad);}@media(max-width:900px){.ds-hero{padding:36px;border-radius:24px;}.ds-hero h1{font-size:clamp(43px,8vw,64px);}}@media(max-width:540px){.ds-hero{padding:28px 24px;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-transparency:reduce){.ds-hero{background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}"
+      "description": "96px-cap name, masked entrance, staged role/copy/actions and unchanged blue glass.",
+      "html": "<section class=\"ds-hero\"><h1 class=\"ds-name-mask\"><span class=\"ds-hero-name\">Chua Jia Sheng<span class=\"ds-name-period\">.</span></span></h1><p class=\"ds-hero-role\"><span>Digital &amp; Intelligence</span><br>Systems Engineer.</p><p class=\"ds-hero-description\">Computer Engineering undergraduate at NTU.<br>A foundation in electronics. A focus on digital systems.</p><div class=\"ds-hero-actions\"><a class=\"ds-hero-primary\" href=\"#background\">Explore experience<svg viewBox=\"0 0 256 256\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M40 128h176M144 56l72 72-72 72\"/></svg></a><a class=\"ds-hero-secondary\" href=\"#contact\">Get in touch<svg viewBox=\"0 0 256 256\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M64 192 192 64M64 64h128v128\"/></svg></a></div></section>",
+      "css": ".ds-hero {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;position: relative; isolation: isolate; overflow: hidden; background: linear-gradient(135deg, rgb(255 255 255 / 78%), var(--glass-fill,rgb(255 255 255 / 62%)) 50%, rgb(230 244 244 / 55%)); border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); box-shadow: var(--glass-shadow,0 14px 36px rgb(48 107 159 / 10%), 0 3px 10px rgb(48 107 159 / 4%)), inset 0 1px 0 rgb(255 255 255 / 92%), inset 0 -1px 0 rgb(255 255 255 / 20%); backdrop-filter: blur(28px) saturate(170%); -webkit-backdrop-filter: blur(28px) saturate(170%);transform: perspective(1400px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)); transition: transform .3s var(--ease,cubic-bezier(.16, 1, .3, 1));max-width: none; padding: 50px 58px; border-radius: 24px; box-shadow: var(--glass-shadow-deep,0 24px 64px rgb(48 107 159 / 14%), 0 6px 18px rgb(48 107 159 / 6%)), inset 0 1px 0 white;color:var(--ink,#17181c);}.ds-hero::before {content: ''; position: absolute; z-index: -1; inset: -20px; pointer-events: none; background: linear-gradient(135deg, rgb(255 255 255 / 40%), transparent 48%), radial-gradient(ellipse at 95% 5%, rgb(187 235 251 / 24%), transparent 58%), radial-gradient(ellipse at 5% 100%, rgb(122 180 249 / 15%), transparent 56%); transform: translate(var(--reflection-x, 0px), var(--reflection-y, 0px)); transition: transform .3s var(--ease,cubic-bezier(.16, 1, .3, 1));}.ds-hero > * {position:relative;}.ds-name-mask {font-size: clamp(48px, 6.7vw, 96px); font-weight: 600; letter-spacing: -.04em; line-height: 1.12;overflow: hidden; padding-bottom: .04em;margin:0;}.ds-hero-name {display: block;}.ds-name-period {color:var(--accent,#1765ad);}.ds-hero-role {margin-top: 27px; font-size: clamp(29px, 3.3vw, 46px); font-weight: 500; letter-spacing: -.03em; line-height: 1.16; color: var(--ink,#17181c);margin-bottom:0;}.ds-hero-role > span {color:var(--accent,#1765ad);}.ds-hero-description {margin-top: 25px; font-size: 18px; line-height: 1.65; color: var(--secondary,#566171); max-width: 55ch;margin-bottom:0;}.ds-hero-actions {display: flex; align-items: center; flex-wrap: wrap; gap: 24px; margin-top: 31px;}.ds-hero-primary {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); backdrop-filter: blur(20px) saturate(160%); -webkit-backdrop-filter: blur(20px) saturate(160%); box-shadow: 0 12px 28px rgb(48 107 159 / 12%), inset 0 1px 0 rgb(255 255 255 / 70%); font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), transform .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .4s var(--ease,cubic-bezier(.16, 1, .3, 1));text-decoration:none;background: linear-gradient(135deg, #1473cf, #0764bb); color: white; border-color: rgb(255 255 255 / 45%);}.ds-hero-primary:hover {background: linear-gradient(135deg, #0868c1, #0055a4); box-shadow: 0 18px 38px rgb(48 107 159 / 17%), inset 0 1px 0 white;}.ds-hero-primary:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}.ds-hero-primary:active {transform:scale(.98);}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-hero-primary:hover:not(:active) {transform:translateY(-3px);}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-motion:reduce){.ds-hero-primary:active {transform:none;}}@media(prefers-reduced-transparency:reduce){.ds-hero-primary {background:#0764bb;color:white;backdrop-filter:none;-webkit-backdrop-filter:none;}}@supports not (backdrop-filter:blur(20px)){.ds-hero-primary {background:#0764bb;color:white;}}.ds-hero-secondary {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); backdrop-filter: blur(20px) saturate(160%); -webkit-backdrop-filter: blur(20px) saturate(160%); box-shadow: 0 12px 28px rgb(48 107 159 / 12%), inset 0 1px 0 rgb(255 255 255 / 70%); font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), transform .4s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .4s var(--ease,cubic-bezier(.16, 1, .3, 1));text-decoration:none;color: #174c7b; background: linear-gradient(135deg, rgb(255 255 255 / 76%), rgb(230 244 244 / 55%), rgb(187 235 251 / 35%));}.ds-hero-secondary:hover {background: rgb(230 244 244 / 90%); box-shadow: 0 18px 38px rgb(48 107 159 / 15%), inset 0 1px 0 white;}.ds-hero-secondary:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}.ds-hero-secondary:active {transform:scale(.98);}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-hero-secondary:hover:not(:active) {transform:translateY(-3px);}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-motion:reduce){.ds-hero-secondary:active {transform:none;}}@media(prefers-reduced-transparency:reduce){.ds-hero-secondary {background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}@supports not (backdrop-filter:blur(20px)){.ds-hero-secondary {background:#f4f9fc;}}@media(prefers-reduced-motion:no-preference){.ds-hero-name{animation:ds-name-reveal .7s .12s var(--ease,cubic-bezier(.16, 1, .3, 1)) both;}.ds-hero-role{animation:ds-hero-enter .6s .23s var(--ease,cubic-bezier(.16, 1, .3, 1)) both;}.ds-hero-description{animation:ds-hero-enter .6s .34s var(--ease,cubic-bezier(.16, 1, .3, 1)) both;}.ds-hero-actions > a{animation:ds-hero-enter .6s .43s var(--ease,cubic-bezier(.16, 1, .3, 1)) backwards;}.ds-hero-actions > a + a{animation-delay:.48s;}@keyframes ds-name-reveal{from{opacity:0;transform:translateY(105%);}to{opacity:1;transform:translateY(0);}}@keyframes ds-hero-enter{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}}@media(max-width:900px){.ds-hero{padding:36px;}.ds-name-mask{font-size:clamp(43px,8vw,64px);}.ds-hero-role{font-size:clamp(28px,4.5vw,36px);margin-top:24px;}.ds-hero-description{font-size:16px;margin-top:22px;}.ds-hero-actions{margin-top:28px;gap:16px 22px;}}@media(max-width:540px){.ds-hero{padding:28px 24px;}.ds-name-mask{max-width:9ch;}.ds-hero-role{max-width:16ch;}.ds-hero-primary,.ds-hero-secondary{padding-inline:19px;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-motion:reduce){.ds-hero{transform:none;}}@media(prefers-reduced-transparency:reduce){.ds-hero{background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}.ds-hero::before{display:none;}}"
     },
     {
       "name": "Luminous glass contact panel",
       "kind": "card",
       "refersTo": "contact-panel",
-      "description": "Closing glass panel with the existing LinkedIn action.",
-      "html": "<section class=\"ds-contact\"><h2>Let’s connect.</h2><p>Connect on LinkedIn.</p><a href=\"https://www.linkedin.com/in/chua-jia-sheng/\">linkedin.com/in/chua-jia-sheng</a></section>",
-      "css": ".ds-contact {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; position: relative; isolation: isolate; overflow: hidden; background: linear-gradient(135deg, rgb(255 255 255 / 78%), var(--glass-fill,rgb(255 255 255 / 62%)) 50%, rgb(230 244 244 / 55%)); border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); box-shadow: var(--glass-shadow,0 14px 36px rgb(48 107 159 / 10%), 0 3px 10px rgb(48 107 159 / 4%)), inset 0 1px 0 rgb(255 255 255 / 92%), inset 0 -1px 0 rgb(255 255 255 / 20%); backdrop-filter: blur(28px) saturate(170%); -webkit-backdrop-filter: blur(28px) saturate(170%);  box-shadow: var(--glass-shadow-deep,0 24px 64px rgb(48 107 159 / 14%), 0 6px 18px rgb(48 107 159 / 6%)), inset 0 1px 0 white; border-radius: 24px; padding: 56px; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; display:block;color:var(--ink,#17181c);}.ds-contact h2 { font-size: clamp(42px, 5vw, 64px); letter-spacing: -.035em; margin:0;font-weight:600;line-height:1.13;}.ds-contact p { font-size: 15px; color: var(--secondary,#566171); margin:16px 0 0;}.ds-contact a { max-width: 100%; padding: 13px 18px; border-radius: 999px; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); background: linear-gradient(135deg, rgb(255 255 255 / 78%), rgb(187 235 251 / 48%)); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--glass-shadow,0 14px 36px rgb(48 107 159 / 10%), 0 3px 10px rgb(48 107 159 / 4%)), inset 0 1px 0 white; color: #174c7b; font-size: 14px; gap: 10px; margin-top: 16px; transition: transform .5s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .5s var(--ease,cubic-bezier(.16, 1, .3, 1)); display:inline-flex;text-decoration:none;overflow-wrap:anywhere;}.ds-contact a:hover{text-decoration:underline;text-underline-offset:5px;}.ds-contact a:focus-visible{outline:3px solid var(--accent,#1765ad);outline-offset:5px;}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-contact a:hover{transform:translateY(-3px);}}@media(max-width:540px){.ds-contact{padding:28px 24px;}.ds-contact a{font-size:12px;padding:12px;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-transparency:reduce){.ds-contact,.ds-contact a{background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}"
+      "description": "80px-cap Contact heading, two-column glass close and the existing LinkedIn action.",
+      "html": "<section class=\"ds-contact\"><div class=\"ds-contact-intro\"><h2>Contact.</h2><p>Let’s connect.</p></div><div class=\"ds-contact-details\"><p>Connect through LinkedIn.</p><a href=\"https://www.linkedin.com/in/chua-jia-sheng/\" target=\"_blank\" rel=\"noopener noreferrer\">linkedin.com/in/chua-jia-sheng<svg viewBox=\"0 0 256 256\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M64 192 192 64M64 64h128v128\"/></svg></a></div></section>",
+      "css": ".ds-contact {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;position: relative; isolation: isolate; overflow: hidden; background: linear-gradient(135deg, rgb(255 255 255 / 78%), var(--glass-fill,rgb(255 255 255 / 62%)) 50%, rgb(230 244 244 / 55%)); border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); box-shadow: var(--glass-shadow,0 14px 36px rgb(48 107 159 / 10%), 0 3px 10px rgb(48 107 159 / 4%)), inset 0 1px 0 rgb(255 255 255 / 92%), inset 0 -1px 0 rgb(255 255 255 / 20%); backdrop-filter: blur(28px) saturate(170%); -webkit-backdrop-filter: blur(28px) saturate(170%);transform: perspective(1400px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)); transition: transform .3s var(--ease,cubic-bezier(.16, 1, .3, 1));box-shadow: var(--glass-shadow-deep,0 24px 64px rgb(48 107 159 / 14%), 0 6px 18px rgb(48 107 159 / 6%)), inset 0 1px 0 white; border-radius: 24px; padding: 56px; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;color:var(--ink,#17181c);}.ds-contact::before {content: ''; position: absolute; z-index: -1; inset: -20px; pointer-events: none; background: linear-gradient(135deg, rgb(255 255 255 / 40%), transparent 48%), radial-gradient(ellipse at 95% 5%, rgb(187 235 251 / 24%), transparent 58%), radial-gradient(ellipse at 5% 100%, rgb(122 180 249 / 15%), transparent 56%); transform: translate(var(--reflection-x, 0px), var(--reflection-y, 0px)); transition: transform .3s var(--ease,cubic-bezier(.16, 1, .3, 1));}.ds-contact > * {position:relative;}.ds-contact h2 {font-size: clamp(38px, 4.8vw, 64px); font-weight: 600; line-height: 1.08; letter-spacing: -.035em;font-size: clamp(48px, 5.8vw, 80px); letter-spacing: -.035em;margin:0;}.ds-contact-intro > p {margin-top: 20px; font-size: 28px; line-height: 1.25; letter-spacing: -.025em;}.ds-contact-details > p {font-size: 15px; color: var(--secondary,#566171);margin:0;}.ds-contact a {display: inline-flex; align-items: center; gap: 10px; min-height: 44px; color: var(--accent,#1765ad); font-size: 14px; line-height: 1.5;max-width: 100%; padding: 13px 18px; border-radius: 999px; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); background: linear-gradient(135deg, rgb(255 255 255 / 78%), rgb(187 235 251 / 48%)); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--glass-shadow,0 14px 36px rgb(48 107 159 / 10%), 0 3px 10px rgb(48 107 159 / 4%)), inset 0 1px 0 white; color: #174c7b; font-size: 14px; gap: 10px; margin-top: 16px; transition: transform .5s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .5s var(--ease,cubic-bezier(.16, 1, .3, 1));text-decoration:none;}.ds-contact a:hover {text-decoration:underline;text-underline-offset:5px;}.ds-contact a:focus-visible {outline:3px solid var(--accent,#1765ad);outline-offset:5px;}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-contact a:hover{transform:translateY(-3px);}}@media(max-width:900px){.ds-contact{padding:36px;gap:28px;grid-template-columns:1fr;}.ds-contact a{font-size:16px;gap:9px;}}@media(max-width:540px){.ds-contact{padding:28px 24px;}.ds-contact-intro > p{font-size:20px;}.ds-contact a{font-size:12px;padding:12px;overflow-wrap:anywhere;gap:8px;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-motion:reduce){.ds-contact{transform:none;}}@media(prefers-reduced-transparency:reduce){.ds-contact,.ds-contact a{background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}.ds-contact::before{display:none;}}"
     },
     {
       "name": "Frosted project placeholder",
       "kind": "custom",
       "refersTo": "project-preview",
-      "description": "Abstract project material with a full-width glass caption.",
+      "description": "Frosted placeholder with full-width caption, bounded reflection and 4px eligible hover lift.",
       "html": "<article class=\"ds-project\"><span class=\"ds-project-form\" aria-hidden=\"true\"></span><div class=\"ds-caption\"><h3>Coming soon.</h3><p>Project preview placeholder.</p></div></article>",
-      "css": ".ds-project {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); backdrop-filter: blur(24px) saturate(170%); -webkit-backdrop-filter: blur(24px) saturate(170%); box-shadow: var(--glass-shadow-deep,0 24px 64px rgb(48 107 159 / 14%), 0 6px 18px rgb(48 107 159 / 6%)), inset 0 1px 0 white; border-radius: 24px; position: relative; flex: 0 0 var(--project-width); width: var(--project-width); aspect-ratio: 16 / 9; overflow: hidden; opacity: .55; transition: opacity .45s var(--ease,cubic-bezier(.16, 1, .3, 1));  background: linear-gradient(125deg, rgb(255 255 255 / 65%), rgb(122 180 249 / 35%) 60%, rgb(187 235 251 / 46%)); color: #174c7b; opacity:1;width:auto;}.ds-project-form { width: 44%; aspect-ratio: 1; right: 14%; top: 8%; border-radius: 16px; background: rgb(62 146 230 / 62%); transform: rotate(-13deg); box-shadow: 12px 28px 60px rgb(48 107 159 / 18%); position:absolute;}.ds-caption { position: absolute; left: 0; right: 0; bottom: 0; padding: 30px 42px; background: linear-gradient(135deg, rgb(255 255 255 / 75%), rgb(230 244 244 / 60%)); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); border-top: 1px solid rgb(255 255 255 / 75%); opacity: 0; transform: translateY(12px); transition: opacity .4s .06s var(--ease,cubic-bezier(.16, 1, .3, 1)), transform .4s .06s var(--ease,cubic-bezier(.16, 1, .3, 1)); opacity:1;transform:none;}.ds-caption h3 { font-size: clamp(30px, 4vw, 48px); line-height: 1.1; margin:0;font-weight:600;letter-spacing:-.02em;}.ds-caption p { display: block; margin-top: 12px; font-size: 15px; line-height: 1.6; margin:12px 0 0;}@media(max-width:540px){.ds-project{aspect-ratio:6/5;}.ds-caption{padding:20px 22px;}.ds-caption p{font-size:12px;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-transparency:reduce){.ds-project,.ds-caption{background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}"
+      "css": ".ds-project {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; border: 1px solid var(--glass-edge,rgb(255 255 255 / 80%)); backdrop-filter: blur(24px) saturate(170%); -webkit-backdrop-filter: blur(24px) saturate(170%); box-shadow: var(--glass-shadow-deep,0 24px 64px rgb(48 107 159 / 14%), 0 6px 18px rgb(48 107 159 / 6%)), inset 0 1px 0 white; border-radius: 24px; position: relative; flex: 0 0 var(--project-width); width: var(--project-width); aspect-ratio: 16 / 9; overflow: hidden; opacity: .55; transition: opacity .45s var(--ease,cubic-bezier(.16, 1, .3, 1)), transform .3s var(--ease,cubic-bezier(.16, 1, .3, 1)), box-shadow .3s var(--ease,cubic-bezier(.16, 1, .3, 1));  background: linear-gradient(125deg, rgb(255 255 255 / 65%), rgb(122 180 249 / 35%) 60%, rgb(187 235 251 / 46%)); color: #174c7b; opacity:1;width:auto;}.ds-project-form { width: 44%; aspect-ratio: 1; right: 14%; top: 8%; border-radius: 16px; background: rgb(62 146 230 / 62%); transform: rotate(-13deg); box-shadow: 12px 28px 60px rgb(48 107 159 / 18%); position:absolute;}.ds-caption { position: absolute; left: 0; right: 0; bottom: 0; padding: 30px 42px; background: linear-gradient(135deg, rgb(255 255 255 / 75%), rgb(230 244 244 / 60%)); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); border-top: 1px solid rgb(255 255 255 / 75%); opacity: 0; transform: translateY(12px); transition: opacity .4s .06s var(--ease,cubic-bezier(.16, 1, .3, 1)), transform .4s .06s var(--ease,cubic-bezier(.16, 1, .3, 1)); opacity:1;transform:none;}.ds-caption h3 { font-size: clamp(30px, 4vw, 48px); line-height: 1.1; margin:0;font-weight:600;letter-spacing:-.02em;}.ds-caption p { display: block; margin-top: 12px; font-size: 15px; line-height: 1.6; margin:12px 0 0;}@media(max-width:540px){.ds-project{aspect-ratio:6/5;}.ds-caption{padding:20px 22px;}.ds-caption p{font-size:12px;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-transparency:reduce){.ds-project,.ds-caption{background:#f4f9fc;backdrop-filter:none;-webkit-backdrop-filter:none;}}.ds-project::after {content: ''; position: absolute; inset: -20px; pointer-events: none; background: radial-gradient(ellipse at 25% 5%, rgb(255 255 255 / 42%), transparent 55%); opacity: 0; transform: translate(var(--reflection-x, 0px), var(--reflection-y, 0px)); transition: transform .3s var(--ease,cubic-bezier(.16, 1, .3, 1)), opacity .3s var(--ease,cubic-bezier(.16, 1, .3, 1));}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-project:hover{transform:translateY(-4px);box-shadow:0 30px 72px rgb(48 107 159 / 18%),0 8px 22px rgb(48 107 159 / 7%),inset 0 1px 0 white;}.ds-project:hover::after{opacity:1;}}"
+    },
+    {
+      "name": "Editorial About statement",
+      "kind": "custom",
+      "refersTo": "editorial-statement",
+      "description": "Two-line masked research-to-practice statement, bounded scroll entrance and two still factual columns.",
+      "html": "<section class=\"ds-about\"><h2>About.</h2><div class=\"ds-about-story\"><p class=\"ds-editorial-statement\"><span class=\"ds-statement-line\"><span>Engineering, from research</span></span><span class=\"ds-statement-line\"><span>to practice.</span></span></p></div><div class=\"ds-about-copy\"><p class=\"ds-lead\">A background in electronic and computer engineering, with hands-on work in sensor fabrication and microcontroller integration.</p><p>Experience spans university research, national service and digital systems training. Technical interests include embedded systems, software development, cloud computing and communications.</p></div></section>",
+      "css": ".ds-about {font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--ink,#17181c);}.ds-about h2 {font-size: clamp(38px, 4.8vw, 64px); font-weight: 600; line-height: 1.08; letter-spacing: -.035em;margin:0;}.ds-about-story {margin: 44px 0 40px; transform-origin: left center;}.ds-editorial-statement {max-width: 25ch; font-size: clamp(40px, 5.5vw, 76px); font-weight: 600; line-height: 1.1; letter-spacing: -.04em; text-wrap: balance;margin:0;}.ds-statement-line {display: block; overflow: hidden; padding-bottom: .08em;}.ds-statement-line > span {display: block;}.ds-about-copy {display: grid; grid-template-columns: 1fr 1fr; gap: 52px; max-width: none;}.ds-about-copy p {margin:0;text-wrap:pretty;}.ds-about-copy .ds-lead {font-size: 21px; line-height: 1.55; letter-spacing: -.02em;}.ds-about-copy > p + p {font-size: 17px; line-height: 1.75; color: var(--secondary,#566171);}@media(prefers-reduced-motion:no-preference){.ds-about-story{transform:scale(calc(.97 + .03 * var(--scene-progress,1)));}.ds-motion-ready .ds-statement-line > span{transform:translateY(110%);transition:transform .75s var(--ease,cubic-bezier(.16, 1, .3, 1));}.ds-motion-ready .ds-statement-line + .ds-statement-line > span{transition-delay:.08s;}.ds-motion-ready.ds-is-visible .ds-statement-line > span,.ds-editorial-statement:focus-within .ds-statement-line > span{transform:none;}}@media(max-width:1100px){.ds-about-copy{gap:40px;}}@media(max-width:900px){.ds-about-copy{grid-template-columns:1fr;gap:20px;}.ds-about-story{margin-block:32px;}.ds-editorial-statement{font-size:clamp(38px,6vw,58px);}.ds-about-copy > p + p{font-size:16px;}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;}}@media(prefers-reduced-motion:reduce){.ds-about-story,.ds-statement-line > span{transform:none!important;}}"
     }
   ],
   "narrative": {
     "northStar": "A clear engineering record in blue light.",
-    "overview": "The portfolio combines Apple-inspired editorial clarity with bright white frosted glass and blue-cyan light. The latest approved direction gives white space, charcoal typography and clear blue actions more prominence. Cyan and mint soften the atmosphere, a faint lavender glow remains at the hero edge, and lighter offset blue shadows keep the glass visible without dominating the professional record. The established self-hosted Geist family supplies the whole hierarchy.\n\nThe hero content, floating header, secondary CTA, project surfaces and caption bands, ten individual skill chips and contact panel carry the material. The primary CTA has a clear blue gradient with white lettering. Skill category groups, experience, education and credential rows remain flat. Responsibilities and all matching credentials stay visible without disclosure steps.",
+    "overview": "The portfolio combines Apple-inspired editorial hierarchy with bright white frosted glass and blue-cyan light. Large, tightly tracked Geist headings establish pace; open charcoal reading rows keep the professional record legible. Cyan, mint and faint lavender soften the established blue atmosphere without changing its material values.\n\nA quick staged hero reveal leads into a large research-to-practice statement, a flat timeline, immersive project placeholders, full-width grouped skills, separate academic rows and a luminous contact close. Motion is selective and bounded: factual paragraphs stay still, navigation contracts with scroll direction, and decorative loops pause outside the hero or when the document is hidden.",
     "keyCharacteristics": [
-      "Blue and cyan lead the atmosphere, with mint and a faint lavender accent on white.",
-      "Self-hosted Geist at 400, 500 and 600 with restrained tracking.",
-      "Bright white frosted glass, clear blue actions and restrained blue depth around selected surfaces.",
-      "One visible hero name, a discreet Portfolio. navigation label and explicitly labelled project placeholders.",
-      "Flat factual reading rows, grouped skill chips and preference-aware motion and transparency."
+      "Established blue/cyan light, mint support and a faint lavender accent on white.",
+      "Self-hosted Geist at 400, 500 and 600, with editorial scale and tracking no tighter than −.04em.",
+      "Bright frosted glass, clear blue actions and restrained blue depth on selected surfaces.",
+      "One visible hero name, a discreet Portfolio. navigation label and explicit project placeholders.",
+      "Flat factual rows, four skill groups, separate Education and preference-aware motion."
     ],
     "rules": [
       {
@@ -764,18 +941,18 @@
     ],
     "dos": [
       "**Do** keep the full visible name in the hero and use Portfolio. as the navigation label.",
-      "**Do** keep blue light visibly present, with cyan and mint supporting it and solid dark reading text.",
-      "**Do** retain the Geist hierarchy, full responsibilities, four flat skill groups and ten glass chips.",
-      "**Do** keep project placeholders explicitly labelled and preserve the authorised one-panel rail.",
-      "**Do** retain visible focus, named search, live counts and usable anchor navigation at every breakpoint.",
-      "**Do** keep reveals visible under reduced motion and print all 17 credentials independently of screen filters."
+      "**Do** preserve the established blue light, bright glass, cyan/mint support and dark reading text.",
+      "**Do** retain the editorial Geist hierarchy, complete responsibilities, four flat skill groups and separate Education.",
+      "**Do** keep project placeholders explicit and preserve the authorised one-panel rail.",
+      "**Do** retain visible focus, named search, live counts and usable anchors at every breakpoint.",
+      "**Do** keep reveals visible under reduced motion and print all 17 credentials independently of filters."
     ],
     "donts": [
-      "**Don't** turn every section into a glass card or nest the skill chips inside glass category cards.",
-      "**Don't** use saturated ambient colour for small reading text or add decorative button states to static skills.",
-      "**Don't** hide responsibilities inside disclosures or credentials behind show-more controls.",
-      "**Don't** invent project names, clients, results or professional claims from placeholder artwork.",
-      "**Don't** make motion, blur or pointer hover a prerequisite for reading or interacting with the page."
+      "**Don't** turn factual sections into glass cards or nest chips inside glass category cards.",
+      "**Don't** use saturated ambient colour for small reading text or give static skills button semantics.",
+      "**Don't** hide responsibilities in disclosures or credentials behind show-more controls.",
+      "**Don't** invent project names, clients, results or claims from placeholder artwork.",
+      "**Don't** make motion, blur or hover a prerequisite for reading or interacting."
     ]
   }
 }
