@@ -83,7 +83,7 @@ function Header() {
 function Hero() {
   return <section className="overview section-shell" id="overview" tabIndex={-1} aria-labelledby="hero-title">
     <div className="hero-atmosphere" aria-hidden="true"><span className="ambient-light" /><span className="glass-layer layer-back" /><span className="glass-layer layer-front" /></div>
-    <div className="hero-intro"><h1 id="hero-title">{profile.name}<span aria-hidden="true">.</span></h1><p className="hero-role"><span className="hero-accent">Digital & Intelligence</span><br className="desktop-break" /> Systems Engineer.</p><p className="hero-description">Computer Engineering undergraduate at NTU.<br className="desktop-break" /> A foundation in electronics. A focus on digital systems.</p><div className="hero-actions"><a href="#background" className="button button-primary">Explore experience <ArrowRight size={18} aria-hidden="true" /></a><a href="#contact" className="text-link">Get in touch <ArrowUpRight size={18} aria-hidden="true" /></a></div></div>
+    <div className="hero-intro glass-surface" onPointerMove={moveGlassHighlight} onPointerLeave={resetGlassHighlight}><h1 id="hero-title">{profile.name}<span aria-hidden="true">.</span></h1><p className="hero-role"><span className="hero-accent">Digital & Intelligence</span><br className="desktop-break" /> Systems Engineer.</p><p className="hero-description">Computer Engineering undergraduate at NTU.<br className="desktop-break" /> A foundation in electronics. A focus on digital systems.</p><div className="hero-actions"><a href="#background" className="button button-primary">Explore experience <ArrowRight size={18} aria-hidden="true" /></a><a href="#contact" className="button button-secondary">Get in touch <ArrowUpRight size={18} aria-hidden="true" /></a></div></div>
     <div className="hero-note"><span>Engineering & digital technology</span><span><MapPin size={14} aria-hidden="true" />{profile.location}</span></div>
   </section>;
 }
@@ -130,7 +130,7 @@ function Education() {
   return <div className="education-overview">
     <div className="section-heading"><h2 id="education-title" data-reveal>Skills & education.</h2><p>A foundation in electronic and computer engineering.</p></div>
     <div className="qualification-layout">
-      <div className="skills-block"><h3>Skills.</h3><div className="skill-groups">{skillGroups.map(group => <div className="skill-group glass-surface" key={group.title} onPointerMove={moveGlassHighlight} onPointerLeave={resetGlassHighlight}><h4>{group.title}</h4><ul className="skill-list">{group.skills.map(skill => <li key={skill}>{skill}</li>)}</ul></div>)}</div></div>
+      <div className="skills-block"><h3>Skills.</h3><div className="skill-groups">{skillGroups.map(group => <div className="skill-group" key={group.title}><h4>{group.title}</h4><ul className="skill-list">{group.skills.map(skill => <li className="skill-chip glass-surface" key={skill} onPointerMove={moveGlassHighlight} onPointerLeave={resetGlassHighlight}>{skill}</li>)}</ul></div>)}</div></div>
       <div className="education-block"><h3>Education.</h3><div className="education-list">{profile.education.map(school => <article className="education-row" key={school.institution} data-reveal><p className="school-date">{school.period}</p><h4>{school.institution}</h4><p className="school-qualification">{school.qualification}</p>{school.detail && <p className="school-detail">{school.detail}</p>}</article>)}</div></div>
     </div>
   </div>;

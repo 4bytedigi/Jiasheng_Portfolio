@@ -1,12 +1,13 @@
 @media print {
   @page { size: A4; margin: 16mm; }
   :root { color: #1d1d1f; background: white; }
-  body { font-size: 10pt; }
+  body { font-size: 10pt; background: white; }
   .site-header, .hero-atmosphere, .skip-link, .hero-actions, .hero-note, .projects, .credential-tools, .result-count, .credential-list, .empty-state, .site-footer { display: none !important; }
   .print-only { display: block !important; }
   .section-shell { width: 100%; }
   .section-space, .overview { padding: 18px 0 !important; }
   [data-reveal], .hero-intro h1, .hero-role, .hero-description { opacity: 1 !important; transform: none !important; animation: none !important; transition: none !important; }
+  .hero-intro { padding: 0; border: 0; border-radius: 0; box-shadow: none; }
   .hero-intro h1 { font-size: 30pt !important; max-width: none; }
   .hero-role { font-size: 14pt !important; margin-top: 12px; }
   .hero-description { margin-top: 10px; }
@@ -36,11 +37,13 @@
   .award-row { min-height: 0; padding: 0; }
   .award-icon { display: none; }
   .contact { padding-bottom: 0 !important; }
-  .glass-surface { background: white; box-shadow: none; backdrop-filter: none; overflow: visible; }
+  .glass-surface { background: white; border: 0; box-shadow: none; backdrop-filter: none; overflow: visible; }
   .glass-surface::before, .contact::before, .skills-block::before { display: none; }
   .skill-groups { display: block; }
   .skill-group { padding: 10px 0; break-inside: avoid; }
   .skill-group h4 { margin-bottom: 5px; }
+  .skill-chip { padding: 0; border-radius: 0; font-size: 10pt; color: inherit; }
+  .contact-link { border: 0; padding: 0; background: none; box-shadow: none; backdrop-filter: none; }
   .contact-panel { display: block; padding: 0; }
   .contact-details { margin-top: 12px; }
   .contact-link { color: inherit; font-size: 10pt; }
