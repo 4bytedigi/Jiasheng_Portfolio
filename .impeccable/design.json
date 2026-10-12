@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-11T17:31:31.719864+00:00",
+  "generatedAt": "2026-10-12T15:40:18+08:00",
   "title": "Design System: Chua Jia Sheng résumé",
   "extensions": {
     "colorMeta": {
@@ -8,1051 +8,695 @@
         "role": "neutral",
         "displayName": "Page",
         "tonalRamp": [
-          "oklch(15.00% 0.00000 0.00)",
-          "oklch(26.43% 0.00000 0.00)",
-          "oklch(37.86% 0.00000 0.00)",
-          "oklch(49.29% 0.00000 0.00)",
-          "oklch(60.71% 0.00000 0.00)",
-          "oklch(72.14% 0.00000 0.00)",
-          "oklch(83.57% 0.00000 0.00)",
-          "oklch(95.00% 0.00000 0.00)"
+          "oklch(15% 0.0000 89.88)",
+          "oklch(27% 0.0000 89.88)",
+          "oklch(39% 0.0000 89.88)",
+          "oklch(51% 0.0000 89.88)",
+          "oklch(63% 0.0000 89.88)",
+          "oklch(75% 0.0000 89.88)",
+          "oklch(87% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
         ]
       },
       "ink": {
         "role": "neutral",
         "displayName": "Ink",
         "tonalRamp": [
-          "oklch(15.00% 0.00381 286.10)",
-          "oklch(26.43% 0.00381 286.10)",
-          "oklch(37.86% 0.00381 286.10)",
-          "oklch(49.29% 0.00381 286.10)",
-          "oklch(60.71% 0.00381 286.10)",
-          "oklch(72.14% 0.00381 286.10)",
-          "oklch(83.57% 0.00381 286.10)",
-          "oklch(95.00% 0.00381 286.10)"
+          "oklch(15% 0.0038 286.10)",
+          "oklch(27% 0.0038 286.10)",
+          "oklch(39% 0.0038 286.10)",
+          "oklch(51% 0.0038 286.10)",
+          "oklch(63% 0.0038 286.10)",
+          "oklch(75% 0.0038 286.10)",
+          "oklch(87% 0.0038 286.10)",
+          "oklch(95% 0.0038 286.10)"
         ]
       },
       "secondary": {
         "role": "neutral",
         "displayName": "Secondary",
         "tonalRamp": [
-          "oklch(15.00% 0.01429 280.81)",
-          "oklch(26.43% 0.01429 280.81)",
-          "oklch(37.86% 0.01429 280.81)",
-          "oklch(49.29% 0.01429 280.81)",
-          "oklch(60.71% 0.01429 280.81)",
-          "oklch(72.14% 0.01429 280.81)",
-          "oklch(83.57% 0.01429 280.81)",
-          "oklch(95.00% 0.01429 280.81)"
+          "oklch(15% 0.0172 285.77)",
+          "oklch(27% 0.0172 285.77)",
+          "oklch(39% 0.0172 285.77)",
+          "oklch(51% 0.0172 285.77)",
+          "oklch(63% 0.0172 285.77)",
+          "oklch(75% 0.0172 285.77)",
+          "oklch(87% 0.0172 285.77)",
+          "oklch(95% 0.0172 285.77)"
         ]
       },
       "accent": {
         "role": "primary",
         "displayName": "Accent",
         "tonalRamp": [
-          "oklch(15.00% 0.22396 261.68)",
-          "oklch(26.43% 0.22396 261.68)",
-          "oklch(37.86% 0.22396 261.68)",
-          "oklch(49.29% 0.22396 261.68)",
-          "oklch(60.71% 0.22396 261.68)",
-          "oklch(72.14% 0.22396 261.68)",
-          "oklch(83.57% 0.22396 261.68)",
-          "oklch(95.00% 0.22396 261.68)"
+          "oklch(15% 0.1649 270.96)",
+          "oklch(27% 0.1649 270.96)",
+          "oklch(39% 0.1649 270.96)",
+          "oklch(51% 0.1649 270.96)",
+          "oklch(63% 0.1649 270.96)",
+          "oklch(75% 0.1649 270.96)",
+          "oklch(87% 0.1649 270.96)",
+          "oklch(95% 0.1649 270.96)"
         ]
       },
       "accent-hover": {
         "role": "primary",
         "displayName": "Accent Hover",
         "tonalRamp": [
-          "oklch(15.00% 0.20747 262.03)",
-          "oklch(26.43% 0.20747 262.03)",
-          "oklch(37.86% 0.20747 262.03)",
-          "oklch(49.29% 0.20747 262.03)",
-          "oklch(60.71% 0.20747 262.03)",
-          "oklch(72.14% 0.20747 262.03)",
-          "oklch(83.57% 0.20747 262.03)",
-          "oklch(95.00% 0.20747 262.03)"
+          "oklch(15% 0.1595 270.09)",
+          "oklch(27% 0.1595 270.09)",
+          "oklch(39% 0.1595 270.09)",
+          "oklch(51% 0.1595 270.09)",
+          "oklch(63% 0.1595 270.09)",
+          "oklch(75% 0.1595 270.09)",
+          "oklch(87% 0.1595 270.09)",
+          "oklch(95% 0.1595 270.09)"
         ]
       },
       "line": {
         "role": "neutral",
         "displayName": "Line",
         "tonalRamp": [
-          "oklch(15.00% 0.00682 277.16)",
-          "oklch(26.43% 0.00682 277.16)",
-          "oklch(37.86% 0.00682 277.16)",
-          "oklch(49.29% 0.00682 277.16)",
-          "oklch(60.71% 0.00682 277.16)",
-          "oklch(72.14% 0.00682 277.16)",
-          "oklch(83.57% 0.00682 277.16)",
-          "oklch(95.00% 0.00682 277.16)"
+          "oklch(15% 0.0108 280.47)",
+          "oklch(27% 0.0108 280.47)",
+          "oklch(39% 0.0108 280.47)",
+          "oklch(51% 0.0108 280.47)",
+          "oklch(63% 0.0108 280.47)",
+          "oklch(75% 0.0108 280.47)",
+          "oklch(87% 0.0108 280.47)",
+          "oklch(95% 0.0108 280.47)"
         ]
       },
       "surface": {
         "role": "neutral",
         "displayName": "Surface",
         "tonalRamp": [
-          "oklch(15.00% 0.00265 286.35)",
-          "oklch(26.43% 0.00265 286.35)",
-          "oklch(37.86% 0.00265 286.35)",
-          "oklch(49.29% 0.00265 286.35)",
-          "oklch(60.71% 0.00265 286.35)",
-          "oklch(72.14% 0.00265 286.35)",
-          "oklch(83.57% 0.00265 286.35)",
-          "oklch(95.00% 0.00265 286.35)"
+          "oklch(15% 0.0080 278.64)",
+          "oklch(27% 0.0080 278.64)",
+          "oklch(39% 0.0080 278.64)",
+          "oklch(51% 0.0080 278.64)",
+          "oklch(63% 0.0080 278.64)",
+          "oklch(75% 0.0080 278.64)",
+          "oklch(87% 0.0080 278.64)",
+          "oklch(95% 0.0080 278.64)"
         ]
       },
-      "scrollbar": {
-        "role": "neutral",
-        "displayName": "Scrollbar",
+      "pastel-blue": {
+        "role": "secondary",
+        "displayName": "Pastel Blue",
         "tonalRamp": [
-          "oklch(15.00% 0.01156 269.53)",
-          "oklch(26.43% 0.01156 269.53)",
-          "oklch(37.86% 0.01156 269.53)",
-          "oklch(49.29% 0.01156 269.53)",
-          "oklch(60.71% 0.01156 269.53)",
-          "oklch(72.14% 0.01156 269.53)",
-          "oklch(83.57% 0.01156 269.53)",
-          "oklch(95.00% 0.01156 269.53)"
+          "oklch(15% 0.0561 265.21)",
+          "oklch(27% 0.0561 265.21)",
+          "oklch(39% 0.0561 265.21)",
+          "oklch(51% 0.0561 265.21)",
+          "oklch(63% 0.0561 265.21)",
+          "oklch(75% 0.0561 265.21)",
+          "oklch(87% 0.0561 265.21)",
+          "oklch(95% 0.0561 265.21)"
         ]
       },
-      "scrollbar-track": {
-        "role": "neutral",
-        "displayName": "Scrollbar Track",
+      "lavender": {
+        "role": "secondary",
+        "displayName": "Lavender",
         "tonalRamp": [
-          "oklch(15.00% 0.00000 0.00)",
-          "oklch(26.43% 0.00000 0.00)",
-          "oklch(37.86% 0.00000 0.00)",
-          "oklch(49.29% 0.00000 0.00)",
-          "oklch(60.71% 0.00000 0.00)",
-          "oklch(72.14% 0.00000 0.00)",
-          "oklch(83.57% 0.00000 0.00)",
-          "oklch(95.00% 0.00000 0.00)"
+          "oklch(15% 0.0654 297.71)",
+          "oklch(27% 0.0654 297.71)",
+          "oklch(39% 0.0654 297.71)",
+          "oklch(51% 0.0654 297.71)",
+          "oklch(63% 0.0654 297.71)",
+          "oklch(75% 0.0654 297.71)",
+          "oklch(87% 0.0654 297.71)",
+          "oklch(95% 0.0654 297.71)"
         ]
       },
-      "transparent": {
-        "role": "neutral",
-        "displayName": "Transparent",
+      "periwinkle": {
+        "role": "secondary",
+        "displayName": "Periwinkle",
         "tonalRamp": [
-          "oklch(15.00% 0.00000 0.00)",
-          "oklch(26.43% 0.00000 0.00)",
-          "oklch(37.86% 0.00000 0.00)",
-          "oklch(49.29% 0.00000 0.00)",
-          "oklch(60.71% 0.00000 0.00)",
-          "oklch(72.14% 0.00000 0.00)",
-          "oklch(83.57% 0.00000 0.00)",
-          "oklch(95.00% 0.00000 0.00)"
+          "oklch(15% 0.0920 278.72)",
+          "oklch(27% 0.0920 278.72)",
+          "oklch(39% 0.0920 278.72)",
+          "oklch(51% 0.0920 278.72)",
+          "oklch(63% 0.0920 278.72)",
+          "oklch(75% 0.0920 278.72)",
+          "oklch(87% 0.0920 278.72)",
+          "oklch(95% 0.0920 278.72)"
         ]
       },
-      "selection-ink": {
-        "role": "neutral",
-        "displayName": "Selection Ink",
+      "ambient-accent": {
+        "role": "secondary",
+        "displayName": "Ambient Accent",
         "tonalRamp": [
-          "oklch(15.00% 0.16624 261.63)",
-          "oklch(26.43% 0.16624 261.63)",
-          "oklch(37.86% 0.16624 261.63)",
-          "oklch(49.29% 0.16624 261.63)",
-          "oklch(60.71% 0.16624 261.63)",
-          "oklch(72.14% 0.16624 261.63)",
-          "oklch(83.57% 0.16624 261.63)",
-          "oklch(95.00% 0.16624 261.63)"
+          "oklch(15% 0.1695 272.47)",
+          "oklch(27% 0.1695 272.47)",
+          "oklch(39% 0.1695 272.47)",
+          "oklch(51% 0.1695 272.47)",
+          "oklch(63% 0.1695 272.47)",
+          "oklch(75% 0.1695 272.47)",
+          "oklch(87% 0.1695 272.47)",
+          "oklch(95% 0.1695 272.47)"
         ]
       },
-      "selection-fill": {
+      "glass-fill": {
         "role": "neutral",
-        "displayName": "Selection Fill",
+        "displayName": "Glass Fill",
         "tonalRamp": [
-          "oklch(15.00% 0.03574 257.39)",
-          "oklch(26.43% 0.03574 257.39)",
-          "oklch(37.86% 0.03574 257.39)",
-          "oklch(49.29% 0.03574 257.39)",
-          "oklch(60.71% 0.03574 257.39)",
-          "oklch(72.14% 0.03574 257.39)",
-          "oklch(83.57% 0.03574 257.39)",
-          "oklch(95.00% 0.03574 257.39)"
+          "oklch(15% 0.0000 89.88)",
+          "oklch(27% 0.0000 89.88)",
+          "oklch(39% 0.0000 89.88)",
+          "oklch(51% 0.0000 89.88)",
+          "oklch(63% 0.0000 89.88)",
+          "oklch(75% 0.0000 89.88)",
+          "oklch(87% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "glass-edge": {
+        "role": "neutral",
+        "displayName": "Glass Edge",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(27% 0.0000 89.88)",
+          "oklch(39% 0.0000 89.88)",
+          "oklch(51% 0.0000 89.88)",
+          "oklch(63% 0.0000 89.88)",
+          "oklch(75% 0.0000 89.88)",
+          "oklch(87% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
         ]
       },
       "header-glass": {
         "role": "neutral",
         "displayName": "Header Glass",
         "tonalRamp": [
-          "oklch(15.00% 0.00000 0.00)",
-          "oklch(26.43% 0.00000 0.00)",
-          "oklch(37.86% 0.00000 0.00)",
-          "oklch(49.29% 0.00000 0.00)",
-          "oklch(60.71% 0.00000 0.00)",
-          "oklch(72.14% 0.00000 0.00)",
-          "oklch(83.57% 0.00000 0.00)",
-          "oklch(95.00% 0.00000 0.00)"
-        ]
-      },
-      "header-line": {
-        "role": "neutral",
-        "displayName": "Header Line",
-        "tonalRamp": [
-          "oklch(15.00% 0.00682 277.16)",
-          "oklch(26.43% 0.00682 277.16)",
-          "oklch(37.86% 0.00682 277.16)",
-          "oklch(49.29% 0.00682 277.16)",
-          "oklch(60.71% 0.00682 277.16)",
-          "oklch(72.14% 0.00682 277.16)",
-          "oklch(83.57% 0.00682 277.16)",
-          "oklch(95.00% 0.00682 277.16)"
+          "oklch(15% 0.0000 89.88)",
+          "oklch(27% 0.0000 89.88)",
+          "oklch(39% 0.0000 89.88)",
+          "oklch(51% 0.0000 89.88)",
+          "oklch(63% 0.0000 89.88)",
+          "oklch(75% 0.0000 89.88)",
+          "oklch(87% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
         ]
       },
       "secondary-hover": {
         "role": "neutral",
         "displayName": "Secondary Hover",
         "tonalRamp": [
-          "oklch(15.00% 0.01159 264.51)",
-          "oklch(26.43% 0.01159 264.51)",
-          "oklch(37.86% 0.01159 264.51)",
-          "oklch(49.29% 0.01159 264.51)",
-          "oklch(60.71% 0.01159 264.51)",
-          "oklch(72.14% 0.01159 264.51)",
-          "oklch(83.57% 0.01159 264.51)",
-          "oklch(95.00% 0.01159 264.51)"
-        ]
-      },
-      "hero-role-ink": {
-        "role": "neutral",
-        "displayName": "Hero Role Ink",
-        "tonalRamp": [
-          "oklch(15.00% 0.01417 285.88)",
-          "oklch(26.43% 0.01417 285.88)",
-          "oklch(37.86% 0.01417 285.88)",
-          "oklch(49.29% 0.01417 285.88)",
-          "oklch(60.71% 0.01417 285.88)",
-          "oklch(72.14% 0.01417 285.88)",
-          "oklch(83.57% 0.01417 285.88)",
-          "oklch(95.00% 0.01417 285.88)"
-        ]
-      },
-      "selected-filter-line": {
-        "role": "neutral",
-        "displayName": "Selected Filter Line",
-        "tonalRamp": [
-          "oklch(15.00% 0.03443 261.96)",
-          "oklch(26.43% 0.03443 261.96)",
-          "oklch(37.86% 0.03443 261.96)",
-          "oklch(49.29% 0.03443 261.96)",
-          "oklch(60.71% 0.03443 261.96)",
-          "oklch(72.14% 0.03443 261.96)",
-          "oklch(83.57% 0.03443 261.96)",
-          "oklch(95.00% 0.03443 261.96)"
-        ]
-      },
-      "category-ink": {
-        "role": "secondary",
-        "displayName": "Category Ink",
-        "tonalRamp": [
-          "oklch(15.00% 0.09398 260.94)",
-          "oklch(26.43% 0.09398 260.94)",
-          "oklch(37.86% 0.09398 260.94)",
-          "oklch(49.29% 0.09398 260.94)",
-          "oklch(60.71% 0.09398 260.94)",
-          "oklch(72.14% 0.09398 260.94)",
-          "oklch(83.57% 0.09398 260.94)",
-          "oklch(95.00% 0.09398 260.94)"
+          "oklch(15% 0.0231 277.95)",
+          "oklch(27% 0.0231 277.95)",
+          "oklch(39% 0.0231 277.95)",
+          "oklch(51% 0.0231 277.95)",
+          "oklch(63% 0.0231 277.95)",
+          "oklch(75% 0.0231 277.95)",
+          "oklch(87% 0.0231 277.95)",
+          "oklch(95% 0.0231 277.95)"
         ]
       },
       "navigation-active": {
         "role": "neutral",
         "displayName": "Navigation Active",
         "tonalRamp": [
-          "oklch(15.00% 0.01733 264.49)",
-          "oklch(26.43% 0.01733 264.49)",
-          "oklch(37.86% 0.01733 264.49)",
-          "oklch(49.29% 0.01733 264.49)",
-          "oklch(60.71% 0.01733 264.49)",
-          "oklch(72.14% 0.01733 264.49)",
-          "oklch(83.57% 0.01733 264.49)",
-          "oklch(95.00% 0.01733 264.49)"
+          "oklch(15% 0.0204 276.96)",
+          "oklch(27% 0.0204 276.96)",
+          "oklch(39% 0.0204 276.96)",
+          "oklch(51% 0.0204 276.96)",
+          "oklch(63% 0.0204 276.96)",
+          "oklch(75% 0.0204 276.96)",
+          "oklch(87% 0.0204 276.96)",
+          "oklch(95% 0.0204 276.96)"
         ]
       },
-      "project-art-mask": {
+      "category-ink": {
+        "role": "secondary",
+        "displayName": "Category Ink",
+        "tonalRamp": [
+          "oklch(15% 0.1055 269.70)",
+          "oklch(27% 0.1055 269.70)",
+          "oklch(39% 0.1055 269.70)",
+          "oklch(51% 0.1055 269.70)",
+          "oklch(63% 0.1055 269.70)",
+          "oklch(75% 0.1055 269.70)",
+          "oklch(87% 0.1055 269.70)",
+          "oklch(95% 0.1055 269.70)"
+        ]
+      },
+      "selected-filter-line": {
         "role": "neutral",
-        "displayName": "Project Art Mask",
+        "displayName": "Selected Filter Line",
         "tonalRamp": [
-          "oklch(15.00% 0.00000 0.00)",
-          "oklch(26.43% 0.00000 0.00)",
-          "oklch(37.86% 0.00000 0.00)",
-          "oklch(49.29% 0.00000 0.00)",
-          "oklch(60.71% 0.00000 0.00)",
-          "oklch(72.14% 0.00000 0.00)",
-          "oklch(83.57% 0.00000 0.00)",
-          "oklch(95.00% 0.00000 0.00)"
+          "oklch(15% 0.0344 261.96)",
+          "oklch(27% 0.0344 261.96)",
+          "oklch(39% 0.0344 261.96)",
+          "oklch(51% 0.0344 261.96)",
+          "oklch(63% 0.0344 261.96)",
+          "oklch(75% 0.0344 261.96)",
+          "oklch(87% 0.0344 261.96)",
+          "oklch(95% 0.0344 261.96)"
         ]
       },
-      "project-glass-surface": {
-        "role": "secondary",
-        "displayName": "Project Glass Surface",
-        "tonalRamp": [
-          "oklch(15.00% 0.02117 259.19)",
-          "oklch(26.43% 0.02117 259.19)",
-          "oklch(37.86% 0.02117 259.19)",
-          "oklch(49.29% 0.02117 259.19)",
-          "oklch(60.71% 0.02117 259.19)",
-          "oklch(72.14% 0.02117 259.19)",
-          "oklch(83.57% 0.02117 259.19)",
-          "oklch(95.00% 0.02117 259.19)"
-        ]
-      },
-      "project-glass-ink": {
-        "role": "secondary",
-        "displayName": "Project Glass Ink",
-        "tonalRamp": [
-          "oklch(15.00% 0.14263 261.57)",
-          "oklch(26.43% 0.14263 261.57)",
-          "oklch(37.86% 0.14263 261.57)",
-          "oklch(49.29% 0.14263 261.57)",
-          "oklch(60.71% 0.14263 261.57)",
-          "oklch(72.14% 0.14263 261.57)",
-          "oklch(83.57% 0.14263 261.57)",
-          "oklch(95.00% 0.14263 261.57)"
-        ]
-      },
-      "project-orbit-surface": {
-        "role": "secondary",
-        "displayName": "Project Orbit Surface",
-        "tonalRamp": [
-          "oklch(15.00% 0.16484 261.53)",
-          "oklch(26.43% 0.16484 261.53)",
-          "oklch(37.86% 0.16484 261.53)",
-          "oklch(49.29% 0.16484 261.53)",
-          "oklch(60.71% 0.16484 261.53)",
-          "oklch(72.14% 0.16484 261.53)",
-          "oklch(83.57% 0.16484 261.53)",
-          "oklch(95.00% 0.16484 261.53)"
-        ]
-      },
-      "project-solid-blue": {
-        "role": "secondary",
-        "displayName": "Project Solid Blue",
-        "tonalRamp": [
-          "oklch(15.00% 0.22396 261.68)",
-          "oklch(26.43% 0.22396 261.68)",
-          "oklch(37.86% 0.22396 261.68)",
-          "oklch(49.29% 0.22396 261.68)",
-          "oklch(60.71% 0.22396 261.68)",
-          "oklch(72.14% 0.22396 261.68)",
-          "oklch(83.57% 0.22396 261.68)",
-          "oklch(95.00% 0.22396 261.68)"
-        ]
-      },
-      "project-glass-shadow": {
+      "selection-ink": {
         "role": "neutral",
-        "displayName": "Project Glass Shadow",
+        "displayName": "Selection Ink",
         "tonalRamp": [
-          "oklch(15.00% 0.20747 262.03)",
-          "oklch(26.43% 0.20747 262.03)",
-          "oklch(37.86% 0.20747 262.03)",
-          "oklch(49.29% 0.20747 262.03)",
-          "oklch(60.71% 0.20747 262.03)",
-          "oklch(72.14% 0.20747 262.03)",
-          "oklch(83.57% 0.20747 262.03)",
-          "oklch(95.00% 0.20747 262.03)"
+          "oklch(15% 0.1459 269.95)",
+          "oklch(27% 0.1459 269.95)",
+          "oklch(39% 0.1459 269.95)",
+          "oklch(51% 0.1459 269.95)",
+          "oklch(63% 0.1459 269.95)",
+          "oklch(75% 0.1459 269.95)",
+          "oklch(87% 0.1459 269.95)",
+          "oklch(95% 0.1459 269.95)"
         ]
       },
-      "project-glass-line": {
-        "role": "secondary",
-        "displayName": "Project Glass Line",
-        "tonalRamp": [
-          "oklch(15.00% 0.00000 0.00)",
-          "oklch(26.43% 0.00000 0.00)",
-          "oklch(37.86% 0.00000 0.00)",
-          "oklch(49.29% 0.00000 0.00)",
-          "oklch(60.71% 0.00000 0.00)",
-          "oklch(72.14% 0.00000 0.00)",
-          "oklch(83.57% 0.00000 0.00)",
-          "oklch(95.00% 0.00000 0.00)"
-        ]
-      },
-      "project-glass-overlay": {
-        "role": "secondary",
-        "displayName": "Project Glass Overlay",
-        "tonalRamp": [
-          "oklch(15.00% 0.03586 236.48)",
-          "oklch(26.43% 0.03586 236.48)",
-          "oklch(37.86% 0.03586 236.48)",
-          "oklch(49.29% 0.03586 236.48)",
-          "oklch(60.71% 0.03586 236.48)",
-          "oklch(72.14% 0.03586 236.48)",
-          "oklch(83.57% 0.03586 236.48)",
-          "oklch(95.00% 0.03586 236.48)"
-        ]
-      },
-      "project-cyan": {
-        "role": "secondary",
-        "displayName": "Project Cyan",
-        "tonalRamp": [
-          "oklch(15.00% 0.10533 226.32)",
-          "oklch(26.43% 0.10533 226.32)",
-          "oklch(37.86% 0.10533 226.32)",
-          "oklch(49.29% 0.10533 226.32)",
-          "oklch(60.71% 0.10533 226.32)",
-          "oklch(72.14% 0.10533 226.32)",
-          "oklch(83.57% 0.10533 226.32)",
-          "oklch(95.00% 0.10533 226.32)"
-        ]
-      },
-      "project-orbit-line": {
-        "role": "secondary",
-        "displayName": "Project Orbit Line",
-        "tonalRamp": [
-          "oklch(15.00% 0.03586 236.48)",
-          "oklch(26.43% 0.03586 236.48)",
-          "oklch(37.86% 0.03586 236.48)",
-          "oklch(49.29% 0.03586 236.48)",
-          "oklch(60.71% 0.03586 236.48)",
-          "oklch(72.14% 0.03586 236.48)",
-          "oklch(83.57% 0.03586 236.48)",
-          "oklch(95.00% 0.03586 236.48)"
-        ]
-      },
-      "project-orbit-ring": {
-        "role": "secondary",
-        "displayName": "Project Orbit Ring",
-        "tonalRamp": [
-          "oklch(15.00% 0.10533 226.32)",
-          "oklch(26.43% 0.10533 226.32)",
-          "oklch(37.86% 0.10533 226.32)",
-          "oklch(49.29% 0.10533 226.32)",
-          "oklch(60.71% 0.10533 226.32)",
-          "oklch(72.14% 0.10533 226.32)",
-          "oklch(83.57% 0.10533 226.32)",
-          "oklch(95.00% 0.10533 226.32)"
-        ]
-      },
-      "project-orbit-center": {
-        "role": "secondary",
-        "displayName": "Project Orbit Center",
-        "tonalRamp": [
-          "oklch(15.00% 0.03586 236.48)",
-          "oklch(26.43% 0.03586 236.48)",
-          "oklch(37.86% 0.03586 236.48)",
-          "oklch(49.29% 0.03586 236.48)",
-          "oklch(60.71% 0.03586 236.48)",
-          "oklch(72.14% 0.03586 236.48)",
-          "oklch(83.57% 0.03586 236.48)",
-          "oklch(95.00% 0.03586 236.48)"
-        ]
-      },
-      "project-fold-line": {
-        "role": "secondary",
-        "displayName": "Project Fold Line",
-        "tonalRamp": [
-          "oklch(15.00% 0.00000 0.00)",
-          "oklch(26.43% 0.00000 0.00)",
-          "oklch(37.86% 0.00000 0.00)",
-          "oklch(49.29% 0.00000 0.00)",
-          "oklch(60.71% 0.00000 0.00)",
-          "oklch(72.14% 0.00000 0.00)",
-          "oklch(83.57% 0.00000 0.00)",
-          "oklch(95.00% 0.00000 0.00)"
-        ]
-      },
-      "project-fold-overlay": {
-        "role": "secondary",
-        "displayName": "Project Fold Overlay",
-        "tonalRamp": [
-          "oklch(15.00% 0.03586 236.48)",
-          "oklch(26.43% 0.03586 236.48)",
-          "oklch(37.86% 0.03586 236.48)",
-          "oklch(49.29% 0.03586 236.48)",
-          "oklch(60.71% 0.03586 236.48)",
-          "oklch(72.14% 0.03586 236.48)",
-          "oklch(83.57% 0.03586 236.48)",
-          "oklch(95.00% 0.03586 236.48)"
-        ]
-      },
-      "project-fold-shadow": {
+      "selection-fill": {
         "role": "neutral",
-        "displayName": "Project Fold Shadow",
+        "displayName": "Selection Fill",
         "tonalRamp": [
-          "oklch(15.00% 0.16484 261.53)",
-          "oklch(26.43% 0.16484 261.53)",
-          "oklch(37.86% 0.16484 261.53)",
-          "oklch(49.29% 0.16484 261.53)",
-          "oklch(60.71% 0.16484 261.53)",
-          "oklch(72.14% 0.16484 261.53)",
-          "oklch(83.57% 0.16484 261.53)",
-          "oklch(95.00% 0.16484 261.53)"
+          "oklch(15% 0.0436 282.66)",
+          "oklch(27% 0.0436 282.66)",
+          "oklch(39% 0.0436 282.66)",
+          "oklch(51% 0.0436 282.66)",
+          "oklch(63% 0.0436 282.66)",
+          "oklch(75% 0.0436 282.66)",
+          "oklch(87% 0.0436 282.66)",
+          "oklch(95% 0.0436 282.66)"
+        ]
+      },
+      "scrollbar": {
+        "role": "neutral",
+        "displayName": "Scrollbar",
+        "tonalRamp": [
+          "oklch(15% 0.0516 275.34)",
+          "oklch(27% 0.0516 275.34)",
+          "oklch(39% 0.0516 275.34)",
+          "oklch(51% 0.0516 275.34)",
+          "oklch(63% 0.0516 275.34)",
+          "oklch(75% 0.0516 275.34)",
+          "oklch(87% 0.0516 275.34)",
+          "oklch(95% 0.0516 275.34)"
+        ]
+      },
+      "project-ink": {
+        "role": "secondary",
+        "displayName": "Project Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0899 271.09)",
+          "oklch(27% 0.0899 271.09)",
+          "oklch(39% 0.0899 271.09)",
+          "oklch(51% 0.0899 271.09)",
+          "oklch(63% 0.0899 271.09)",
+          "oklch(75% 0.0899 271.09)",
+          "oklch(87% 0.0899 271.09)",
+          "oklch(95% 0.0899 271.09)"
+        ]
+      },
+      "project-form": {
+        "role": "secondary",
+        "displayName": "Project Form",
+        "tonalRamp": [
+          "oklch(15% 0.0924 271.83)",
+          "oklch(27% 0.0924 271.83)",
+          "oklch(39% 0.0924 271.83)",
+          "oklch(51% 0.0924 271.83)",
+          "oklch(63% 0.0924 271.83)",
+          "oklch(75% 0.0924 271.83)",
+          "oklch(87% 0.0924 271.83)",
+          "oklch(95% 0.0924 271.83)"
         ]
       },
       "project-pagination": {
         "role": "neutral",
         "displayName": "Project Pagination",
         "tonalRamp": [
-          "oklch(15.00% 0.01183 274.82)",
-          "oklch(26.43% 0.01183 274.82)",
-          "oklch(37.86% 0.01183 274.82)",
-          "oklch(49.29% 0.01183 274.82)",
-          "oklch(60.71% 0.01183 274.82)",
-          "oklch(72.14% 0.01183 274.82)",
-          "oklch(83.57% 0.01183 274.82)",
-          "oklch(95.00% 0.01183 274.82)"
+          "oklch(15% 0.0118 274.82)",
+          "oklch(27% 0.0118 274.82)",
+          "oklch(39% 0.0118 274.82)",
+          "oklch(51% 0.0118 274.82)",
+          "oklch(63% 0.0118 274.82)",
+          "oklch(75% 0.0118 274.82)",
+          "oklch(87% 0.0118 274.82)",
+          "oklch(95% 0.0118 274.82)"
         ]
       },
-      "project-glass-opaque": {
-        "role": "secondary",
-        "displayName": "Project Glass Opaque",
+      "project-opaque": {
+        "role": "neutral",
+        "displayName": "Project Opaque",
         "tonalRamp": [
-          "oklch(15.00% 0.03586 236.48)",
-          "oklch(26.43% 0.03586 236.48)",
-          "oklch(37.86% 0.03586 236.48)",
-          "oklch(49.29% 0.03586 236.48)",
-          "oklch(60.71% 0.03586 236.48)",
-          "oklch(72.14% 0.03586 236.48)",
-          "oklch(83.57% 0.03586 236.48)",
-          "oklch(95.00% 0.03586 236.48)"
+          "oklch(15% 0.0289 275.15)",
+          "oklch(27% 0.0289 275.15)",
+          "oklch(39% 0.0289 275.15)",
+          "oklch(51% 0.0289 275.15)",
+          "oklch(63% 0.0289 275.15)",
+          "oklch(75% 0.0289 275.15)",
+          "oklch(87% 0.0289 275.15)",
+          "oklch(95% 0.0289 275.15)"
         ]
       }
     },
     "typographyMeta": {
-      "headline": {
-        "displayName": "Headline",
-        "purpose": "Actual h2 typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "section-lead": {
-        "displayName": "Section Lead",
-        "purpose": "Actual .section-heading > p, .subsection-heading > p typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "monogram": {
-        "displayName": "Monogram",
-        "purpose": "Actual .monogram typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "navigation-label": {
-        "displayName": "Navigation Label",
-        "purpose": "Actual .main-nav a typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "button": {
-        "displayName": "Button",
-        "purpose": "Actual .button typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "button-compact": {
-        "displayName": "Button Compact",
-        "purpose": "Actual .button-small typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "text-link": {
-        "displayName": "Text Link",
-        "purpose": "Actual .text-link typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
       "display": {
         "displayName": "Display",
-        "purpose": "Actual .hero-intro h1 typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "hero-role": {
-        "displayName": "Hero Role",
-        "purpose": "Actual .hero-role typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "hero-description": {
-        "displayName": "Hero Description",
-        "purpose": "Actual .hero-description typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "hero-note": {
-        "displayName": "Hero Note",
-        "purpose": "Actual .hero-note typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "about-lead": {
-        "displayName": "About Lead",
-        "purpose": "Actual .about-copy .lead typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "about-body": {
-        "displayName": "About Body",
-        "purpose": "Actual .about-copy > p + p typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "year-label": {
-        "displayName": "Year Label",
-        "purpose": "Actual .year-label typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "career-meta": {
-        "displayName": "Career Meta",
-        "purpose": "Actual .career-meta typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "career-title": {
-        "displayName": "Career Title",
-        "purpose": "Actual .career-copy h3 typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "career-organization": {
-        "displayName": "Career Organization",
-        "purpose": "Actual .career-org typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "career-description": {
-        "displayName": "Career Description",
-        "purpose": "Actual .career-description typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "project-title": {
-        "displayName": "Project Title",
-        "purpose": "Actual .project-caption h3 typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "project-caption": {
-        "displayName": "Project Caption",
-        "purpose": "Actual .project-caption span typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "project-gesture": {
-        "displayName": "Project Gesture",
-        "purpose": "Actual .project-gesture typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "skills-title": {
-        "displayName": "Skills Title",
-        "purpose": "Actual .skills-block h3 typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "skill-list": {
-        "displayName": "Skill List",
-        "purpose": "Actual .skill-list typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "school-date": {
-        "displayName": "School Date",
-        "purpose": "Actual .school-date typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "institution-title": {
-        "displayName": "Institution Title",
-        "purpose": "Actual .education-row h3 typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "school-qualification": {
-        "displayName": "School Qualification",
-        "purpose": "Actual .school-qualification typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "school-detail": {
-        "displayName": "School Detail",
-        "purpose": "Actual .school-detail typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "subsection-title": {
-        "displayName": "Subsection Title",
-        "purpose": "Actual .subsection-heading h3 typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "subsection-lead": {
-        "displayName": "Subsection Lead",
-        "purpose": "Actual .subsection-heading > p typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "filter-label": {
-        "displayName": "Filter Label",
-        "purpose": "Actual .filters button typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "search-input": {
-        "displayName": "Search Input",
-        "purpose": "Actual .search-field input typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "result-count": {
-        "displayName": "Result Count",
-        "purpose": "Actual .result-count typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "credential-title": {
-        "displayName": "Credential Title",
-        "purpose": "Actual .credential-details h4 typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "credential-issuer": {
-        "displayName": "Credential Issuer",
-        "purpose": "Actual .credential-details > p typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "course-note": {
-        "displayName": "Course Note",
-        "purpose": "Actual .course-note typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "credential-meta": {
-        "displayName": "Credential Meta",
-        "purpose": "Actual .credential-meta typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "credential-id": {
-        "displayName": "Credential Id",
-        "purpose": "Actual .credential-id typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "empty-title": {
-        "displayName": "Empty Title",
-        "purpose": "Actual .empty-state h4 typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "award-date": {
-        "displayName": "Award Date",
-        "purpose": "Actual .award-date typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "award-title": {
-        "displayName": "Award Title",
-        "purpose": "Actual .award-row h4 typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "award-detail": {
-        "displayName": "Award Detail",
-        "purpose": "Actual .award-detail typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "award-issuer": {
-        "displayName": "Award Issuer",
-        "purpose": "Actual .award-issuer typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "contact-headline": {
-        "displayName": "Contact Headline",
-        "purpose": "Actual .contact h2 typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "contact-body": {
-        "displayName": "Contact Body",
-        "purpose": "Actual .contact > p typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "contact-link": {
-        "displayName": "Contact Link",
-        "purpose": "Actual .contact-link typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "footer": {
-        "displayName": "Footer",
-        "purpose": "Actual .site-footer typography at the base layout. Undeclared properties inherit through the source cascade."
-      },
-      "navigation-label-mobile": {
-        "displayName": "Navigation Label Mobile",
-        "purpose": "Actual .main-nav a typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+        "purpose": "Source-derived display role; mobile exceptions follow the source cascade."
       },
       "display-mobile": {
         "displayName": "Display Mobile",
-        "purpose": "Actual .hero-intro h1 typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+        "purpose": "Source-derived display mobile role; mobile exceptions follow the source cascade."
+      },
+      "hero-role": {
+        "displayName": "Hero Role",
+        "purpose": "Source-derived hero role role; mobile exceptions follow the source cascade."
       },
       "hero-role-mobile": {
         "displayName": "Hero Role Mobile",
-        "purpose": "Actual .hero-role typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+        "purpose": "Source-derived hero role mobile role; mobile exceptions follow the source cascade."
       },
-      "hero-description-mobile": {
-        "displayName": "Hero Description Mobile",
-        "purpose": "Actual .hero-description typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Source-derived headline role; mobile exceptions follow the source cascade."
       },
-      "hero-note-mobile": {
-        "displayName": "Hero Note Mobile",
-        "purpose": "Actual .hero-note typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "contact-headline": {
+        "displayName": "Contact Headline",
+        "purpose": "Source-derived contact headline role; mobile exceptions follow the source cascade."
       },
-      "about-lead-mobile": {
-        "displayName": "About Lead Mobile",
-        "purpose": "Actual .about-copy .lead typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "subsection": {
+        "displayName": "Subsection",
+        "purpose": "Source-derived subsection role; mobile exceptions follow the source cascade."
       },
-      "about-body-mobile": {
-        "displayName": "About Body Mobile",
-        "purpose": "Actual .about-copy > p + p typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "about-lead": {
+        "displayName": "About Lead",
+        "purpose": "Source-derived about lead role; mobile exceptions follow the source cascade."
       },
-      "section-lead-mobile": {
-        "displayName": "Section Lead Mobile",
-        "purpose": "Actual .section-heading > p typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "about-body": {
+        "displayName": "About Body",
+        "purpose": "Source-derived about body role; mobile exceptions follow the source cascade."
       },
-      "year-label-mobile": {
-        "displayName": "Year Label Mobile",
-        "purpose": "Actual .year-label typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "responsibility": {
+        "displayName": "Responsibility",
+        "purpose": "Source-derived responsibility role; mobile exceptions follow the source cascade."
       },
-      "career-title-mobile": {
-        "displayName": "Career Title Mobile",
-        "purpose": "Actual .career-copy h3 typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "hero-description": {
+        "displayName": "Hero Description",
+        "purpose": "Source-derived hero description role; mobile exceptions follow the source cascade."
       },
-      "career-organization-mobile": {
-        "displayName": "Career Organization Mobile",
-        "purpose": "Actual .career-org typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "record-title": {
+        "displayName": "Record Title",
+        "purpose": "Source-derived record title role; mobile exceptions follow the source cascade."
       },
-      "career-description-mobile": {
-        "displayName": "Career Description Mobile",
-        "purpose": "Actual .career-description typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "credential-title": {
+        "displayName": "Credential Title",
+        "purpose": "Source-derived credential title role; mobile exceptions follow the source cascade."
+      },
+      "skill-heading": {
+        "displayName": "Skill Heading",
+        "purpose": "Source-derived skill heading role; mobile exceptions follow the source cascade."
+      },
+      "skill-list": {
+        "displayName": "Skill List",
+        "purpose": "Source-derived skill list role; mobile exceptions follow the source cascade."
       },
       "skill-list-mobile": {
         "displayName": "Skill List Mobile",
-        "purpose": "Actual .skill-list typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+        "purpose": "Source-derived skill list mobile role; mobile exceptions follow the source cascade."
       },
-      "institution-title-mobile": {
-        "displayName": "Institution Title Mobile",
-        "purpose": "Actual .education-row h3 typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "button": {
+        "displayName": "Button",
+        "purpose": "Source-derived button role; mobile exceptions follow the source cascade."
       },
-      "school-qualification-mobile": {
-        "displayName": "School Qualification Mobile",
-        "purpose": "Actual .school-qualification typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "button-small": {
+        "displayName": "Button Small",
+        "purpose": "Source-derived button small role; mobile exceptions follow the source cascade."
       },
-      "subsection-title-mobile": {
-        "displayName": "Subsection Title Mobile",
-        "purpose": "Actual .subsection-heading h3 typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "navigation": {
+        "displayName": "Navigation",
+        "purpose": "Source-derived navigation role; mobile exceptions follow the source cascade."
       },
-      "filter-label-mobile": {
-        "displayName": "Filter Label Mobile",
-        "purpose": "Actual .filters button typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "Source-derived brand role; mobile exceptions follow the source cascade."
+      },
+      "metadata": {
+        "displayName": "Metadata",
+        "purpose": "Source-derived metadata role; mobile exceptions follow the source cascade."
+      },
+      "search-input": {
+        "displayName": "Search Input",
+        "purpose": "Source-derived search input role; mobile exceptions follow the source cascade."
       },
       "search-input-mobile": {
         "displayName": "Search Input Mobile",
-        "purpose": "Actual .search-field input typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+        "purpose": "Source-derived search input mobile role; mobile exceptions follow the source cascade."
       },
-      "contact-body-mobile": {
-        "displayName": "Contact Body Mobile",
-        "purpose": "Actual .contact > p typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
+      "project-title": {
+        "displayName": "Project Title",
+        "purpose": "Source-derived project title role; mobile exceptions follow the source cascade."
       },
-      "contact-link-mobile": {
-        "displayName": "Contact Link Mobile",
-        "purpose": "Actual .contact-link typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
-      },
-      "footer-mobile": {
-        "displayName": "Footer Mobile",
-        "purpose": "Actual .site-footer typography under @media (max-width: 900px). Undeclared properties inherit through the source cascade."
-      },
-      "hero-text-link-phone": {
-        "displayName": "Hero Text Link Phone",
-        "purpose": "Actual .hero-actions .text-link typography under @media (max-width: 540px). Undeclared properties inherit through the source cascade."
-      },
-      "project-title-phone": {
-        "displayName": "Project Title Phone",
-        "purpose": "Actual .project-caption h3 typography under @media (max-width: 540px). Undeclared properties inherit through the source cascade."
-      },
-      "project-caption-phone": {
-        "displayName": "Project Caption Phone",
-        "purpose": "Actual .project-caption span typography under @media (max-width: 540px). Undeclared properties inherit through the source cascade."
-      },
-      "contact-link-phone": {
-        "displayName": "Contact Link Phone",
-        "purpose": "Actual .contact-link typography under @media (max-width: 540px). Undeclared properties inherit through the source cascade."
-      },
-      "navigation-label-narrow": {
-        "displayName": "Navigation Label Narrow",
-        "purpose": "Actual .main-nav a typography under @media (max-width: 375px). Undeclared properties inherit through the source cascade."
-      },
-      "body-print": {
-        "displayName": "Body Print",
-        "purpose": "Actual p typography under @media print. Undeclared properties inherit through the source cascade."
-      },
-      "display-print": {
-        "displayName": "Display Print",
-        "purpose": "Actual .hero-intro h1 typography under @media print. Undeclared properties inherit through the source cascade."
-      },
-      "hero-role-print": {
-        "displayName": "Hero Role Print",
-        "purpose": "Actual .hero-role typography under @media print. Undeclared properties inherit through the source cascade."
-      },
-      "headline-print": {
-        "displayName": "Headline Print",
-        "purpose": "Actual h2 typography under @media print. Undeclared properties inherit through the source cascade."
-      },
-      "record-title-print": {
-        "displayName": "Record Title Print",
-        "purpose": "Actual h3 typography under @media print. Undeclared properties inherit through the source cascade."
-      },
-      "credential-title-print": {
-        "displayName": "Credential Title Print",
-        "purpose": "Actual h4 typography under @media print. Undeclared properties inherit through the source cascade."
-      },
-      "about-lead-print": {
-        "displayName": "About Lead Print",
-        "purpose": "Actual .about-copy .lead typography under @media print. Undeclared properties inherit through the source cascade."
-      },
-      "year-label-print": {
-        "displayName": "Year Label Print",
-        "purpose": "Actual .year-label typography under @media print. Undeclared properties inherit through the source cascade."
-      },
-      "skill-list-print": {
-        "displayName": "Skill List Print",
-        "purpose": "Actual .skill-list typography under @media print. Undeclared properties inherit through the source cascade."
-      },
-      "contact-link-print": {
-        "displayName": "Contact Link Print",
-        "purpose": "Actual .contact-link typography under @media print. Undeclared properties inherit through the source cascade."
+      "project-caption": {
+        "displayName": "Project Caption",
+        "purpose": "Source-derived project caption role; mobile exceptions follow the source cascade."
       }
     },
     "shadows": [
       {
-        "name": "project-glass-material",
-        "value": "12px 28px 60px rgb(7 75 203 / 18%)",
-        "purpose": "Abstract blue block in the labelled glass project placeholder."
+        "name": "glass",
+        "value": "0 12px 32px rgb(68 83 153 / 7%), 0 3px 8px rgb(68 83 153 / 3%)",
+        "purpose": "Shared gentle depth beneath header, skill groups and contact."
       },
       {
-        "name": "selected-filter-outline",
+        "name": "glass-highlight",
+        "value": "inset 0 1px 0 var(--glass-edge)",
+        "purpose": "Fine white top reflection on selected glass."
+      },
+      {
+        "name": "hero-pane",
+        "value": "0 24px 64px rgb(74 83 146 / 6%), inset 0 1px 0 rgb(255 255 255 / 85%)",
+        "purpose": "Decorative overlapping hero panes."
+      },
+      {
+        "name": "project-glass-art",
+        "value": "12px 28px 60px rgb(70 91 196 / 12%)",
+        "purpose": "Scoped pastel project artwork."
+      },
+      {
+        "name": "selected-filter",
         "value": "inset 0 0 0 1px #d6e3fa",
-        "purpose": "One-pixel selected category outline; not ambient elevation."
+        "purpose": "Selected category boundary."
       }
     ],
     "motion": [
       {
         "name": "ease",
         "value": "cubic-bezier(.16, 1, .3, 1)",
-        "purpose": "Shared hero, scroll-reveal, project-caption, pagination and arrow easing."
+        "purpose": "Shared natural easing."
       },
       {
-        "name": "hero-name",
-        "value": "hero-enter .7s var(--ease) both",
-        "purpose": "Opacity .15 to 1; translateY(16px) to 0."
+        "name": "hero",
+        "value": "700ms / 16px / 80ms and 160ms stagger",
+        "purpose": "Initial introduction."
       },
       {
-        "name": "hero-role",
-        "value": "hero-enter .7s .08s var(--ease) both",
-        "purpose": "Hero role 80ms delay."
+        "name": "reveal",
+        "value": "650ms / 18px / 80ms adjacent-role stagger",
+        "purpose": "Progressive heading and career reveals."
       },
       {
-        "name": "hero-support",
-        "value": "hero-enter .7s .16s var(--ease) both",
-        "purpose": "Hero description/actions 160ms delay."
+        "name": "ambient",
+        "value": "32s ease-in-out infinite alternate",
+        "purpose": "Local hero light drift."
       },
       {
-        "name": "scroll-reveal",
-        "value": "opacity .65s var(--ease), transform .65s var(--ease)",
-        "purpose": "One-time 18px rise; second role adds 80ms delay; JavaScript observer threshold 0.08 with 36px bottom margin."
+        "name": "glass-drift",
+        "value": "28s ease-in-out infinite alternate / -8px",
+        "purpose": "Local front-pane drift."
       },
       {
-        "name": "career-stagger",
-        "value": ".08s",
-        "purpose": "Second role within a year."
+        "name": "reflection",
+        "value": "600ms / max 12px x and 8px y",
+        "purpose": "Fine-pointer glass reflection; skipped for reduced motion/touch."
       },
       {
-        "name": "navigation-feedback",
-        "value": "color .2s, background .2s",
-        "purpose": "Hover and current-link pill feedback."
+        "name": "skill-lift",
+        "value": "500ms / -3px",
+        "purpose": "Fine-pointer hover only without reduced motion."
       },
       {
-        "name": "button-feedback",
-        "value": "background .2s, transform .2s",
-        "purpose": "Pill hover and scale(.98) press."
+        "name": "button",
+        "value": "400ms",
+        "purpose": "Background/press feedback."
       },
       {
-        "name": "filter-feedback",
-        "value": "background .2s, color .2s",
-        "purpose": "Category hover/selection."
+        "name": "navigation",
+        "value": "200ms",
+        "purpose": "Hover/current feedback."
       },
       {
-        "name": "link-arrow",
-        "value": "transform .25s var(--ease)",
-        "purpose": "Hover translateX(2px)."
+        "name": "carousel",
+        "value": "450ms cubic-bezier(.22, .68, 0, 1)",
+        "purpose": "One-panel rail commits."
       },
       {
-        "name": "smooth-scroll",
-        "value": "smooth",
-        "purpose": "Anchor scroll; auto under reduced motion."
+        "name": "caption",
+        "value": "400ms / 60ms delay / 12px",
+        "purpose": "Active preview caption."
       },
       {
         "name": "reduced-motion",
-        "value": "animation: none !important; transition: none !important",
-        "purpose": "Forces reveal opacity1/transform none; disables smooth scrolling, press scale and arrow movement."
-      },
-      {
-        "name": "project-slide",
-        "value": "transform .45s cubic-bezier(.22, .68, 0, 1); opacity .45s var(--ease)",
-        "purpose": "One-panel transform commit and active-panel emphasis."
-      },
-      {
-        "name": "project-caption",
-        "value": "opacity .4s .06s var(--ease), transform .4s .06s var(--ease)",
-        "purpose": "Caption 12px rise and fade with 60ms delay."
-      },
-      {
-        "name": "project-pagination",
-        "value": "width .4s var(--ease), background .4s",
-        "purpose": "Active position marker stretches from 7px to 27px."
-      },
-      {
-        "name": "project-loop-rebase",
-        "value": "transition: none",
-        "purpose": "Endpoint clone rebases to equivalent original when track transform finishes."
-      },
-      {
-        "name": "project-gesture-lock",
-        "value": "200ms idle; 24px pointer / 28px wheel commit thresholds",
-        "purpose": "Exactly one panel per qualifying horizontal release or wheel gesture; immediate commits under reduced motion."
+        "value": "none",
+        "purpose": "Immediate carousel commits, visible reveals, no smooth scroll/animations/transitions."
       }
     ],
     "breakpoints": [
       {
         "name": "compact-desktop",
-        "value": "max-width: 1100px"
+        "value": "1100px"
       },
       {
-        "name": "compact-composition",
-        "value": "max-width: 900px"
+        "name": "stacked",
+        "value": "900px"
       },
       {
         "name": "phone",
-        "value": "max-width: 540px"
+        "value": "540px"
       },
       {
         "name": "narrow-phone",
-        "value": "max-width: 375px"
+        "value": "375px"
+      }
+    ],
+    "materials": [
+      {
+        "name": "header",
+        "value": "blur(22px) saturate(130%)"
+      },
+      {
+        "name": "selected-glass",
+        "value": "blur(20px)"
+      },
+      {
+        "name": "project-overlay",
+        "value": "blur(16px)"
+      },
+      {
+        "name": "opaque-fallback",
+        "value": "white surface without blur under reduced transparency or unsupported backdrop filtering"
+      }
+    ],
+    "artwork": [
+      {
+        "name": "project-glass",
+        "value": "linear-gradient(125deg, #eef3ff, #d7ddff 60%, #e9deff)"
+      },
+      {
+        "name": "project-orbit",
+        "value": "linear-gradient(125deg, #e4dcff, #d8ddff 52%, #eaf2ff)"
+      },
+      {
+        "name": "project-fold",
+        "value": "linear-gradient(125deg, #eaf1ff, #dae6ff 45%, #d9d2fa)"
+      },
+      {
+        "name": "achievement-enclosure",
+        "value": "linear-gradient(135deg, #f4f6ff, #f8f5ff)"
       }
     ]
   },
   "components": [
     {
-      "name": "Primary action",
+      "name": "Primary experience action",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Cobalt résumé action with hover, press and visible-focus feedback.",
-      "html": "<div class=\"ds-preview\"><button class=\"ds-button ds-button-primary\">Download résumé <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></button></div>",
-      "css": ".ds-preview { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-preview h2, .ds-preview h3, .ds-preview h4 { font-weight: 600; letter-spacing: -.02em; margin: 0; } .ds-preview p { margin: 0; } .ds-preview button, .ds-preview input { font-family: inherit; } .ds-preview button { cursor: pointer; } .ds-preview :focus-visible { outline: 3px solid var(--accent, #1460ed); outline-offset: 5px; }\n.ds-nav-shell > .ds-button { justify-self: end; }\n.ds-button { display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 0; font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .2s, transform .2s; }\n.ds-button-primary { background: var(--accent, #1460ed); color: white; }\n.ds-button-primary:hover { background: var(--accent-hover, #074bcb); }\n.ds-button:active { transform: scale(.98); }\n@media (max-width: 900px) { .ds-nav-shell > .ds-button { grid-column: 2; grid-row: 1; } }\n@media (max-width: 540px) { .ds-hero-actions .ds-button { padding-inline: 19px; } }\n@media (prefers-reduced-motion: reduce) { .ds-button:active { transform: none; } }\n\n@media (prefers-reduced-motion: reduce) { .ds-preview, .ds-preview * { animation: none !important; transition: none !important; } .ds-button:active, .ds-text-link:hover svg { transform: none; } }"
+      "description": "Solid pill with contrast-safe colour and visible keyboard focus.",
+      "html": "<a class=\"ds-button-primary\" href=\"#background\">Explore experience<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-button-primary{font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;display:inline-flex;justify-content:center;align-items:center;gap:10px;min-height:48px;border-radius:999px;padding:13px 23px;border:0;font-size:14px;font-weight:500;white-space:nowrap;text-decoration:none;cursor:pointer;transition:background .4s cubic-bezier(.16,1,.3,1),transform .4s cubic-bezier(.16,1,.3,1);background:var(--accent,#465bc4);color:white;}.ds-button-primary:hover{background:var(--accent-hover,#3549ac);}.ds-button-primary:focus-visible{outline:3px solid var(--accent,#465bc4);outline-offset:5px;}.ds-button-primary:active{transform:scale(.98)}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}.ds-button-primary:active{transform:none}}"
     },
     {
-      "name": "Secondary action",
+      "name": "Secondary reset action",
       "kind": "button",
       "refersTo": "button-secondary",
-      "description": "Quiet-surface reset action.",
-      "html": "<div class=\"ds-preview\"><button class=\"ds-button ds-button-secondary\">Reset search</button></div>",
-      "css": ".ds-preview { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-preview h2, .ds-preview h3, .ds-preview h4 { font-weight: 600; letter-spacing: -.02em; margin: 0; } .ds-preview p { margin: 0; } .ds-preview button, .ds-preview input { font-family: inherit; } .ds-preview button { cursor: pointer; } .ds-preview :focus-visible { outline: 3px solid var(--accent, #1460ed); outline-offset: 5px; }\n.ds-nav-shell > .ds-button { justify-self: end; }\n.ds-button { display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 0; font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .2s, transform .2s; }\n.ds-button-secondary { color: var(--accent, #1460ed); background: var(--surface, #f5f5f7); }\n.ds-button-secondary:hover { background: #e9edf5; }\n.ds-button:active { transform: scale(.98); }\n@media (max-width: 900px) { .ds-nav-shell > .ds-button { grid-column: 2; grid-row: 1; } }\n@media (max-width: 540px) { .ds-hero-actions .ds-button { padding-inline: 19px; } }\n@media (prefers-reduced-motion: reduce) { .ds-button:active { transform: none; } }\n\n@media (prefers-reduced-motion: reduce) { .ds-preview, .ds-preview * { animation: none !important; transition: none !important; } .ds-button:active, .ds-text-link:hover svg { transform: none; } }"
+      "description": "Solid pill with contrast-safe colour and visible keyboard focus.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\">Reset search</button>",
+      "css": ".ds-button-secondary{font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;display:inline-flex;justify-content:center;align-items:center;gap:10px;min-height:48px;border-radius:999px;padding:13px 23px;border:0;font-size:14px;font-weight:500;white-space:nowrap;text-decoration:none;cursor:pointer;transition:background .4s cubic-bezier(.16,1,.3,1),transform .4s cubic-bezier(.16,1,.3,1);background:var(--surface,#f8f9ff);color:var(--accent,#465bc4);}.ds-button-secondary:hover{background:#e8ebfc;}.ds-button-secondary:focus-visible{outline:3px solid var(--accent,#465bc4);outline-offset:5px;}.ds-button-secondary:active{transform:scale(.98)}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none}.ds-button-secondary:active{transform:none}}"
     },
     {
       "name": "Compact résumé action",
       "kind": "button",
       "refersTo": "button-small",
-      "description": "44px header action.",
-      "html": "<div class=\"ds-preview\"><button class=\"ds-button ds-button-small\">Résumé <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></button></div>",
-      "css": ".ds-preview { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-preview h2, .ds-preview h3, .ds-preview h4 { font-weight: 600; letter-spacing: -.02em; margin: 0; } .ds-preview p { margin: 0; } .ds-preview button, .ds-preview input { font-family: inherit; } .ds-preview button { cursor: pointer; } .ds-preview :focus-visible { outline: 3px solid var(--accent, #1460ed); outline-offset: 5px; }\n.ds-nav-shell > .ds-button { justify-self: end; }\n.ds-button { display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 0; font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .2s, transform .2s; }\n.ds-button-small { color: var(--accent, #1460ed); background: var(--surface, #f5f5f7); }\n.ds-button-small:hover { background: #e9edf5; }\n.ds-button-small { min-height: 44px; padding: 10px 17px; font-size: 12px; }\n.ds-button:active { transform: scale(.98); }\n@media (max-width: 900px) { .ds-nav-shell > .ds-button { grid-column: 2; grid-row: 1; } }\n@media (max-width: 540px) { .ds-hero-actions .ds-button { padding-inline: 19px; } }\n@media (prefers-reduced-motion: reduce) { .ds-button:active { transform: none; } }\n\n@media (prefers-reduced-motion: reduce) { .ds-preview, .ds-preview * { animation: none !important; transition: none !important; } .ds-button:active, .ds-text-link:hover svg { transform: none; } }"
+      "description": "Solid pill with contrast-safe colour and visible keyboard focus.",
+      "html": "<a class=\"ds-button-small\" href=\"/Chua-Jia-Sheng-Resume.pdf\">Résumé<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5\"/></svg></a>",
+      "css": ".ds-button-small{font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;display:inline-flex;justify-content:center;align-items:center;gap:10px;min-height:48px;border-radius:999px;padding:13px 23px;border:0;font-size:14px;font-weight:500;white-space:nowrap;text-decoration:none;cursor:pointer;transition:background .4s cubic-bezier(.16,1,.3,1),transform .4s cubic-bezier(.16,1,.3,1);background:var(--surface,#f8f9ff);color:var(--accent,#465bc4);min-height:44px;padding:10px 17px;font-size:12px;}.ds-button-small:hover{background:#e8ebfc;}.ds-button-small:focus-visible{outline:3px solid var(--accent,#465bc4);outline-offset:5px;}.ds-button-small:active{transform:scale(.98)}@media(prefers-reduced-motion:reduce){.ds-button-small{transition:none}.ds-button-small:active{transform:none}}"
     },
     {
       "name": "Credential search",
       "kind": "input",
       "refersTo": "search-input",
-      "description": "Named white field, cobalt caret and mobile 16px text.",
-      "html": "<div class=\"ds-preview\"><div class=\"ds-search-field\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"m15.5 15.5 5 5\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg><input type=\"search\" aria-label=\"Search credentials\" placeholder=\"Find a credential\"></div></div>",
-      "css": ".ds-preview { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-preview h2, .ds-preview h3, .ds-preview h4 { font-weight: 600; letter-spacing: -.02em; margin: 0; } .ds-preview p { margin: 0; } .ds-preview button, .ds-preview input { font-family: inherit; } .ds-preview button { cursor: pointer; } .ds-preview :focus-visible { outline: 3px solid var(--accent, #1460ed); outline-offset: 5px; }\n.ds-search-field { position: relative; width: 240px; flex-shrink: 0; }\n.ds-search-field > svg { position: absolute; top: 15px; left: 14px; color: var(--secondary, #60616a); pointer-events: none; }\n.ds-search-field input { width: 100%; min-height: 48px; padding: 12px 14px 12px 40px; border-radius: 10px; color: var(--ink, #1d1d1f); border: 1px solid var(--line, #e5e6eb); background: white; font-size: 14px; caret-color: var(--accent, #1460ed); }\n.ds-search-field input::placeholder { color: var(--secondary, #60616a); opacity: 1; }\n@media (max-width: 1100px) { .ds-search-field { width: 100%; max-width: 360px; } }\n@media (max-width: 900px) { .ds-search-field { max-width: none; } }\n@media (max-width: 900px) { .ds-search-field input { font-size: 16px; } }\n\n@media (prefers-reduced-motion: reduce) { .ds-preview, .ds-preview * { animation: none !important; transition: none !important; } .ds-button:active, .ds-text-link:hover svg { transform: none; } }"
+      "description": "Named search field with a leading inline SVG.",
+      "html": "<div class=\"ds-search\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"10\" r=\"6\"/><path d=\"m15 15 6 6\"/></svg><input type=\"search\" aria-label=\"Search credentials\" placeholder=\"Find a credential\" /></div>",
+      "css": ".ds-search{position:relative;width:240px;max-width:100%;font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;}.ds-search svg{position:absolute;top:15px;left:14px;color:var(--secondary,#656570);pointer-events:none}.ds-search input{font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;width:100%;min-height:48px;padding:12px 14px 12px 40px;border-radius:10px;color:var(--ink,#1d1d1f);border:1px solid var(--line,#e7e8f0);background:white;font-size:14px;caret-color:var(--accent,#465bc4)}.ds-search input::placeholder{color:var(--secondary,#656570);opacity:1}.ds-search input:focus-visible{outline:3px solid var(--accent,#465bc4);outline-offset:5px;}@media(max-width:900px){.ds-search{width:100%}.ds-search input{font-size:16px}}"
     },
     {
       "name": "Category filters",
       "kind": "chip",
       "refersTo": "filter",
-      "description": "Quiet semantic pills with selected inset line.",
-      "html": "<div class=\"ds-preview\"><div class=\"ds-filters\" role=\"group\" aria-label=\"Filter certifications\"><button aria-pressed=\"true\">All</button><button aria-pressed=\"false\">Cloud &amp; software</button><button aria-pressed=\"false\">Security</button></div></div>",
-      "css": ".ds-preview { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-preview h2, .ds-preview h3, .ds-preview h4 { font-weight: 600; letter-spacing: -.02em; margin: 0; } .ds-preview p { margin: 0; } .ds-preview button, .ds-preview input { font-family: inherit; } .ds-preview button { cursor: pointer; } .ds-preview :focus-visible { outline: 3px solid var(--accent, #1460ed); outline-offset: 5px; }\n.ds-filters { display: flex; flex-wrap: wrap; gap: 4px; }\n.ds-filters button { min-height: 44px; border: 0; background: transparent; color: var(--secondary, #60616a); padding: 10px 12px; border-radius: 999px; font-size: 12px; transition: background .2s, color .2s; }\n.ds-filters button:hover { background: var(--surface, #f5f5f7); color: var(--accent, #1460ed); }\n.ds-filters button[aria-pressed=true] { background: var(--surface, #f5f5f7); color: var(--accent, #1460ed); box-shadow: inset 0 0 0 1px #d6e3fa; }\n@media (max-width: 900px) { .ds-filters button { font-size: 12px; padding-inline: 10px; } }\n\n@media (prefers-reduced-motion: reduce) { .ds-preview, .ds-preview * { animation: none !important; transition: none !important; } .ds-button:active, .ds-text-link:hover svg { transform: none; } }"
+      "description": "Semantic filters with a filled selected state.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Filter certifications\"><button aria-pressed=\"true\">All</button><button aria-pressed=\"false\">Communications</button></div>",
+      "css": ".ds-filters{display:flex;flex-wrap:wrap;gap:4px}.ds-filters button{font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;min-height:44px;border:0;background:transparent;color:var(--secondary,#656570);padding:10px 12px;border-radius:999px;font-size:12px;cursor:pointer;transition:background .2s,color .2s}.ds-filters button:hover,.ds-filters button[aria-pressed=true]{background:var(--surface,#f8f9ff);color:var(--accent,#465bc4)}.ds-filters button[aria-pressed=true]{box-shadow:inset 0 0 0 1px #d6e3fa}.ds-filters button:focus-visible{outline:3px solid var(--accent,#465bc4);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-filters button{transition:none}}"
     },
     {
-      "name": "Translucent navigation",
+      "name": "Floating glass navigation",
       "kind": "nav",
       "refersTo": "navigation",
-      "description": "Balanced sticky navigation; compact two-row links remain visible.",
-      "html": "<div class=\"ds-preview\"><header class=\"ds-site-header\"><div class=\"ds-nav-shell\"><a href=\"#overview\" class=\"ds-brand\" aria-label=\"Back to introduction\"><span class=\"ds-monogram\">js.</span></a><nav class=\"ds-main-nav\" aria-label=\"Preview navigation\"><a href=\"#about\">About</a><a href=\"#background\" aria-current=\"location\">Experience</a><a href=\"#projects\">Projects</a><a href=\"#education\">Qualifications</a><a href=\"#contact\">Contact</a></nav><button class=\"ds-button ds-button-small\">Résumé</button></div></header></div>",
-      "css": ".ds-preview { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-preview h2, .ds-preview h3, .ds-preview h4 { font-weight: 600; letter-spacing: -.02em; margin: 0; } .ds-preview p { margin: 0; } .ds-preview button, .ds-preview input { font-family: inherit; } .ds-preview button { cursor: pointer; } .ds-preview :focus-visible { outline: 3px solid var(--accent, #1460ed); outline-offset: 5px; }\n.ds-site-header { position: sticky; top: 0; z-index: 10; background: rgb(255 255 255 / 82%); border-bottom: 1px solid rgb(229 230 235 / 75%); backdrop-filter: blur(22px) saturate(160%); -webkit-backdrop-filter: blur(22px) saturate(160%); }\n.ds-nav-shell { width: min(1120px, calc(100% - 80px)); min-height: 72px; margin: auto; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 24px; }\n.ds-brand { width: fit-content; display: inline-flex; align-items: center; min-height: 44px; }\n.ds-monogram { font-size: 26px; font-weight: 600; line-height: 1; letter-spacing: -.04em; }\n.ds-main-nav { display: flex; align-items: center; gap: 4px; }\n.ds-main-nav a { font-size: 13px; color: var(--secondary, #60616a); display: grid; place-items: center; min-height: 40px; padding-inline: 13px; border-radius: 999px; transition: color .2s, background .2s; }\n.ds-main-nav a:hover { color: var(--accent, #1460ed); background: var(--surface, #f5f5f7); }\n.ds-main-nav a[aria-current] { color: var(--accent, #1460ed); background: #edf3ff; }\n.ds-nav-shell > .ds-button { justify-self: end; }\n.ds-button { display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 0; font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .2s, transform .2s; }\n.ds-button-small { color: var(--accent, #1460ed); background: var(--surface, #f5f5f7); }\n.ds-button-small:hover { background: #e9edf5; }\n.ds-button-small { min-height: 44px; padding: 10px 17px; font-size: 12px; }\n.ds-button:active { transform: scale(.98); }\n@media (max-width: 1100px) { .ds-nav-shell { width: calc(100% - 64px); } }\n@media (max-width: 900px) { .ds-nav-shell { width: calc(100% - 40px); } }\n@media (max-width: 900px) { .ds-nav-shell { min-height: 108px; grid-template-columns: 1fr auto; gap: 0 18px; padding: 10px 0 3px; } }\n@media (max-width: 900px) { .ds-brand { grid-column: 1; grid-row: 1; } }\n@media (max-width: 900px) { .ds-nav-shell > .ds-button { grid-column: 2; grid-row: 1; } }\n@media (max-width: 900px) { .ds-main-nav { grid-column: 1 / -1; grid-row: 2; justify-content: space-between; gap: 4px; } }\n@media (max-width: 900px) { .ds-main-nav a { font-size: 12px; min-height: 44px; padding-inline: 4px; border-radius: 8px; } }\n@media (max-width: 540px) { .ds-main-nav a { padding-inline: 2px; } }\n@media (max-width: 540px) { .ds-hero-actions .ds-button { padding-inline: 19px; } }\n@media (max-width: 375px) { .ds-main-nav a { font-size: 11px; } }\n@media (prefers-reduced-motion: reduce) { .ds-button:active { transform: none; } }\n@media (prefers-reduced-transparency: reduce) { .ds-site-header { background: white; backdrop-filter: none; -webkit-backdrop-filter: none; } }\n@supports not (backdrop-filter: blur(20px)) { .ds-site-header { background: white; } }\n.ds-brand, .ds-main-nav a { text-decoration: none; }\n@media (prefers-reduced-motion: reduce) { .ds-preview, .ds-preview * { animation: none !important; transition: none !important; } .ds-button:active, .ds-text-link:hover svg { transform: none; } }"
+      "description": "Portfolio. label, persistent anchors and a compact résumé download.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-brand\" href=\"#overview\">Portfolio.</a><nav aria-label=\"Main navigation\"><a href=\"#about\">About</a><a href=\"#background\" aria-current=\"location\">Experience</a><a href=\"#projects\">Projects</a><a href=\"#education\">Qualifications</a><a href=\"#contact\">Contact</a></nav><a class=\"ds-resume\" href=\"/Chua-Jia-Sheng-Resume.pdf\">Résumé<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5\"/></svg></a></header>",
+      "css": ".ds-nav{font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px;min-height:72px;padding:0 24px;border-radius:20px;background:rgb(255 255 255 / 76%);box-shadow:var(--glass-shadow,0 12px 32px rgb(68 83 153 / 7%),0 3px 8px rgb(68 83 153 / 3%)),inset 0 1px 0 rgb(255 255 255 / 85%);backdrop-filter:blur(22px) saturate(130%);color:var(--ink,#1d1d1f)}.ds-nav a{text-decoration:none}.ds-brand{font-size:18px;font-weight:600;letter-spacing:-.04em;display:inline-flex;align-items:center;min-height:44px}.ds-nav nav{display:flex;gap:4px}.ds-nav nav a{font-size:13px;color:var(--secondary,#656570);display:grid;place-items:center;min-height:40px;padding:0 13px;border-radius:999px;transition:color .2s,background .2s}.ds-nav nav a:hover{color:var(--accent,#465bc4);background:var(--surface,#f8f9ff)}.ds-nav nav a[aria-current]{color:var(--accent,#465bc4);background:#edf0ff}.ds-resume{justify-self:end;display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:10px 17px;border-radius:999px;font-size:12px;font-weight:500;background:var(--surface,#f8f9ff);color:var(--accent,#465bc4)}.ds-resume:hover{background:#e8ebfc}.ds-nav a:focus-visible{outline:3px solid var(--accent,#465bc4);outline-offset:5px;}@media(max-width:900px){.ds-nav{grid-template-columns:1fr auto;min-height:108px;padding:10px 12px 3px;gap:0 18px;border-radius:18px}.ds-nav nav{grid-column:1/-1;grid-row:2;justify-content:space-between}.ds-resume{grid-column:2;grid-row:1}.ds-nav nav a{font-size:12px;min-width:44px;min-height:44px;padding:0 4px;border-radius:8px}}@media(max-width:375px){.ds-nav nav{gap:0}.ds-nav nav a{font-size:11px;padding:0 2px}}@media(prefers-reduced-transparency:reduce){.ds-nav{background:white;backdrop-filter:none}}@supports not(backdrop-filter:blur(20px)){.ds-nav{background:white}}@media(prefers-reduced-motion:reduce){.ds-nav a{transition:none}}"
     },
     {
-      "name": "Visible career record",
-      "kind": "custom",
-      "refersTo": "career-row",
-      "description": "Metadata, title and responsibilities stay in the reading flow.",
-      "html": "<div class=\"ds-preview\"><div class=\"ds-timeline-year\"><h3 class=\"ds-year-label\">2024</h3><div class=\"ds-year-entries\"><article class=\"ds-career-item\"><div class=\"ds-career-meta\"><span>Apr 2024 – Jul 2024</span><span>Taipei, Taiwan</span></div><div class=\"ds-career-copy\"><h3>Sensor Fabrication &amp; Microcontroller Integration Intern</h3><p class=\"ds-career-org\">Chinese Culture University</p><p class=\"ds-career-description\">Collaborated with university researchers on humidity sensor fabrication and microcontroller integration.</p></div></article></div></div></div>",
-      "css": ".ds-preview { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-preview h2, .ds-preview h3, .ds-preview h4 { font-weight: 600; letter-spacing: -.02em; margin: 0; } .ds-preview p { margin: 0; } .ds-preview button, .ds-preview input { font-family: inherit; } .ds-preview button { cursor: pointer; } .ds-preview :focus-visible { outline: 3px solid var(--accent, #1460ed); outline-offset: 5px; }\n.ds-timeline-year { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 34px; }\n.ds-year-label { font-size: 32px; line-height: 1.2; font-weight: 500; letter-spacing: -.035em; color: var(--secondary, #60616a); font-variant-numeric: tabular-nums; padding-top: 2px; }\n.ds-timeline-year:first-child .ds-year-label { color: var(--accent, #1460ed); }\n.ds-year-entries { padding-left: 34px; border-left: 1px solid var(--line, #e5e6eb); }\n.ds-career-item { display: grid; grid-template-columns: 164px minmax(0, 1fr); gap: 25px; }\n.ds-career-item + .ds-career-item { margin-top: 35px; padding-top: 35px; border-top: 1px solid var(--line, #e5e6eb); }\n.ds-career-meta { display: flex; flex-direction: column; gap: 7px; color: var(--secondary, #60616a); font-size: 12px; line-height: 1.65; font-variant-numeric: tabular-nums; padding-top: 4px; }\n.ds-career-copy h3 { font-size: 20px; line-height: 1.4; max-width: 45ch; }\n.ds-career-org { color: var(--secondary, #60616a); font-size: 15px; line-height: 1.65; margin-top: 9px; }\n.ds-career-description { margin-top: 16px; font-size: 15px; line-height: 1.75; max-width: 65ch; color: var(--secondary, #60616a); }\n@media (max-width: 1100px) { .ds-career-item { grid-template-columns: 140px minmax(0,1fr); gap: 20px; } }\n@media (max-width: 1100px) { .ds-timeline-year { grid-template-columns: 88px minmax(0,1fr); gap: 25px; } }\n@media (max-width: 1100px) { .ds-year-entries { padding-left: 26px; } }\n@media (max-width: 900px) { .ds-timeline-year { grid-template-columns: 1fr; gap: 20px; } }\n@media (max-width: 900px) { .ds-year-label { font-size: 25px; } }\n@media (max-width: 900px) { .ds-year-entries { padding-left: 20px; margin-left: 3px; } }\n@media (max-width: 900px) { .ds-career-item { grid-template-columns: 1fr; gap: 11px; } }\n@media (max-width: 900px) { .ds-career-meta { flex-direction: row; flex-wrap: wrap; gap: 5px 18px; padding: 0; } }\n@media (max-width: 900px) { .ds-career-copy h3 { font-size: 18px; } }\n@media (max-width: 900px) { .ds-career-org { font-size: 14px; margin-top: 7px; } }\n@media (max-width: 900px) { .ds-career-description { font-size: 14px; margin-top: 12px; } }\n@media (max-width: 900px) { .ds-career-item + .ds-career-item { margin-top: 27px; padding-top: 27px; } }\n\n@media (prefers-reduced-motion: reduce) { .ds-preview, .ds-preview * { animation: none !important; transition: none !important; } .ds-button:active, .ds-text-link:hover svg { transform: none; } }"
-    },
-    {
-      "name": "Achievement enclosure and card",
+      "name": "Frosted skill group",
       "kind": "card",
-      "refersTo": "award-row",
-      "description": "Static white records inside a soft-gray rounded achievement panel.",
-      "html": "<div class=\"ds-preview\"><section class=\"ds-recognition\"><div class=\"ds-subsection-heading\"><h3>Achievements.</h3><p>Academic recognition, skills and service.</p></div><div class=\"ds-award-list\"><article class=\"ds-award-row\"><p class=\"ds-award-date\">Jun 2026</p><h4>Certificate of Appreciation</h4><p class=\"ds-award-detail\">SAF Day Parade 2026</p><p class=\"ds-award-issuer\">Ministry of Defence</p><svg class=\"ds-award-icon\" width=\"42\" height=\"42\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M216,96A88,88,0,1,0,72,163.83V240a8,8,0,0,0,11.58,7.16L128,225l44.43,22.21A8.07,8.07,0,0,0,176,248a8,8,0,0,0,8-8V163.83A87.85,87.85,0,0,0,216,96ZM56,96a72,72,0,1,1,72,72A72.08,72.08,0,0,1,56,96ZM168,227.06l-36.43-18.21a8,8,0,0,0-7.16,0L88,227.06V174.37a87.89,87.89,0,0,0,80,0ZM128,152A56,56,0,1,0,72,96,56.06,56.06,0,0,0,128,152Zm0-96A40,40,0,1,1,88,96,40,40,0,0,1,128,56Z\"/></svg></article></div></section></div>",
-      "css": ".ds-preview { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-preview h2, .ds-preview h3, .ds-preview h4 { font-weight: 600; letter-spacing: -.02em; margin: 0; } .ds-preview p { margin: 0; } .ds-preview button, .ds-preview input { font-family: inherit; } .ds-preview button { cursor: pointer; } .ds-preview :focus-visible { outline: 3px solid var(--accent, #1460ed); outline-offset: 5px; }\n.ds-subsection-heading > p { margin-top: 16px; color: var(--secondary, #60616a); font-size: 17px; line-height: 1.65; }\n.ds-subsection-heading { margin-bottom: 30px; }\n.ds-subsection-heading h3 { font-size: 36px; line-height: 1.15; letter-spacing: -.03em; }\n.ds-subsection-heading > p { font-size: 15px; }\n.ds-recognition { background: var(--surface, #f5f5f7); padding: 44px; border-radius: 24px; margin-top: 70px; }\n.ds-award-list { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; }\n.ds-award-row { background: white; padding: 28px; border-radius: 16px; display: flex; flex-direction: column; align-items: flex-start; min-height: 276px; }\n.ds-award-date { color: var(--secondary, #60616a); font-size: 12px; margin-bottom: 9px; }\n.ds-award-row h4 { font-size: 20px; line-height: 1.4; }\n.ds-award-detail { margin-top: 10px; font-size: 14px; line-height: 1.6; color: var(--secondary, #60616a); }\n.ds-award-issuer { margin-top: 5px; font-size: 12px; line-height: 1.6; color: var(--secondary, #60616a); }\n.ds-award-icon { color: var(--accent, #1460ed); margin-top: auto; padding-top: 24px; box-sizing: content-box; }\n@media (max-width: 900px) { .ds-subsection-heading h3 { font-size: 30px; } }\n@media (max-width: 900px) { .ds-recognition { padding: 28px; margin-top: 55px; border-radius: 20px; } }\n@media (max-width: 900px) { .ds-award-list { gap: 16px; } }\n@media (max-width: 900px) { .ds-award-row { padding: 24px; min-height: 270px; } }\n@media (max-width: 540px) { .ds-award-list { grid-template-columns: 1fr; } }\n@media (max-width: 540px) { .ds-recognition { padding: 24px 18px; } }\n@media (max-width: 540px) { .ds-award-row { min-height: 240px; } }\n\n@media (prefers-reduced-motion: reduce) { .ds-preview, .ds-preview * { animation: none !important; transition: none !important; } .ds-button:active, .ds-text-link:hover svg { transform: none; } }"
+      "refersTo": "skill-panel",
+      "description": "Readable non-button grouping; gentle lift only for fine pointers without reduced motion.",
+      "html": "<div class=\"ds-skills\"><h4>Embedded systems</h4><ul><li>IoT & embedded systems</li><li>Microcontroller integration</li><li>Sensor fabrication</li></ul></div>",
+      "css": ".ds-skills{font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;position:relative;isolation:isolate;overflow:hidden;background:var(--glass-fill,rgb(255 255 255 / 72%));box-shadow:var(--glass-shadow,0 12px 32px rgb(68 83 153 / 7%),0 3px 8px rgb(68 83 153 / 3%)),inset 0 1px 0 var(--glass-edge,rgb(255 255 255 / 85%));backdrop-filter:blur(20px);padding:22px;border-radius:18px;transition:transform .5s cubic-bezier(.16,1,.3,1);color:var(--ink,#1d1d1f)}.ds-skills h4{font-size:14px;line-height:1.5;letter-spacing:-.02em;margin:0 0 12px;font-weight:600}.ds-skills ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px;font-size:13px;line-height:1.6;color:var(--secondary,#656570)}@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-skills:hover{transform:translateY(-3px)}}.ds-skills::before{content:\"\";position:absolute;z-index:-1;inset:-20px;pointer-events:none;background:radial-gradient(ellipse at 95% 5%,rgb(199 217 255 / 34%),transparent 58%),radial-gradient(ellipse at 5% 100%,rgb(221 208 255 / 24%),transparent 56%);transform:translate(var(--reflection-x,0px),var(--reflection-y,0px));transition:transform .6s cubic-bezier(.16,1,.3,1)}@media(prefers-reduced-transparency:reduce){.ds-skills{background:white;backdrop-filter:none}.ds-skills::before{display:none}}@supports not(backdrop-filter:blur(20px)){.ds-skills{background:white}}@media(prefers-reduced-motion:reduce){.ds-skills,.ds-skills::before{transition:none}}"
     },
     {
-      "name": "Credential record",
-      "kind": "custom",
-      "refersTo": "credential-row",
-      "description": "Compact flat qualification row retaining explicit course-completion notes.",
-      "html": "<div class=\"ds-preview\"><article class=\"ds-credential-row\"><div class=\"ds-credential-details\"><h4>CompTIA Network+ N10-009 – 2026</h4><p>Udemy<span class=\"ds-course-note\">Course completion</span></p></div><div class=\"ds-credential-meta\"><span class=\"ds-credential-category\">Communications</span><span>Jul 2026</span></div></article></div>",
-      "css": ".ds-preview { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-preview h2, .ds-preview h3, .ds-preview h4 { font-weight: 600; letter-spacing: -.02em; margin: 0; } .ds-preview p { margin: 0; } .ds-preview button, .ds-preview input { font-family: inherit; } .ds-preview button { cursor: pointer; } .ds-preview :focus-visible { outline: 3px solid var(--accent, #1460ed); outline-offset: 5px; }\n.ds-credential-row { padding: 26px 0; border-bottom: 1px solid var(--line, #e5e6eb); min-width: 0; }\n.ds-credential-details h4 { font-size: 16px; line-height: 1.5; }\n.ds-credential-details > p { margin-top: 8px; font-size: 13px; line-height: 1.6; color: var(--secondary, #60616a); }\n.ds-course-note { display: block; font-size: 12px; margin-top: 3px; }\n.ds-credential-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 17px; margin-top: 11px; font-size: 12px; color: var(--secondary, #60616a); font-variant-numeric: tabular-nums; }\n.ds-credential-category { color: #45649a; }\n.ds-credential-id { flex-basis: 100%; overflow-wrap: anywhere; font-size: 11px; }\n\n@media (prefers-reduced-motion: reduce) { .ds-preview, .ds-preview * { animation: none !important; transition: none !important; } .ds-button:active, .ds-text-link:hover svg { transform: none; } }"
+      "name": "Glass contact panel",
+      "kind": "card",
+      "refersTo": "contact-panel",
+      "description": "Existing LinkedIn invitation in a selected frosted panel.",
+      "html": "<div class=\"ds-contact\"><div><h2>Contact.</h2><p>Let’s connect.</p></div><div><p class=\"ds-contact-detail\">Connect through LinkedIn.</p><a href=\"https://www.linkedin.com/in/chua-jia-sheng/\">linkedin.com/in/chua-jia-sheng<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></a></div></div>",
+      "css": ".ds-contact{font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;position:relative;isolation:isolate;overflow:hidden;background:var(--glass-fill,rgb(255 255 255 / 72%));box-shadow:var(--glass-shadow,0 12px 32px rgb(68 83 153 / 7%),0 3px 8px rgb(68 83 153 / 3%)),inset 0 1px 0 var(--glass-edge,rgb(255 255 255 / 85%));backdrop-filter:blur(20px);border-radius:24px;padding:56px;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;color:var(--ink,#1d1d1f)}.ds-contact h2{font-size:clamp(42px,5vw,64px);font-weight:600;line-height:1.13;letter-spacing:-.035em;margin:0}.ds-contact p{margin:16px 0 0;font-size:22px;letter-spacing:-.02em}.ds-contact .ds-contact-detail{font-size:15px;color:var(--secondary,#656570)}.ds-contact a{display:inline-flex;align-items:center;gap:13px;min-height:44px;margin-top:16px;font-size:16px;line-height:1.5;color:var(--accent,#465bc4);text-decoration:none}.ds-contact a:hover{text-decoration:underline;text-underline-offset:5px}.ds-contact a:focus-visible{outline:3px solid var(--accent,#465bc4);outline-offset:5px;}@media(max-width:900px){.ds-contact{grid-template-columns:1fr;padding:36px;gap:28px}}@media(max-width:540px){.ds-contact{padding:28px 24px}.ds-contact a{font-size:14px;overflow-wrap:anywhere;gap:8px}}.ds-contact::before{content:\"\";position:absolute;z-index:-1;inset:-20px;pointer-events:none;background:radial-gradient(ellipse at 95% 5%,rgb(199 217 255 / 34%),transparent 58%),radial-gradient(ellipse at 5% 100%,rgb(221 208 255 / 24%),transparent 56%);transform:translate(var(--reflection-x,0px),var(--reflection-y,0px));transition:transform .6s cubic-bezier(.16,1,.3,1)}@media(prefers-reduced-transparency:reduce){.ds-contact{background:white;backdrop-filter:none}.ds-contact::before{display:none}}@supports not(backdrop-filter:blur(20px)){.ds-contact{background:white}}@media(prefers-reduced-motion:reduce){.ds-contact,.ds-contact::before{transition:none}}"
     },
     {
-      "name": "Blue Projects preview",
+      "name": "Achievement card",
+      "kind": "card",
+      "refersTo": "award-card",
+      "description": "Static factual card from the retained softly tinted achievement enclosure.",
+      "html": "<article class=\"ds-award\"><p class=\"ds-award-date\">Jun 2026</p><h4>Certificate of Appreciation</h4><p class=\"ds-award-detail\">SAF Day Parade 2026</p><p class=\"ds-award-issuer\">Ministry of Defence</p><svg width=\"42\" height=\"42\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"8\" r=\"5\"/><path d=\"m8 12-2 9 6-3 6 3-2-9\"/></svg></article>",
+      "css": ".ds-award{font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;background:rgb(255 255 255 / 86%);padding:28px;border-radius:16px;display:flex;flex-direction:column;align-items:flex-start;min-height:276px;color:var(--ink,#1d1d1f)}.ds-award-date{margin:0 0 9px;font-size:12px;color:var(--secondary,#656570)}.ds-award h4{margin:0;font-size:20px;line-height:1.4;font-weight:600;letter-spacing:-.02em}.ds-award-detail{margin:10px 0 0;font-size:14px;line-height:1.6;color:var(--secondary,#656570)}.ds-award svg{color:var(--accent,#465bc4);margin-top:auto;padding-top:24px;box-sizing:content-box}.ds-award-issuer{margin:5px 0 0;font-size:12px;line-height:1.6;color:var(--secondary,#656570)}"
+    },
+    {
+      "name": "Pastel project placeholder",
       "kind": "custom",
-      "refersTo": "project-glass",
-      "description": "Apple TV-style centered placeholder with abstract blue material and neighboring peeks.",
-      "html": "<div class=\"ds-preview\"><div class=\"ds-project-carousel\"><div class=\"ds-project-window\" tabindex=\"0\" aria-label=\"Browse project previews\"><div class=\"ds-project-track\" style=\"--project-position: 1\"><article class=\"ds-project-slide ds-project-fold\"><div class=\"ds-project-art\" aria-hidden=\"true\"><span class=\"ds-project-form ds-form-one\"></span><span class=\"ds-project-form ds-form-two\"></span><span class=\"ds-project-form ds-form-three\"></span></div><div class=\"ds-project-caption\"><h3>Coming soon.</h3><span>Project placeholder. Details to follow.</span></div></article><article class=\"ds-project-slide ds-project-glass ds-is-active\"><div class=\"ds-project-art\" aria-hidden=\"true\"><span class=\"ds-project-form ds-form-one\"></span><span class=\"ds-project-form ds-form-two\"></span><span class=\"ds-project-form ds-form-three\"></span></div><div class=\"ds-project-caption\"><h3>Coming soon.</h3><span>Project placeholder. Details to follow.</span></div></article><article class=\"ds-project-slide ds-project-orbit\"><div class=\"ds-project-art\" aria-hidden=\"true\"><span class=\"ds-project-form ds-form-one\"></span><span class=\"ds-project-form ds-form-two\"></span><span class=\"ds-project-form ds-form-three\"></span></div><div class=\"ds-project-caption\"><h3>Coming soon.</h3><span>Project placeholder. Details to follow.</span></div></article></div></div><div class=\"ds-project-controls\"><p class=\"ds-project-gesture\">Swipe or drag to explore.</p><div class=\"ds-project-pagination\" aria-hidden=\"true\"><span class=\"ds-is-active\"></span><span></span><span></span></div></div></div></div>",
-      "css": ".ds-preview { font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; color: var(--ink, #1d1d1f); } .ds-preview h2, .ds-preview h3, .ds-preview h4 { font-weight: 600; letter-spacing: -.02em; margin: 0; } .ds-preview p { margin: 0; } .ds-preview button, .ds-preview input { font-family: inherit; } .ds-preview button { cursor: pointer; } .ds-preview :focus-visible { outline: 3px solid var(--accent, #1460ed); outline-offset: 5px; }\n.ds-project-carousel { --project-width: min(1000px, 82vw); --project-gap: 20px; }\n.ds-project-window { overflow: hidden; touch-action: pan-y; cursor: grab; user-select: none; }\n.ds-project-window.ds-is-dragging { cursor: grabbing; }\n.ds-project-window:focus-visible { outline-offset: -4px; }\n.ds-project-track { display: flex; gap: var(--project-gap, 12px); width: max-content; padding-inline: calc((100vw - var(--project-width, 86vw)) / 2); transform: translateX(calc(var(--project-position, initial) * (var(--project-width, 86vw) + var(--project-gap, 12px)) * -1 + var(--project-drag, 0px))); transition: transform .45s cubic-bezier(.22, .68, 0, 1); }\n.ds-is-dragging .ds-project-track, .ds-project-track.ds-is-instant, .ds-project-track.ds-is-instant .ds-project-slide, .ds-project-track.ds-is-instant .ds-project-caption { transition: none; }\n.ds-project-slide { position: relative; flex: 0 0 var(--project-width, 86vw); width: var(--project-width, 86vw); aspect-ratio: 16 / 9; overflow: hidden; opacity: .55; transition: opacity .45s var(--ease, cubic-bezier(.16, 1, .3, 1)); }\n.ds-project-slide.ds-is-active { opacity: 1; }\n.ds-project-glass { background: #e8f1ff; color: #123d8e; }\n.ds-project-orbit { background: #083d9d; color: #fff; }\n.ds-project-fold { background: var(--accent, #1460ed); color: #fff; }\n.ds-project-art { position: absolute; inset: 0; overflow: hidden; mask-image: linear-gradient(#000 45%, transparent 78%); }\n.ds-project-form { display: block; position: absolute; }\n.ds-project-glass .ds-form-one { width: 44%; aspect-ratio: 1; right: 14%; top: 8%; border-radius: 16px; background: rgb(20 96 237 / 78%); transform: rotate(-13deg); box-shadow: 12px 28px 60px rgb(7 75 203 / 18%); }\n.ds-project-glass .ds-form-two { width: 42%; aspect-ratio: 1; right: 22%; top: 14%; border: 1px solid rgb(255 255 255 / 90%); border-radius: 16px; background: rgb(212 238 255 / 35%); backdrop-filter: blur(16px); transform: rotate(10deg); }\n.ds-project-glass .ds-form-three { width: 12%; aspect-ratio: 1; right: 8%; top: 9%; border: 10px solid #69c9ef; border-radius: 50%; }\n.ds-project-orbit .ds-project-form { border: 1px solid rgb(212 238 255 / 55%); border-radius: 50%; }\n.ds-project-orbit .ds-form-one { width: 68%; aspect-ratio: 1; right: -4%; top: -12%; }\n.ds-project-orbit .ds-form-two { width: 49%; aspect-ratio: 1; right: 5%; top: 5%; border-width: 22px; border-color: rgb(105 201 239 / 65%); }\n.ds-project-orbit .ds-form-three { width: 27%; aspect-ratio: 1; right: 16%; top: 25%; background: rgb(212 238 255 / 16%); }\n.ds-project-fold .ds-form-one { width: 38%; aspect-ratio: 1; right: 20%; top: 7%; background: #69c9ef; transform: rotate(32deg); }\n.ds-project-fold .ds-form-two { width: 38%; aspect-ratio: 1; right: 6%; top: 15%; border: 1px solid rgb(255 255 255 / 65%); background: rgb(212 238 255 / 30%); transform: rotate(-17deg); }\n.ds-project-fold .ds-form-three { width: 18%; aspect-ratio: 1; right: 28%; top: 30%; background: rgb(8 61 157 / 60%); transform: rotate(32deg); }\n.ds-project-caption { position: absolute; left: 42px; right: 42px; bottom: 36px; opacity: 0; transform: translateY(12px); transition: opacity .4s .06s var(--ease, cubic-bezier(.16, 1, .3, 1)), transform .4s .06s var(--ease, cubic-bezier(.16, 1, .3, 1)); }\n.ds-is-active .ds-project-caption { opacity: 1; transform: none; }\n.ds-project-caption h3 { font-size: clamp(30px, 4vw, 48px); line-height: 1.1; }\n.ds-project-caption span { display: block; margin-top: 12px; font-size: 15px; line-height: 1.6; }\n.ds-project-controls { display: flex; justify-content: space-between; align-items: center; min-height: 66px; gap: 20px; }\n.ds-project-gesture { font-size: 12px; color: var(--secondary, #60616a); }\n.ds-project-pagination { display: flex; align-items: center; gap: 14px; }\n.ds-project-pagination > span { display: block; width: 7px; height: 7px; background: #9b9da5; border-radius: 999px; transition: width .4s var(--ease, cubic-bezier(.16, 1, .3, 1)), background .4s; }\n.ds-project-pagination > span.ds-is-active { width: 27px; background: var(--accent, #1460ed); }\n@media (max-width: 900px) { .ds-project-carousel { --project-width: 86vw; --project-gap: 12px; } }\n@media (max-width: 900px) { .ds-project-caption { left: 28px; right: 28px; bottom: 26px; } }\n@media (max-width: 540px) { .ds-project-slide { aspect-ratio: 6 / 5; } }\n@media (max-width: 540px) { .ds-project-caption { left: 22px; right: 22px; bottom: 22px; } }\n@media (max-width: 540px) { .ds-project-caption h3 { font-size: 30px; } }\n@media (max-width: 540px) { .ds-project-caption span { font-size: 12px; margin-top: 9px; max-width: 24ch; } }\n@media (max-width: 540px) { .ds-project-controls { gap: 10px; } }\n@media (max-width: 540px) { .ds-project-glass .ds-form-one, .ds-project-glass .ds-form-two { width: 53%; } }\n@media (max-width: 540px) { .ds-project-orbit .ds-form-one { width: 80%; } }\n@media (max-width: 540px) { .ds-project-orbit .ds-form-two { width: 60%; border-width: 13px; } }\n@media (max-width: 540px) { .ds-project-orbit .ds-form-three { width: 35%; } }\n@media (prefers-reduced-transparency: reduce) { .ds-project-glass .ds-form-two { background: #d4eeff; backdrop-filter: none; } }\n\n@media (prefers-reduced-motion: reduce) { .ds-preview, .ds-preview * { animation: none !important; transition: none !important; } .ds-button:active, .ds-text-link:hover svg { transform: none; } }"
+      "refersTo": "project-preview",
+      "description": "One active placeholder preview; actual rail supplies gesture/keyboard browsing and position status.",
+      "html": "<article class=\"ds-project\" tabindex=\"0\" aria-label=\"Project placeholder\"><div class=\"ds-project-art\" aria-hidden=\"true\"><span class=\"ds-form-one\"></span><span class=\"ds-form-two\"></span><span class=\"ds-form-three\"></span></div><div class=\"ds-project-caption\"><h3>Coming soon.</h3><p>Project placeholder. Details to follow.</p></div></article>",
+      "css": ".ds-project{font-family: 'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;position:relative;aspect-ratio:16/9;border-radius:24px;overflow:hidden;background:linear-gradient(125deg,#eef3ff,#d7ddff 60%,#e9deff);color:#293568}.ds-project:focus-visible{outline:3px solid var(--accent,#465bc4);outline-offset:5px;outline-offset:-4px}.ds-project-art{position:absolute;inset:0;overflow:hidden;mask-image:linear-gradient(#000 45%,transparent 78%)}.ds-project-art span{position:absolute;display:block;aspect-ratio:1}.ds-form-one{width:44%;right:14%;top:8%;border-radius:16px;background:rgb(99 120 232 / 60%);transform:rotate(-13deg);box-shadow:12px 28px 60px rgb(70 91 196 / 12%)}.ds-form-two{width:42%;right:22%;top:14%;border:1px solid rgb(255 255 255 / 90%);border-radius:16px;background:rgb(255 255 255 / 36%);backdrop-filter:blur(16px);transform:rotate(10deg)}.ds-form-three{width:12%;right:8%;top:9%;border:10px solid #a3b5f4;border-radius:50%}.ds-project-caption{position:absolute;left:42px;right:42px;bottom:36px}.ds-project h3{margin:0;font-size:clamp(30px,4vw,48px);line-height:1.1;font-weight:600;letter-spacing:-.02em}.ds-project p{margin:12px 0 0;font-size:15px;line-height:1.6}@media(max-width:540px){.ds-project{aspect-ratio:6/5}.ds-project-caption{left:22px;right:22px;bottom:22px}.ds-project h3{font-size:30px}.ds-project p{font-size:12px;max-width:24ch;margin-top:9px}}@media(prefers-reduced-transparency:reduce){.ds-form-two{background:#e5eaff;backdrop-filter:none}}"
     }
   ],
   "narrative": {
     "northStar": "A quiet engineering record.",
-    "overview": "The current user-directed design is a white, Apple-inspired editorial résumé. The name appears once in the visible introduction, followed by a concise About section, a reverse-chronological professional record, a clearly labelled Projects preview, combined skills and education, grouped credentials and achievements, and a direct LinkedIn invitation. Generous spacing and aligned typography create the hierarchy.\n\nCobalt identifies actions, the hero’s opening role phrase and the current career year; near-black and cool gray carry the reading experience. Geist remains self-hosted. Glass is restrained to the sticky navigation and abstract project-preview material; pill controls use quiet solid surfaces. Responsibilities remain fully visible. Flat reading rows, minimal dividers and a quiet achievement-card group replace the superseded decorative Portfolio cover, acrylic shapes, glass reading cards and alternating horizontal axis.",
+    "overview": "The portfolio combines Apple-inspired editorial clarity with selective frosted glass and soft blue-purple light. White space, charcoal reading text and aligned typography keep the professional record easy to scan. The established self-hosted Geist family supplies the whole hierarchy.\n\nPastel blue, lavender and periwinkle light the hero and selected panels. A deeper blue-purple accent marks actions, the opening role phrase and the current year. The floating header, grouped skills, project previews and contact panel carry the material character; experience, education and credentials remain flat. Responsibilities and all matching credentials are visible without disclosure steps.",
     "keyCharacteristics": [
-      "One visible hero name, followed by concise editorial sections.",
-      "White ground, near-black reading text, cool gray support and cobalt actions.",
+      "White ground, charcoal reading text and contrast-safe blue-purple actions.",
       "Self-hosted Geist at 400, 500 and 600 with restrained tracking.",
-      "Flat reading rows, restrained achievement cards, pill controls, a translucent header and blue project previews.",
-      "Visible responsibilities, all matching credentials and reduced-motion-aware reveals."
+      "Selective frosted panels, soft local light and flat factual reading rows.",
+      "One visible hero name, a discreet Portfolio. navigation label and explicitly labelled project placeholders.",
+      "Visible responsibilities, searchable credentials and preference-aware motion and transparency."
     ],
     "rules": [
       {
         "name": "The Reading First Rule",
-        "body": "Keep blue abstract material scoped to the labelled Projects previews; solid text and white space carry the professional record.",
+        "body": "Use the deeper action accent for text and controls; reserve the lighter ambient accent and pastels for material and light.",
         "section": "colors"
       },
       {
@@ -1066,25 +710,25 @@
         "section": "layout"
       },
       {
-        "name": "The Quiet Glass Rule",
-        "body": "Keep glass in the sticky header and labelled abstract project previews; use flat rows and hairlines for the professional record, with the established soft achievement-card group as a reading exception.",
+        "name": "The Selective Glass Rule",
+        "body": "Use frosted material for the header, skill groups, project previews and contact panel; retain flat rows for experience, education and credentials.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "**Do** keep the visible name in the hero and use the monogram elsewhere.",
-      "**Do** preserve white ground, solid reading text, cobalt actions and the Geist hierarchy.",
-      "**Do** keep responsibilities visible, qualifications grouped by purpose and project placeholders explicitly labelled.",
+      "**Do** keep the full visible name in the hero and use Portfolio. as the navigation label.",
+      "**Do** preserve white ground, solid reading text, soft local light and the Geist hierarchy.",
+      "**Do** keep responsibilities visible, skills grouped by purpose and project placeholders explicitly labelled.",
       "**Do** retain visible focus, named search, live counts and usable anchor navigation at every breakpoint.",
       "**Do** keep all reveal content visible under reduced motion, without reveal enhancement, and when printing.",
       "**Do** print all 17 credentials independently of active screen filters."
     ],
     "donts": [
-      "**Don't** restore the oversized Portfolio cover or glass reading cards; abstract material belongs to labelled Projects previews.",
-      "**Don't** turn skills or category metadata into decorative button chips.",
+      "**Don't** turn every section into a glass card or use saturated ambient colour for small reading text.",
+      "**Don't** give static skill lists or category metadata decorative button states.",
       "**Don't** hide responsibilities inside disclosures or credentials behind show-more controls.",
-      "**Don't** spread project artwork shadows into reading rows or invent project names, clients, results or professional claims.",
-      "**Don't** make motion a prerequisite for reading or interacting with the page."
+      "**Don't** invent project names, clients, results or professional claims from abstract placeholder artwork.",
+      "**Don't** make motion, blur or pointer hover a prerequisite for reading or interacting with the page."
     ]
   }
 }
