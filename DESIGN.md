@@ -1,6 +1,6 @@
 ---
 name: "Chua Jia Sheng résumé"
-description: "Apple-inspired editorial clarity with bright frosted glass, blue-cyan light and a restrained lavender accent."
+description: "Apple-inspired editorial hierarchy and purposeful motion within the established blue-led frosted glass."
 colors:
   page: "#fff"
   ink: "#17181c"
@@ -31,7 +31,7 @@ colors:
 typography:
   display:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "clamp(48px, 5.7vw, 80px)"
+    fontSize: "clamp(48px, 6.7vw, 96px)"
     fontWeight: 600
     lineHeight: 1.12
     letterSpacing: "-.04em"
@@ -55,15 +55,15 @@ typography:
     letterSpacing: "-.03em"
   headline:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "clamp(34px, 3.5vw, 48px)"
+    fontSize: "clamp(38px, 4.8vw, 64px)"
     fontWeight: 600
-    lineHeight: 1.13
+    lineHeight: 1.08
     letterSpacing: "-.035em"
   contact-headline:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "clamp(42px, 5vw, 64px)"
+    fontSize: "clamp(48px, 5.8vw, 80px)"
     fontWeight: 600
-    lineHeight: 1.13
+    lineHeight: 1.08
     letterSpacing: "-.035em"
   subsection:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
@@ -73,12 +73,12 @@ typography:
     letterSpacing: "-.03em"
   about-lead:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "23px"
-    lineHeight: 1.5
+    fontSize: "21px"
+    lineHeight: 1.55
     letterSpacing: "-.02em"
   about-body:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "16px"
+    fontSize: "17px"
     lineHeight: 1.75
   responsibility:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
@@ -102,9 +102,9 @@ typography:
     letterSpacing: "-.02em"
   skill-heading:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "14px"
+    fontSize: "18px"
     fontWeight: 600
-    lineHeight: 1.5
+    lineHeight: 1.4
     letterSpacing: "-.02em"
   skill-list:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
@@ -150,12 +150,78 @@ typography:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "15px"
     lineHeight: 1.6
+  editorial-statement:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "clamp(40px, 5.5vw, 76px)"
+    fontWeight: 600
+    lineHeight: 1.1
+    letterSpacing: "-.04em"
+  editorial-statement-mobile:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "clamp(38px, 6vw, 58px)"
+    fontWeight: 600
+    lineHeight: 1.1
+    letterSpacing: "-.04em"
+  section-support:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "17px"
+    lineHeight: 1.65
+  about-body-mobile:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "16px"
+    lineHeight: 1.75
+  education-title:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "24px"
+    fontWeight: 600
+    lineHeight: 1.4
+    letterSpacing: "-.02em"
+  education-title-mobile:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "21px"
+    fontWeight: 600
+    lineHeight: 1.4
+    letterSpacing: "-.02em"
+  year-marker:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "36px"
+    fontWeight: 500
+    lineHeight: 1.2
+    letterSpacing: "-.035em"
+  year-marker-mobile:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "28px"
+    fontWeight: 500
+    lineHeight: 1.2
+    letterSpacing: "-.035em"
+  skill-heading-phone:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "16px"
+    fontWeight: 600
+    lineHeight: 1.4
+    letterSpacing: "-.02em"
+  navigation-mobile:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "12px"
+  navigation-narrow:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "11px"
+  contact-lead:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "28px"
+    lineHeight: 1.25
+    letterSpacing: "-.025em"
+  contact-lead-phone:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "20px"
+    lineHeight: 1.25
+    letterSpacing: "-.025em"
 rounded:
   input: "10px"
   skip-link: "12px"
   navigation-compact: "8px"
-  header: "20px"
-  header-compact: "18px"
+  header: "999px"
+  header-mobile: "20px"
   skill-chip: "16px"
   panel: "24px"
   hero-panel: "24px"
@@ -172,12 +238,17 @@ spacing:
   comfortable: "24px"
   hero-mobile-block: "28px"
   desktop-gutter: "40px"
-  section-heading: "48px"
+  section-heading: "52px"
   hero-block: "50px"
   contact-inset: "56px"
   hero-inline: "58px"
-  section-top: "92px"
-  section-bottom: "100px"
+  section-top: "104px"
+  section-bottom: "112px"
+  skill-row-gap: "28px"
+  skill-column-gap: "24px"
+  about-copy-gap: "52px"
+  education-row-gap: "32px"
+  academic-separation: "112px"
 components:
   button-primary:
     textColor: "white"
@@ -211,12 +282,33 @@ components:
     padding: "12px 14px 12px 40px"
   navigation:
     rounded: "{rounded.header}"
+    typography: "{typography.navigation}"
+    height: "74px"
+  navigation-compact:
+    rounded: "{rounded.header}"
+    height: "62px"
+  navigation-mobile:
+    rounded: "{rounded.header-mobile}"
+    typography: "{typography.navigation-mobile}"
+    height: "110px"
+  navigation-mobile-compact:
+    rounded: "{rounded.header-mobile}"
+    height: "98px"
   navigation-active:
     backgroundColor: "rgb(218 236 252 / 85%)"
     textColor: "{colors.accent-hover}"
   hero-panel:
     rounded: "{rounded.hero-panel}"
+    typography: "{typography.display}"
     padding: "50px 58px"
+  editorial-statement:
+    textColor: "{colors.ink}"
+    typography: "{typography.editorial-statement}"
+  skill-group:
+    typography: "{typography.skill-heading}"
+  education-row:
+    textColor: "{colors.ink}"
+    typography: "{typography.education-title}"
   skill-chip:
     textColor: "{colors.material-ink}"
     typography: "{typography.skill-list}"
@@ -240,161 +332,161 @@ components:
     typography: "{typography.project-title}"
 ---
 
+
 # Design System: Chua Jia Sheng résumé
 
 ## Overview
 
 **Creative North Star: "A clear engineering record in blue light."**
 
-The portfolio combines Apple-inspired editorial clarity with bright white frosted glass and blue-cyan light. The latest approved direction gives white space, charcoal typography and clear blue actions more prominence. Cyan and mint soften the atmosphere, a faint lavender glow remains at the hero edge, and lighter offset blue shadows keep the glass visible without dominating the professional record. The established self-hosted Geist family supplies the whole hierarchy.
+The portfolio combines Apple-inspired editorial hierarchy with bright white frosted glass and blue-cyan light. Large, tightly tracked Geist headings establish pace; open charcoal reading rows keep the professional record legible. Cyan, mint and faint lavender soften the established blue atmosphere without changing its material values.
 
-The hero content, floating header, secondary CTA, project surfaces and caption bands, ten individual skill chips and contact panel carry the material. The primary CTA has a clear blue gradient with white lettering. Skill category groups, experience, education and credential rows remain flat. Responsibilities and all matching credentials stay visible without disclosure steps.
+A quick staged hero reveal leads into a large research-to-practice statement, a flat timeline, immersive project placeholders, full-width grouped skills, separate academic rows and a luminous contact close. Motion is selective and bounded: factual paragraphs stay still, navigation contracts with scroll direction, and decorative loops pause outside the hero or when the document is hidden.
 
 **Key Characteristics:**
 
-- Blue and cyan lead the atmosphere, with mint and a faint lavender accent on white.
-- Self-hosted Geist at 400, 500 and 600 with restrained tracking.
-- Bright white frosted glass, clear blue actions and restrained blue depth around selected surfaces.
-- One visible hero name, a discreet Portfolio. navigation label and explicitly labelled project placeholders.
-- Flat factual reading rows, grouped skill chips and preference-aware motion and transparency.
+- Established blue/cyan light, mint support and a faint lavender accent on white.
+- Self-hosted Geist at 400, 500 and 600, with editorial scale and tracking no tighter than −.04em.
+- Bright frosted glass, clear blue actions and restrained blue depth on selected surfaces.
+- One visible hero name, a discreet Portfolio. navigation label and explicit project placeholders.
+- Flat factual rows, four skill groups, separate Education and preference-aware motion.
 
-This source-derived system captures the latest approved 12 October 2026 blue-led Apple refinement. It supersedes the previous purple-dominant iteration. `src/styles.css`, `src/App.jsx` and `src/print.css` own presentation and behaviour; `src/profile.json` owns professional facts. Frontmatter owns primitives; `.impeccable/design.json` carries composite gradients, depth, motion, breakpoints and self-contained previews. The surface contract is `.impeccable/surfaces/src-app-jsx.md`. The latest user-supplied blue/cyan palette references guide this refinement without replacing the established font or working interactions.
+This source-derived system captures the approved 13 October 2026 Apple cinematic refinement. `src/styles.css`, `src/App.jsx` and `src/print.css` own presentation and behaviour; `src/profile.json` owns facts. Frontmatter owns primitives; `.impeccable/design.json` carries layout, composite material, motion and self-contained previews. The latest section in `.impeccable/surfaces/src-app-jsx.md` is the surface contract. Earlier palette releases remain history in `docs/redesign-verification.md`.
 
 ## Colors
 
-The cool white canvas is illuminated by large blue and cyan fields. Mint supplies a soft supporting tint and lavender appears only as faint ambient light. Frontmatter preserves the source colour syntax; layered gradients live in the sidecar because they are compositions rather than primitive colours.
+The white canvas carries the established blue and cyan fields, mint glass tint and faint lavender hero light. Frontmatter preserves the source colour syntax; layered gradients live in the sidecar.
 
 ### Primary
 
-- **Primary Blue Gradient** (`primary-blue`, `primary-blue-deep`, and hover variants): the experience action, with white lettering; solid deep blue remains under reduced transparency or unsupported blur.
-- **Interactive Blue** (`accent`, `accent-hover`): links, hero phrase, current year, credential category, focus ring and caret. The hover tone also marks current navigation.
-- **Deep Blue Glass Ink** (`material-ink`): CTA text, skill chips, project captions, LinkedIn action and native text-selection foreground.
+- **Primary Blue Gradient** (`primary-blue`, `primary-blue-deep`, and hover variants): experience action with white lettering; solid deep blue under reduced transparency or unsupported blur.
+- **Interactive Blue** (`accent`, `accent-hover`): links, hero phrase, current year, credential category, focus ring and caret; the hover tone marks current navigation.
+- **Deep Blue Glass Ink** (`material-ink`): pale-glass actions, skill chips, project captions, LinkedIn action and selection foreground.
 
 ### Secondary
 
-- **Faint Lavender / Pale Cyan / Cyan Light** (`ambient-lavender`, `periwinkle`, `ambient-accent`): ambient clouds and abstract artwork. Mint (`mint`) supplies the shared glass tint. `periwinkle` retains its incumbent CSS name but now holds the approved pale cyan.
-- **Soft Blue / Supporting Blue** (`pastel-blue`, `support-blue`): secondary glows and material accents.
+- **Blue / Cyan Light** (`pastel-blue`, `support-blue`, `periwinkle`, `ambient-accent`): ambient fields and abstract project artwork. `periwinkle` retains its incumbent source name for the pale cyan value.
+- **Mint / Faint Lavender** (`mint`, `ambient-lavender`): supporting glass tint and the restrained lower-edge hero glow.
 
 ### Neutral
 
-- **Cool White Ground / Charcoal Ink** (`page`, `ink`): page base and primary reading text.
-- **Supporting Slate** (`secondary`): dates, organisations, supporting descriptions and inactive navigation.
-- **Near-White Surface / Fine Cool Divider** (`surface`, `line`): filters, scrollbar track and factual row boundaries.
-- **Translucent White / Bright Frosted Edge** (`glass-fill`, `glass-edge`): shared glass layers and 80%-opaque white borders.
-- **Opaque Blue-White** (`opaque-fallback`): selected surfaces under reduced transparency or unsupported backdrop filtering.
-- **Utility Colours** (`selected-filter-line`, `scrollbar`, `project-pagination`, `project-opaque`, `selection-fill`): selected filters, browser affordances, inactive position dots and the reduced-transparency decorative project pane.
+- **White Ground / Near-white Surface** (`page`, `surface`): page and selected filter backgrounds.
+- **Charcoal / Cool Secondary** (`ink`, `secondary`): heading and body hierarchy.
+- **Cool Hairline** (`line`): factual dividers and input borders.
+- **White Glass / Bright Edge** (`glass-fill`, `glass-edge`): shared translucent material.
+- **Opaque Fallback** (`opaque-fallback`): readable solid glass equivalent when transparency is reduced.
 
 **The Reading First Rule.** Use deep blue for reading text on pale glass and white text on the primary blue action; reserve lighter blue and cyan for material and light.
 
 ## Typography
 
-**Display Font:** Geist Variable with the platform sans-serif fallback stack recorded in frontmatter.
+**Display Font:** Geist Variable with the platform sans-serif fallback stack in frontmatter.
 
 **Body Font:** the same self-hosted family, loaded through `@fontsource-variable/geist`.
 
-**Character:** tightly tracked headings, medium role and year markers, open reading paragraphs and compact factual metadata. Sizes are assigned by role. Omitted properties inherit the source cascade.
+**Character:** large editorial headings, medium role/year markers, open reading paragraphs and compact metadata. Omitted properties inherit the source cascade. Frontmatter is the normative size ramp.
 
-- **Display:** fluid semibold hero name (48–80px on desktop; 43–64px compact), line-height 1.12 and tracking −.04em. The full name occurs once visibly.
-- **Professional role:** medium weight, line-height 1.16 and tracking −.03em. The opening phrase uses interactive purple; the remaining text is charcoal.
-- **Headlines:** semibold section headings, with a larger fluid Contact heading. Subsection headings use 36px, reducing to 30px at 900px and below. Skills and Education use 23px headings; category labels use 14px.
-- **Records:** 20px role/institution titles, reducing to 18px in compact layouts; credentials use 16px and awards retain 20px.
-- **Reading copy:** About lead uses 23px/1.5, reducing to 21px; body 16px/1.75, reducing to 15px. Responsibilities use 15px/1.75, reducing to 14px. Hero support uses 18px/1.65, reducing to 16px.
-- **Skills and metadata:** chips use 13px/1.6 on desktop and phones, 14px between 541px and 900px. Most metadata uses 12px; credential IDs use 11px and wrap anywhere. Dates use tabular numerals. Mobile search uses 16px.
+- **Display:** the fluid hero name reaches 96px on wide desktop; its compact ramp remains 43–64px. A mask stages the name reveal, and the full name occurs once visibly.
+- **Headlines and statement:** top-level headings reach 64px; Contact reaches 80px. About uses a two-line statement reaching 76px, reducing to the 38–58px ramp at 900px and below. Subsection headings use 36px, reducing to 30px.
+- **Professional role and chronology:** the role keeps its medium 29–46px ramp and blue opening phrase. Desktop year markers are 36px, reducing to 28px in mobile flow.
+- **Reading copy:** About lead is 21px/1.55; its second column is 17px/1.75, reducing to 16px. Responsibilities retain 15px/1.75, reducing to 14px. Hero support stays 18px/1.65, reducing to 16px.
+- **Records and skills:** role titles use 20px, reducing to 18px; academic institutions use 24px, reducing to 21px. Category headings use 18px, then 16px on phones. Chips use 13px/1.6, with 14px between 541px and 900px. Credential titles retain 16px.
+- **Controls and metadata:** navigation is 13px, then 12px mobile and 11px at 375px and below. Dates use tabular numerals. Search is 14px desktop and 16px mobile.
 
-Headings balance wrapping and paragraphs use pretty wrapping. About and responsibilities cap at 65ch, hero support at 55ch and career titles at 45ch. At 540px and below, name/role cap at 9ch/16ch and desktop-only line breaks disappear.
+Headings balance wrapping and paragraphs use pretty wrapping. The statement caps at 25ch, responsibilities at 65ch, hero support at 55ch and career titles at 45ch. At 540px and below, name/role cap at 9ch/16ch and desktop line breaks disappear.
 
 **The Weight Roles Rule.** Use 400 for reading copy, 500 for actions and chronology, and 600 for headings; preserve the source’s role-specific size and line-height relationships.
 
 ## Layout
 
-The centred reading shell is `min(1120px, calc(100% - 80px))`. Gutters become 32px at 1100px and below, then 20px at 900px and below. The body supports a 320px minimum. Main sections use 92px upper / 100px lower padding, reducing to 64px / 70px. Heading-to-content spacing is 48px, reducing to 34px. Page/header/skip-link layers are 0 / 10 / 20.
+The centred shell is `min(1120px, calc(100% - 80px))`. Gutters become 32px at 1100px and below, then 20px at 900px and below. Minimum page width is 320px. Main section padding is 104px above / 112px below, reducing to 64px / 70px; heading-to-content spacing is 52px, reducing to 34px. Page/header/skip-link layers are 0 / 10 / 20.
 
-The floating header has a maximum 1184px width, 20px side clearance, 12px top inset and a 72px-minimum inner grid (`1fr auto 1fr`). Portfolio., five anchors and the compact résumé download balance across it. Desktop anchor scroll offset is 118px. The hero begins 52px below the header and has 30px lower spacing. Its full-width content panel uses 50px vertical / 58px horizontal padding and a 24px radius; note/divider spacing is 34px. Decorative light and panes sit behind it in an isolated region.
+The floating navigation reserves 74px in document flow at a 12px top inset, with maximum width 1184px. Its inner grid is `1fr auto 1fr`. Desktop scroll offset is 118px. The hero begins 52px below it; its panel uses 50px/58px inset and 24px corners. About starts after 96px, followed by the statement at 44px/40px block margins and two equal factual columns with a 52px gap.
 
-About uses `.95fr 1.25fr` columns with an 80px gap. Skills & education uses `1fr 1.12fr` with 64px gap. Four flat skill categories form two equal columns with 28px row / 20px column gaps. Each list holds individually frosted chips with 10px spacing. The same ten skills are grouped as Embedded systems, Software & cloud, Communications and Leadership & planning. Education retains three flat rows with 30px spacing and hairlines.
+Four flat skill groups span desktop with 28px row / 24px column gaps. Each list contains individual glass chips separated by 10px. Education follows as a separate full-width section after 112px; its three rows use `168px minmax(0, 1fr)`, 32px gaps and 30px divider insets. The skills remain Embedded systems, Software & cloud, Communications and Leadership & planning.
 
-Experience is a flat timeline ordered 2026, 2025, 2024, 2022. Year groups use `120px minmax(0, 1fr)` with a 34px gap, 44px group separation and a 34px inset/hairline. Career rows use `164px minmax(0, 1fr)` with a 25px gap. Adjacent roles in a year have 35px margin/padding and a divider. Both 2025 roles retain dates and newest-first order.
+The flat timeline stays 2026, 2025, 2024, 2022. Year groups use `120px minmax(0, 1fr)`, 34px gaps and 44px group separation. Desktop year labels pin at 110px within their own group. Career rows use `164px minmax(0, 1fr)` and a 25px gap; adjacent roles retain 35px margin/padding and a divider.
 
-Credential tools wrap filters beside a 240px search field. Matching records form two columns with 50px gap and 26px row padding. Subsections start after 84px. Achievements retain a softly tinted 44px-inset enclosure, 70px upper margin and four white cards in two columns with 20px gaps. Cards use 28px inset and 276px minimum height. Contact uses two columns, 56px inset and 48px gap; the footer is a flat divider row.
-
-Projects breaks out of the reading shell after Experience. The active preview is centred with neighbouring peeks: width `min(1000px, 82vw)`, gap 20px, ratio 16:9. The full-width caption band uses 30px vertical / 42px horizontal inset. A 66px control row pairs a swipe/drag instruction with noninteractive position dots.
+Projects breaks out of the shell with centred previews and neighbouring peeks: width `min(1000px, 82vw)`, 20px gap and 16:9 ratio. Caption inset is 30px/42px. Credentials keep two columns with a 50px gap and 26px row padding. Tools pair wrapped filters with a 240px search. Subsections start after 84px. Achievements retain a tinted 44px-inset enclosure and four white cards. Contact uses two columns, 56px inset and a 48px gap.
 
 ### Responsive behaviour
 
-- **1100px and below:** About/qualification gaps become 48px; year/metadata columns narrow; credential tools stack and search caps at 360px.
-- **900px and below:** header clearance/top inset become 12px/8px. Its 108px-minimum two-row grid keeps all five 44px navigation targets visible; scroll offset is 142px. Hero spacing becomes 36px/20px and its panel uses 36px inset / 24px radius. About, qualification and contact columns stack. Career/year columns stack. Credentials retain two columns with 30px gap. Contact inset is 36px. Projects width/gap become 86vw/12px and caption inset is 24px/28px.
-- **540px and below:** hero panel uses 28px vertical / 24px horizontal inset. Skill-chip inline inset becomes 11px. Credentials and awards become single columns. Contact uses 28px/24px inset; its link uses 12px text/inset and wrapping. Projects ratio becomes 6:5 and caption inset 20px/22px. Decorative panes simplify while blue atmosphere stays visible. Achievements enclosure uses 24px/18px inset and 240px-minimum cards.
-- **375px and below:** skills become one column, preserving full text at 320px. Navigation labels become 11px, with all five visible. At 390px skills retain two columns.
-- **Print:** A4 with 16mm margins, full-width shell and 18px section spacing. Header, atmosphere, actions/note, Projects, screen credential tools/list and footer are hidden. The independent print list always contains all 17 credentials. All ten skills print; group layout simplifies. Glass becomes white content without blur/shadow, hero panel inset becomes zero, contact becomes plain content and award icons disappear. Hero name is 30pt, role 14pt, headings 20pt and body 10pt. Records avoid page breaks. Browser printing is separate from the existing downloadable résumé PDF.
+- **1100px and below:** skill groups use two columns with 32px gaps; About copy gap becomes 40px; year/metadata columns narrow; tools stack and search caps at 360px.
+- **900px and below:** navigation reserves 110px at an 8px top inset and retains two rows with five 44px targets; scroll offset is 142px. Hero panel inset is 36px. About copy and Contact stack. Year labels return to ordinary flow; career rows stack. Education rows stack and academic separation becomes 62px. Credentials retain two columns with a 30px gap. Projects uses 86vw width / 12px gap and 24px/28px caption inset.
+- **540px and below:** hero/contact inset becomes 28px/24px. Chips use 11px inline inset; credentials and awards become single columns. Projects uses 6:5 ratio and 20px/22px caption inset. Contact action wraps within the panel.
+- **375px and below:** skills use one column and navigation labels use 11px. At 390px skills retain two columns.
+- **Print:** A4 with 16mm margins, full-width shell and 18px section spacing. Navigation, actions, atmosphere, Projects and screen credential list/tools disappear. All 17 credentials print independently of filters; all ten skills remain. Glass becomes plain white, years return to flow and masked text/depth transforms reset. Hero name is 30pt, role 14pt, headings 20pt and body 10pt. Browser print is separate from the downloadable résumé PDF.
 
 **The Visible Record Rule.** Keep every responsibility visible and every matching credential available without an expansion step; filters refine the reading list rather than gate it.
 
 ## Elevation & Depth
 
-Glass is prominent around selected interactions and showcase moments. The header and shared hero/contact/chip surfaces use 28px blur and 170% saturation. Project surfaces use 24px blur / 170% saturation; captions use 24px blur. Buttons use 20px blur / 160% saturation, and the contact CTA uses 20px blur. Decorative hero panes use 26px blur. Large blue and cyan clouds illuminate the page, hero, projects, skills and closing contact.
+Material values remain pinned to the blue release: header and shared hero/contact/chip surfaces use 28px blur / 170% saturation; project surfaces use 24px / 170%, captions 24px blur, buttons 20px / 160%, contact CTA 20px and decorative panes 26px. Bright white edges and blue offset shadows provide depth.
 
 ### Shadow Vocabulary
 
 - **Shared Glass:** `0 14px 36px rgb(48 107 159 / 10%), 0 3px 10px rgb(48 107 159 / 4%)` for header, chips and contact CTA.
-- **Deep Glass:** `0 24px 64px rgb(48 107 159 / 14%), 0 6px 18px rgb(48 107 159 / 6%)` for hero, decorative panes, project surfaces and contact panel.
-- **Button Depth:** `0 12px 28px rgb(48 107 159 / 12%)`, growing to `0 18px 38px` with 15–17% opacity on hover.
-- **Inner Reflection:** bright bright white top highlights accompany the border, with an additional 20%-white lower reflection on shared glass. Full combinations are in the sidecar.
+- **Deep Glass:** `0 24px 64px rgb(48 107 159 / 14%), 0 6px 18px rgb(48 107 159 / 6%)` for hero, panes, project surfaces and Contact.
+- **Button Depth:** `0 12px 28px rgb(48 107 159 / 12%)`, strengthened on hover.
+- **Project Hover:** `0 30px 72px rgb(48 107 159 / 18%), 0 8px 22px rgb(48 107 159 / 7%)` plus a white inset highlight.
 
-Reduced transparency substitutes solid blue-white and removes backdrop blur from header, shared glass, projects, captions, buttons and contact CTA. The primary CTA stays solid deep blue with white text. The primary CTA stays solid deep blue with white text. Shared reflection overlays and hero atmosphere disappear. Unsupported backdrop filtering uses the same solid background fallback. Print removes the material.
+The hero completes its authored sequence in 1090ms: ambient fade 900ms; masked name 700ms at 120ms; role/copy/actions 600ms at 230/340/430–480ms; panes settle 850ms at 180/240ms. CTA entrance uses `backwards` fill so later hover and active transforms remain available. About lines reveal over 750ms with an 80ms stagger; scroll entrance scales About from .97 to 1 and Projects from .96 to 1. Heading/career reveals retain 650ms and an 80ms adjacent-role stagger.
 
-Hero entrance uses 700ms with 80ms/160ms text offsets. Section/experience reveals use 650ms and an 80ms adjacent-role stagger. Local hero light drifts over 32s; the front pane drifts 8px over 28s. Fine-pointer reflections shift at most 12px horizontally / 8px vertically. Eligible chip/button/contact hover lifts 3px; touch and reduced motion skip it. Reduced motion removes animations/transitions, keeps reveal content visible and makes rail commits immediate.
+Ambient and front-pane loops run 20s and pause offscreen or when the document is hidden. Fine-pointer reflection is bounded to ±12px / ±8px; hero/contact depth is bounded to ±.35deg X / ±.55deg Y with 1400px perspective and 300ms settling. Eligible chips/buttons/contact lift 3px; the active project lifts 4px. Passive scroll listeners, requestAnimationFrame and CSS properties carry continuous values without continuous React state.
+
+Reduced motion removes animations/transitions and spatial effects, keeps reveals visible, uses automatic anchors and commits rail changes immediately. Reduced transparency makes glass solid blue-white without blur, keeps the primary action deep blue with white lettering and hides reflection/hero atmosphere. Unsupported blur uses the same solid fill fallback. Print removes material and motion.
 
 **The Selective Glass Rule.** Apply visible glass to the header, hero, actions, project previews, individual skill chips and contact; retain flat groups and rows for skills categories, experience, education and credentials.
 
 ## Shapes
 
-The hero’s spacious rounded rectangle uses 24px corners across layouts. Contact and Projects use 24px corners; header uses 20px, reducing to 18px. Skill chips, abstract rectangular project forms and award cards use 16px. Inputs use 10px, the skip link 12px and compact navigation 8px. CTA buttons, contact link, filters and pagination use pills. Abstract project artwork also uses circles. Bright white edges delineate glass; fine cool dividers structure factual rows.
+Desktop navigation is a pill; mobile navigation uses 20px corners. Hero, Contact and Projects use 24px corners. Skill chips, rectangular project forms and awards use 16px; inputs 10px, skip link 12px and mobile navigation links 8px. Actions, filters and position dots are pills. Bright white edges frame glass; cool hairlines structure factual rows.
 
 ## Components
 
 ### Buttons
 
-The primary experience action is a clear blue gradient with white text and a 45%-white edge, pill shape and 13px/23px inset. Get in touch uses a lighter translucent white/mint/cyan gradient. Both carry 20px blur and blue depth. Hover strengthens colour and shadow; active scales to .98 unless motion is reduced. The compact résumé variant uses 44px minimum height, 10px/17px inset and 12px text. Main buttons have 48px minimum height. Visible focus is a 3px interactive-blue outline with 5px offset.
+Primary action is a blue gradient with white text, a 45%-white edge, 13px/23px inset and 48px minimum height. Secondary uses pale white/mint/cyan glass. Hover strengthens colour/depth and lifts 3px only with fine pointer and normal motion; the hover transform excludes `:active`, allowing the .98 press scale. Compact résumé is 44px high with 10px/17px inset and 12px text. Focus is a 3px blue outline offset 5px.
 
 ### Chips
 
-The ten static skill chips use shared 28px-blurred glass, deep text, 16px corners and 9px/13px inset. They sit beneath four flat category headings. Text wraps anywhere and each chip caps at its column width. Fine-pointer reflection and eligible hover lift are visual treatments, not button semantics. Category filters are separate pill buttons: transparent at rest, near-white on hover/selection, with a fine selected outline and `aria-pressed`.
+Ten static skill chips sit under four flat headings, with shared glass, 16px corners and 9px/13px inset. Text wraps within the column. Reflection and lift do not add button semantics. Separate category filters are pressed-state pill buttons with a fine selected boundary.
 
 ### Cards / Containers
 
-The hero and contact panels use deep glass depth and shared layered reflection. Their geometry follows Layout. Achievements retain four static 86%-white cards on a blue/cyan tinted enclosure; blue icons mark each record. Experience, Education and credential entries remain flat.
+Hero and Contact use deep glass and bounded pointer depth. The editorial About statement uses two masked line wrappers and a bounded scale entrance; its paragraphs stay still. Academic rows are full-width and flat. Achievements retain four 86%-white cards on the tinted enclosure.
 
 ### Inputs / Fields
 
-Credential search uses a white field, fine cool border, 10px corners, 48px minimum height and 12px/14px/12px/40px inset. A search icon and persistent accessible name identify it. Caret/focus use interactive blue. Mobile input text is 16px. Trimmed search and category selection update a polite live count; empty results offer reset.
+Search uses a white 48px field, cool border, 10px corners and 12px/14px/12px/40px inset. An inline icon, persistent accessible name, blue caret and visible focus identify it. Trimmed search/category filtering updates a polite count; empty results offer reset.
 
 ### Navigation
 
-Portfolio. labels the frosted floating header. Five anchors remain available alongside the downloadable résumé. Current location has a pale blue translucent fill and deep hover-blue text; hover uses a translucent white fill. The source tracks current section, focuses anchor destinations and supports direct section URLs. Mobile navigation retains two rows and all five targets.
+Portfolio., five anchors and the real PDF stay available. A reserved sticky anchor prevents page movement while the glass pill contracts: after 100px scroll, 12px downward travel compacts 74px to 62px; upward travel restores it. Mobile changes 110px to 98px. Height/padding transition takes 300ms. Current location uses pale blue fill and deep blue text. Destination focus and direct section URLs remain.
 
 ### Projects rail
 
-Three blue/cyan abstract CSS treatments are explicitly Coming soon placeholders. Each preview is a frosted 24px-rounded surface with a full-width 24px-blurred caption band. Pointer release at 24px, horizontal wheel input at 28px or keyboard arrows commit exactly one panel. The rail follows a drag and rebase-loops after 450ms; caption reveal takes 400ms with a 60ms delay. Dots indicate position without controls. The rail has no buttons or autoplay and is omitted from print.
+Three CSS treatments remain explicit Coming soon placeholders. Pointer release at 24px, horizontal wheel input at 28px or keyboard arrows commit one panel. The track follows drag, settles over 450ms and rebases its loop; caption continuity is 400ms with 60ms delay. Active previews gain bounded reflection and eligible 4px lift. Dots indicate position; no buttons or autoplay. Projects is omitted from print.
 
 ### Contact
 
-The closing deep-shadow glass panel retains the existing LinkedIn contact. Its frosted pill action uses deep glass ink, mint/cyan tint, 20px blur and a bright edge. Mobile wrapping and smaller text keep the CTA inside the panel at the 320px minimum.
+A luminous glass panel closes the page with the existing LinkedIn action. The 80px-cap heading and two-column composition become stacked on mobile; the frosted pill wraps inside the 320px layout.
 
 ## Do's and Don'ts
 
 ### Do:
 
 - **Do** keep the full visible name in the hero and use Portfolio. as the navigation label.
-- **Do** keep blue light visibly present, with cyan and mint supporting it and solid dark reading text.
-- **Do** retain the Geist hierarchy, full responsibilities, four flat skill groups and ten glass chips.
-- **Do** keep project placeholders explicitly labelled and preserve the authorised one-panel rail.
-- **Do** retain visible focus, named search, live counts and usable anchor navigation at every breakpoint.
-- **Do** keep reveals visible under reduced motion and print all 17 credentials independently of screen filters.
+- **Do** preserve the established blue light, bright glass, cyan/mint support and dark reading text.
+- **Do** retain the editorial Geist hierarchy, complete responsibilities, four flat skill groups and separate Education.
+- **Do** keep project placeholders explicit and preserve the authorised one-panel rail.
+- **Do** retain visible focus, named search, live counts and usable anchors at every breakpoint.
+- **Do** keep reveals visible under reduced motion and print all 17 credentials independently of filters.
 
 ### Don't:
 
-- **Don't** turn every section into a glass card or nest the skill chips inside glass category cards.
-- **Don't** use saturated ambient colour for small reading text or add decorative button states to static skills.
-- **Don't** hide responsibilities inside disclosures or credentials behind show-more controls.
-- **Don't** invent project names, clients, results or professional claims from placeholder artwork.
-- **Don't** make motion, blur or pointer hover a prerequisite for reading or interacting with the page.
+- **Don't** turn factual sections into glass cards or nest chips inside glass category cards.
+- **Don't** use saturated ambient colour for small reading text or give static skills button semantics.
+- **Don't** hide responsibilities in disclosures or credentials behind show-more controls.
+- **Don't** invent project names, clients, results or claims from placeholder artwork.
+- **Don't** make motion, blur or hover a prerequisite for reading or interacting.
