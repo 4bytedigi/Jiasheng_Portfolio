@@ -39,6 +39,46 @@ function useScrollReveals() {
   }, []);
 }
 
+function useScrollStorytelling() {
+  useEffect(() => {
+    const scenes = [...document.querySelectorAll('[data-scroll-scene]')];
+    const hero = document.querySelector('.overview');
+    const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let frame = 0;
+    const paint = () => {
+      frame = 0;
+      scenes.forEach(scene => {
+        const bounds = scene.getBoundingClientRect();
+        if (bounds.bottom < 0 || bounds.top > window.innerHeight) return;
+        const progress = preference.matches ? 1 : Math.max(0, Math.min(1, (window.innerHeight - bounds.top) / (window.innerHeight * .78)));
+        scene.style.setProperty('--scene-progress', progress.toFixed(3));
+      });
+    };
+    const schedule = () => { if (!frame) frame = requestAnimationFrame(paint); };
+    const visibility = () => document.documentElement.classList.toggle('motion-suspended', document.hidden);
+    const observer = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
+      entries.forEach(entry => entry.target.classList.toggle('is-in-view', entry.isIntersecting));
+    }) : null;
+    if (observer) observer.observe(hero);
+    else hero.classList.add('is-in-view');
+    window.addEventListener('scroll', schedule, { passive: true });
+    window.addEventListener('resize', schedule);
+    preference.addEventListener('change', schedule);
+    document.addEventListener('visibilitychange', visibility);
+    visibility();
+    paint();
+    return () => {
+      cancelAnimationFrame(frame);
+      observer?.disconnect();
+      window.removeEventListener('scroll', schedule);
+      window.removeEventListener('resize', schedule);
+      preference.removeEventListener('change', schedule);
+      document.removeEventListener('visibilitychange', visibility);
+      document.documentElement.classList.remove('motion-suspended');
+    };
+  }, []);
+}
+
 function ExternalLink({ children, ...props }) {
   return <a target="_blank" rel="noopener noreferrer" {...props}>{children}<span className="sr-only"> (opens in a new tab)</span></a>;
 }
@@ -49,11 +89,22 @@ function ResumeLink({ compact = false }) {
 
 function Header() {
   const [active, setActive] = useState('overview');
+  const [compact, setCompact] = useState(false);
   useEffect(() => {
     const sections = ['overview', ...navigation.map(item => item.id)].map(id => document.getElementById(id));
     let frame = 0;
+    let previousY = window.scrollY;
+    let direction = 0;
+    let distance = 0;
     const update = () => {
       frame = 0;
+      const difference = window.scrollY - previousY;
+      const nextDirection = Math.sign(difference);
+      if (nextDirection && nextDirection !== direction) { direction = nextDirection; distance = 0; }
+      distance += Math.abs(difference);
+      if (window.scrollY < 100) setCompact(false);
+      else if (distance >= 12) setCompact(direction > 0);
+      previousY = window.scrollY;
       const marker = document.querySelector('.site-header').offsetHeight + 64;
       let current = 'overview';
       sections.forEach(section => { if (section && section.getBoundingClientRect().top <= marker) current = section.id; });
@@ -73,23 +124,23 @@ function Header() {
     };
   }, []);
   const focusSection = id => document.getElementById(id)?.focus({ preventScroll: true });
-  return <header className="site-header"><div className="nav-shell">
+  return <div className="header-anchor"><header className={`site-header${compact ? ' is-compact' : ''}`}><div className="nav-shell">
     <a href="#overview" className="brand" aria-label="Portfolio. Back to introduction" onClick={() => focusSection('overview')}><span className="monogram" aria-hidden="true">Portfolio.</span></a>
     <nav className="main-nav" aria-label="Main navigation">{navigation.map(item => <a key={item.id} href={`#${item.id}`} onClick={() => focusSection(item.id)} aria-current={active === item.id ? 'location' : undefined}>{item.label}</a>)}</nav>
     <ResumeLink compact />
-  </div></header>;
+  </div></header></div>;
 }
 
 function Hero() {
   return <section className="overview section-shell" id="overview" tabIndex={-1} aria-labelledby="hero-title">
     <div className="hero-atmosphere" aria-hidden="true"><span className="ambient-light" /><span className="glass-layer layer-back" /><span className="glass-layer layer-front" /></div>
-    <div className="hero-intro glass-surface" onPointerMove={moveGlassHighlight} onPointerLeave={resetGlassHighlight}><h1 id="hero-title">{profile.name}<span aria-hidden="true">.</span></h1><p className="hero-role"><span className="hero-accent">Digital & Intelligence</span><br className="desktop-break" /> Systems Engineer.</p><p className="hero-description">Computer Engineering undergraduate at NTU.<br className="desktop-break" /> A foundation in electronics. A focus on digital systems.</p><div className="hero-actions"><a href="#background" className="button button-primary">Explore experience <ArrowRight size={18} aria-hidden="true" /></a><a href="#contact" className="button button-secondary">Get in touch <ArrowUpRight size={18} aria-hidden="true" /></a></div></div>
+    <div className="hero-intro glass-surface glass-depth" onPointerMove={moveGlassHighlight} onPointerLeave={resetGlassHighlight}><h1 id="hero-title" className="hero-name-mask"><span className="hero-name">{profile.name}<span className="name-period" aria-hidden="true">.</span></span></h1><p className="hero-role"><span className="hero-accent">Digital & Intelligence</span><br className="desktop-break" /> Systems Engineer.</p><p className="hero-description">Computer Engineering undergraduate at NTU.<br className="desktop-break" /> A foundation in electronics. A focus on digital systems.</p><div className="hero-actions"><a href="#background" className="button button-primary">Explore experience <ArrowRight size={18} aria-hidden="true" /></a><a href="#contact" className="button button-secondary">Get in touch <ArrowUpRight size={18} aria-hidden="true" /></a></div></div>
     <div className="hero-note"><span>Engineering & digital technology</span><span><MapPin size={14} aria-hidden="true" />{profile.location}</span></div>
   </section>;
 }
 
 function About() {
-  return <section className="about section-shell section-space" id="about" tabIndex={-1} aria-labelledby="about-title"><div className="about-layout"><h2 id="about-title" data-reveal>About.</h2><div className="about-copy" data-reveal><p className="lead">A background in electronic and computer engineering, with hands-on work in sensor fabrication and microcontroller integration.</p><p>Experience spans university research, national service and digital systems training. Technical interests include embedded systems, software development, cloud computing and communications.</p></div></div></section>;
+  return <section className="about section-shell section-space" id="about" tabIndex={-1} aria-labelledby="about-title"><h2 id="about-title" data-reveal>About.</h2><div className="about-story" data-scroll-scene><p className="editorial-statement line-reveal" data-reveal><span className="statement-line"><span>Engineering, from research</span></span><span className="statement-line"><span>to practice.</span></span></p></div><div className="about-copy"><p className="lead">A background in electronic and computer engineering, with hands-on work in sensor fabrication and microcontroller integration.</p><p>Experience spans university research, national service and digital systems training. Technical interests include embedded systems, software development, cloud computing and communications.</p></div></section>;
 }
 
 function CareerEntry({ job, index }) {
@@ -119,20 +170,24 @@ function moveGlassHighlight(event) {
   const bounds = panel.getBoundingClientRect();
   panel.style.setProperty('--reflection-x', `${((event.clientX - bounds.left) / bounds.width - .5) * 24}px`);
   panel.style.setProperty('--reflection-y', `${((event.clientY - bounds.top) / bounds.height - .5) * 16}px`);
+  if (panel.classList.contains('glass-depth')) {
+    panel.style.setProperty('--tilt-x', `${-((event.clientY - bounds.top) / bounds.height - .5) * .7}deg`);
+    panel.style.setProperty('--tilt-y', `${((event.clientX - bounds.left) / bounds.width - .5) * 1.1}deg`);
+  }
 }
 
 function resetGlassHighlight(event) {
   event.currentTarget.style.removeProperty('--reflection-x');
   event.currentTarget.style.removeProperty('--reflection-y');
+  event.currentTarget.style.removeProperty('--tilt-x');
+  event.currentTarget.style.removeProperty('--tilt-y');
 }
 
 function Education() {
   return <div className="education-overview">
-    <div className="section-heading"><h2 id="education-title" data-reveal>Skills & education.</h2><p>A foundation in electronic and computer engineering.</p></div>
-    <div className="qualification-layout">
-      <div className="skills-block"><h3>Skills.</h3><div className="skill-groups">{skillGroups.map(group => <div className="skill-group" key={group.title}><h4>{group.title}</h4><ul className="skill-list">{group.skills.map(skill => <li className="skill-chip glass-surface" key={skill} onPointerMove={moveGlassHighlight} onPointerLeave={resetGlassHighlight}>{skill}</li>)}</ul></div>)}</div></div>
-      <div className="education-block"><h3>Education.</h3><div className="education-list">{profile.education.map(school => <article className="education-row" key={school.institution} data-reveal><p className="school-date">{school.period}</p><h4>{school.institution}</h4><p className="school-qualification">{school.qualification}</p>{school.detail && <p className="school-detail">{school.detail}</p>}</article>)}</div></div>
-    </div>
+    <div className="section-heading"><h2 id="education-title" data-reveal>Skills.</h2><p>Embedded systems, software and communications.</p></div>
+    <div className="skills-block"><div className="skill-groups">{skillGroups.map(group => <div className="skill-group" key={group.title}><h3>{group.title}</h3><ul className="skill-list">{group.skills.map(skill => <li className="skill-chip glass-surface" key={skill} onPointerMove={moveGlassHighlight} onPointerLeave={resetGlassHighlight}>{skill}</li>)}</ul></div>)}</div></div>
+    <section className="academic qualification-subsection" id="academic" tabIndex={-1} aria-labelledby="academic-title"><div className="section-heading"><h2 id="academic-title" data-reveal>Education.</h2><p>A foundation in electronic and computer engineering.</p></div><div className="education-list">{profile.education.map(school => <article className="education-row" key={school.institution} data-reveal><p className="school-date">{school.period}</p><div className="school-copy"><h3>{school.institution}</h3><p className="school-qualification">{school.qualification}</p>{school.detail && <p className="school-detail">{school.detail}</p>}</div></article>)}</div></section>
   </div>;
 }
 
@@ -226,7 +281,7 @@ function Projects() {
 
   return <section className="projects section-space" id="projects" tabIndex={-1} aria-labelledby="projects-title">
     <div className="section-shell section-heading"><h2 id="projects-title" data-reveal>Projects.</h2><p>Selected work. Coming soon.</p></div>
-    <div className="project-carousel" role="region" aria-roledescription="carousel" aria-label="Project placeholders">
+    <div className="project-carousel" data-scroll-scene role="region" aria-roledescription="carousel" aria-label="Project placeholders">
       <p id="project-instructions" className="sr-only">Swipe or drag to browse. With keyboard focus, use the left and right arrow keys.</p>
       <div ref={rail} className={`project-window${dragging ? ' is-dragging' : ''}`} tabIndex={0} aria-label="Browse project previews" aria-describedby="project-instructions" onKeyDown={event => { if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') { event.preventDefault(); move(event.key === 'ArrowRight' ? 1 : -1); } }} onPointerDown={event => {
         if (moving.current || event.button !== 0) return;
@@ -241,7 +296,7 @@ function Projects() {
         const width = track.current.firstElementChild.getBoundingClientRect().width;
         track.current.style.setProperty('--project-drag', `${Math.max(-width, Math.min(width, delta))}px`);
       }} onPointerUp={finishGesture} onPointerCancel={finishGesture}>
-        <div ref={track} className={`project-track${instant ? ' is-instant' : ''}`} style={{ '--project-position': position }} onTransitionEnd={finishSlide}>{carouselSlides.map((preview, index) => <article key={index} className={`project-slide project-${projectPreviews[preview]}${position === index ? ' is-active' : ''}`} aria-hidden={position !== index} role="group" aria-roledescription="slide" aria-label={`Placeholder ${preview + 1} of 3`}>
+        <div ref={track} className={`project-track${instant ? ' is-instant' : ''}`} style={{ '--project-position': position }} onTransitionEnd={finishSlide}>{carouselSlides.map((preview, index) => <article key={index} className={`project-slide project-${projectPreviews[preview]}${position === index ? ' is-active' : ''}`} onPointerMove={moveGlassHighlight} onPointerLeave={resetGlassHighlight} aria-hidden={position !== index} role="group" aria-roledescription="slide" aria-label={`Placeholder ${preview + 1} of 3`}>
           <div className="project-art" aria-hidden="true"><span className="project-form form-one" /><span className="project-form form-two" /><span className="project-form form-three" /></div>
           <div className="project-caption"><h3>Coming soon.</h3><span>Project placeholder. Details to follow.</span></div>
         </article>)}</div>
@@ -279,10 +334,11 @@ function Recognition() {
 }
 
 function Contact() {
-  return <><section className="contact section-shell section-space" id="contact" tabIndex={-1} aria-labelledby="contact-title"><div className="contact-panel glass-surface" onPointerMove={moveGlassHighlight} onPointerLeave={resetGlassHighlight}><div className="contact-intro"><h2 id="contact-title" data-reveal>Contact.</h2><p>Let’s connect.</p></div><div className="contact-details"><p>Connect through LinkedIn.</p><ExternalLink className="text-link contact-link" href={profile.linkedin}><LinkedinLogo size={23} weight="fill" aria-hidden="true" />linkedin.com/in/chua-jia-sheng<ArrowUpRight size={20} aria-hidden="true" /></ExternalLink></div></div></section><footer className="site-footer section-shell"><span>Engineering & digital technology</span><a href="#overview">Back to top <ArrowUp size={16} aria-hidden="true" /></a></footer></>;
+  return <><section className="contact section-shell section-space" id="contact" tabIndex={-1} aria-labelledby="contact-title"><div className="contact-panel glass-surface glass-depth" onPointerMove={moveGlassHighlight} onPointerLeave={resetGlassHighlight}><div className="contact-intro"><h2 id="contact-title" data-reveal>Contact.</h2><p>Let’s connect.</p></div><div className="contact-details"><p>Connect through LinkedIn.</p><ExternalLink className="text-link contact-link" href={profile.linkedin}><LinkedinLogo size={23} weight="fill" aria-hidden="true" />linkedin.com/in/chua-jia-sheng<ArrowUpRight size={20} aria-hidden="true" /></ExternalLink></div></div></section><footer className="site-footer section-shell"><span>Engineering & digital technology</span><a href="#overview">Back to top <ArrowUp size={16} aria-hidden="true" /></a></footer></>;
 }
 
 export default function App() {
   useScrollReveals();
+  useScrollStorytelling();
   return <><a className="skip-link" href="#main">Skip to content</a><Header /><main id="main" tabIndex={-1}><Hero /><About /><Experience /><Projects /><section className="qualifications section-shell section-space" id="education" tabIndex={-1} aria-labelledby="education-title"><Education /><Credentials /><Recognition /></section><Contact /></main></>;
 }

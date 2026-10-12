@@ -2,11 +2,11 @@
   @page { size: A4; margin: 16mm; }
   :root { color: #1d1d1f; background: white; }
   body { font-size: 10pt; background: white; }
-  .site-header, .hero-atmosphere, .skip-link, .hero-actions, .hero-note, .projects, .credential-tools, .result-count, .credential-list, .empty-state, .site-footer { display: none !important; }
+  .header-anchor, .hero-atmosphere, .skip-link, .hero-actions, .hero-note, .projects, .credential-tools, .result-count, .credential-list, .empty-state, .site-footer { display: none !important; }
   .print-only { display: block !important; }
   .section-shell { width: 100%; }
   .section-space, .overview { padding: 18px 0 !important; }
-  [data-reveal], .hero-intro h1, .hero-role, .hero-description { opacity: 1 !important; transform: none !important; animation: none !important; transition: none !important; }
+  [data-reveal], .hero-intro h1, .hero-name, .hero-role, .hero-description, .statement-line > span, .about-story, .glass-depth { opacity: 1 !important; transform: none !important; animation: none !important; transition: none !important; }
   .hero-intro { padding: 0; border: 0; border-radius: 0; box-shadow: none; }
   .hero-intro h1 { font-size: 30pt !important; max-width: none; }
   .hero-role { font-size: 14pt !important; margin-top: 12px; }
@@ -17,12 +17,15 @@
   h4 { font-size: 11pt !important; }
   p { font-size: 10pt !important; }
   .section-heading { margin-bottom: 18px; }
-  .about-layout, .qualification-layout { display: block; }
+  .about-copy { display: block; }
+  .about-story { margin-block: 15px; }
+  .editorial-statement { font-size: 16pt !important; }
+  .about-copy > p + p { margin-top: 10px; }
   .about-copy, .education-list { margin-top: 15px; }
   .about-copy .lead { font-size: 11pt !important; }
   .career-timeline { gap: 20px; }
   .timeline-year { grid-template-columns: 52px 1fr; gap: 12px; }
-  .year-label { font-size: 14pt !important; }
+  .year-label { position: static; font-size: 14pt !important; }
   .year-entries { padding-left: 15px; }
   .career-item { grid-template-columns: 1fr; gap: 8px; break-inside: avoid; }
   .career-meta { flex-direction: row; gap: 12px; }
@@ -30,6 +33,7 @@
   .career-description { margin-top: 8px; }
   .skill-list { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 20px; font-size: 10pt; }
   .education-row, .credential-row, .award-row { break-inside: avoid; }
+  .education-row { grid-template-columns: 100px 1fr; gap: 18px; }
   .qualification-subsection { padding-top: 25px; }
   .credential-row { padding: 13px 0; }
   .award-list { grid-template-columns: 1fr 1fr; gap: 20px; }
@@ -41,7 +45,7 @@
   .glass-surface::before, .contact::before, .skills-block::before { display: none; }
   .skill-groups { display: block; }
   .skill-group { padding: 10px 0; break-inside: avoid; }
-  .skill-group h4 { margin-bottom: 5px; }
+  .skill-group h3 { margin-bottom: 5px; }
   .skill-chip { padding: 0; border-radius: 0; font-size: 10pt; color: inherit; }
   .contact-link { border: 0; padding: 0; background: none; box-shadow: none; backdrop-filter: none; }
   .contact-panel { display: block; padding: 0; }
