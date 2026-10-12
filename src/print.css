@@ -2,7 +2,7 @@
   @page { size: A4; margin: 16mm; }
   :root { color: #1d1d1f; background: white; }
   body { font-size: 10pt; }
-  .site-header, .skip-link, .hero-actions, .hero-note, .projects, .credential-tools, .result-count, .credential-list, .empty-state, .site-footer { display: none !important; }
+  .site-header, .hero-atmosphere, .skip-link, .hero-actions, .hero-note, .projects, .credential-tools, .result-count, .credential-list, .empty-state, .site-footer { display: none !important; }
   .print-only { display: block !important; }
   .section-shell { width: 100%; }
   .section-space, .overview { padding: 18px 0 !important; }
@@ -36,6 +36,13 @@
   .award-row { min-height: 0; padding: 0; }
   .award-icon { display: none; }
   .contact { padding-bottom: 0 !important; }
+  .glass-surface { background: white; box-shadow: none; backdrop-filter: none; overflow: visible; }
+  .glass-surface::before, .contact::before, .skills-block::before { display: none; }
+  .skill-groups { display: block; }
+  .skill-group { padding: 10px 0; break-inside: avoid; }
+  .skill-group h4 { margin-bottom: 5px; }
+  .contact-panel { display: block; padding: 0; }
+  .contact-details { margin-top: 12px; }
   .contact-link { color: inherit; font-size: 10pt; }
   a { color: inherit; }
 }

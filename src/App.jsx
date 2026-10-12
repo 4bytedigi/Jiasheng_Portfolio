@@ -74,7 +74,7 @@ function Header() {
   }, []);
   const focusSection = id => document.getElementById(id)?.focus({ preventScroll: true });
   return <header className="site-header"><div className="nav-shell">
-    <a href="#overview" className="brand" aria-label="Back to introduction" onClick={() => focusSection('overview')}><span className="monogram" aria-hidden="true">js.</span></a>
+    <a href="#overview" className="brand" aria-label="Portfolio. Back to introduction" onClick={() => focusSection('overview')}><span className="monogram" aria-hidden="true">Portfolio.</span></a>
     <nav className="main-nav" aria-label="Main navigation">{navigation.map(item => <a key={item.id} href={`#${item.id}`} onClick={() => focusSection(item.id)} aria-current={active === item.id ? 'location' : undefined}>{item.label}</a>)}</nav>
     <ResumeLink compact />
   </div></header>;
@@ -82,7 +82,8 @@ function Header() {
 
 function Hero() {
   return <section className="overview section-shell" id="overview" tabIndex={-1} aria-labelledby="hero-title">
-    <div className="hero-intro"><h1 id="hero-title">{profile.name}<span aria-hidden="true">.</span></h1><p className="hero-role"><span className="hero-accent">Digital & Intelligence</span><br className="desktop-break" /> Systems Engineer.</p><p className="hero-description">Computer Engineering undergraduate at NTU.<br className="desktop-break" /> A foundation in electronics. A focus on digital systems.</p><div className="hero-actions"><ResumeLink /><a href="#background" className="text-link">Explore experience <ArrowRight size={18} aria-hidden="true" /></a></div></div>
+    <div className="hero-atmosphere" aria-hidden="true"><span className="ambient-light" /><span className="glass-layer layer-back" /><span className="glass-layer layer-front" /></div>
+    <div className="hero-intro"><h1 id="hero-title">{profile.name}<span aria-hidden="true">.</span></h1><p className="hero-role"><span className="hero-accent">Digital & Intelligence</span><br className="desktop-break" /> Systems Engineer.</p><p className="hero-description">Computer Engineering undergraduate at NTU.<br className="desktop-break" /> A foundation in electronics. A focus on digital systems.</p><div className="hero-actions"><a href="#background" className="button button-primary">Explore experience <ArrowRight size={18} aria-hidden="true" /></a><a href="#contact" className="text-link">Get in touch <ArrowUpRight size={18} aria-hidden="true" /></a></div></div>
     <div className="hero-note"><span>Engineering & digital technology</span><span><MapPin size={14} aria-hidden="true" />{profile.location}</span></div>
   </section>;
 }
@@ -105,8 +106,34 @@ function Experience() {
   return <section className="experience section-shell section-space" id="background" tabIndex={-1} aria-labelledby="experience-title"><div className="section-heading"><h2 id="experience-title" data-reveal>Experience.</h2><p>Digital systems, research and service.</p></div><div className="career-timeline">{years.map(group => <div className="timeline-year" key={group.year}><h3 className="year-label">{group.year}</h3><div className="year-entries">{group.indices.map(index => <CareerEntry key={profile.experience[index].title} job={profile.experience[index]} index={index} />)}</div></div>)}</div></section>;
 }
 
+const skillGroups = [
+  { title: 'Embedded systems', skills: profile.skills.slice(0, 3) },
+  { title: 'Software & cloud', skills: profile.skills.slice(3, 6) },
+  { title: 'Communications', skills: profile.skills.slice(6, 8) },
+  { title: 'Leadership & planning', skills: profile.skills.slice(8) },
+];
+
+function moveGlassHighlight(event) {
+  if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const panel = event.currentTarget;
+  const bounds = panel.getBoundingClientRect();
+  panel.style.setProperty('--reflection-x', `${((event.clientX - bounds.left) / bounds.width - .5) * 24}px`);
+  panel.style.setProperty('--reflection-y', `${((event.clientY - bounds.top) / bounds.height - .5) * 16}px`);
+}
+
+function resetGlassHighlight(event) {
+  event.currentTarget.style.removeProperty('--reflection-x');
+  event.currentTarget.style.removeProperty('--reflection-y');
+}
+
 function Education() {
-  return <div className="education-overview"><div className="section-heading"><h2 id="education-title" data-reveal>Skills & education.</h2><p>A foundation in electronic and computer engineering.</p></div><div className="qualification-layout"><div className="skills-block"><h3>Technical focus & skills</h3><ul className="skill-list">{profile.skills.map(skill => <li key={skill}>{skill}</li>)}</ul></div><div className="education-list">{profile.education.map(school => <article className="education-row" key={school.institution} data-reveal><p className="school-date">{school.period}</p><h3>{school.institution}</h3><p className="school-qualification">{school.qualification}</p>{school.detail && <p className="school-detail">{school.detail}</p>}</article>)}</div></div></div>;
+  return <div className="education-overview">
+    <div className="section-heading"><h2 id="education-title" data-reveal>Skills & education.</h2><p>A foundation in electronic and computer engineering.</p></div>
+    <div className="qualification-layout">
+      <div className="skills-block"><h3>Skills.</h3><div className="skill-groups">{skillGroups.map(group => <div className="skill-group glass-surface" key={group.title} onPointerMove={moveGlassHighlight} onPointerLeave={resetGlassHighlight}><h4>{group.title}</h4><ul className="skill-list">{group.skills.map(skill => <li key={skill}>{skill}</li>)}</ul></div>)}</div></div>
+      <div className="education-block"><h3>Education.</h3><div className="education-list">{profile.education.map(school => <article className="education-row" key={school.institution} data-reveal><p className="school-date">{school.period}</p><h4>{school.institution}</h4><p className="school-qualification">{school.qualification}</p>{school.detail && <p className="school-detail">{school.detail}</p>}</article>)}</div></div>
+    </div>
+  </div>;
 }
 
 // Replace these preview treatments with supplied project images and details later.
@@ -252,7 +279,7 @@ function Recognition() {
 }
 
 function Contact() {
-  return <><section className="contact section-shell section-space" id="contact" tabIndex={-1} aria-labelledby="contact-title"><h2 id="contact-title" data-reveal>Contact.</h2><p>Connect through LinkedIn.</p><ExternalLink className="text-link contact-link" href={profile.linkedin}><LinkedinLogo size={23} weight="fill" aria-hidden="true" />linkedin.com/in/chua-jia-sheng<ArrowUpRight size={20} aria-hidden="true" /></ExternalLink></section><footer className="site-footer section-shell"><span>Engineering & digital technology</span><a href="#overview">Back to top <ArrowUp size={16} aria-hidden="true" /></a></footer></>;
+  return <><section className="contact section-shell section-space" id="contact" tabIndex={-1} aria-labelledby="contact-title"><div className="contact-panel glass-surface" onPointerMove={moveGlassHighlight} onPointerLeave={resetGlassHighlight}><div className="contact-intro"><h2 id="contact-title" data-reveal>Contact.</h2><p>Let’s connect.</p></div><div className="contact-details"><p>Connect through LinkedIn.</p><ExternalLink className="text-link contact-link" href={profile.linkedin}><LinkedinLogo size={23} weight="fill" aria-hidden="true" />linkedin.com/in/chua-jia-sheng<ArrowUpRight size={20} aria-hidden="true" /></ExternalLink></div></div></section><footer className="site-footer section-shell"><span>Engineering & digital technology</span><a href="#overview">Back to top <ArrowUp size={16} aria-hidden="true" /></a></footer></>;
 }
 
 export default function App() {
