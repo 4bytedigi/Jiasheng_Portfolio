@@ -43,16 +43,29 @@ h3, h4 { font-weight: 600; letter-spacing: -.02em; }
 .section-heading { margin-bottom: 52px; }
 .section-heading > p, .subsection-heading > p { margin-top: 16px; color: var(--secondary); font-size: 17px; line-height: 1.65; }
 .header-anchor { position: sticky; top: 12px; z-index: 10; width: min(1184px, calc(100% - 40px)); height: 74px; margin: 12px auto 0; }
-.site-header { position: relative; width: 100%; border-radius: 999px; background: linear-gradient(135deg, rgb(255 255 255 / 72%), rgb(230 244 244 / 48%), rgb(255 255 255 / 62%)); border: 1px solid rgb(255 255 255 / 80%); box-shadow: var(--glass-shadow), inset 0 1px 0 rgb(255 255 255 / 85%); backdrop-filter: blur(28px) saturate(170%); -webkit-backdrop-filter: blur(28px) saturate(170%); }
-.nav-shell { width: calc(100% - 48px); min-height: 72px; margin: auto; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 24px; transition: min-height .3s var(--ease), padding .3s var(--ease); }
+/* Web glass approximation: a translucent body, soft backdrop and light-catching edges. */
+.site-header {
+  position: relative; isolation: isolate; width: 100%; border-radius: 999px;
+  background: linear-gradient(180deg, rgb(255 255 255 / 52%), rgb(255 255 255 / 26%) 52%, rgb(240 249 255 / 38%));
+  border: 1px solid rgb(255 255 255 / 64%);
+  box-shadow: 0 12px 32px rgb(48 107 159 / 9%), 0 2px 6px rgb(48 107 159 / 5%), inset 0 1px 0 rgb(255 255 255 / 95%), inset 0 -1px 0 rgb(255 255 255 / 28%);
+  backdrop-filter: blur(32px) saturate(180%) brightness(1.08);
+  -webkit-backdrop-filter: blur(32px) saturate(180%) brightness(1.08);
+}
+.site-header::before, .site-header::after { content: ''; position: absolute; border-radius: inherit; pointer-events: none; }
+.site-header::before { inset: 0; background: linear-gradient(115deg, rgb(255 255 255 / 32%), transparent 35%, rgb(187 235 251 / 9%) 75%, rgb(255 255 255 / 18%)); }
+.site-header::after { inset: 1px; border: 1px solid rgb(255 255 255 / 22%); border-top-color: rgb(255 255 255 / 70%); border-bottom-color: rgb(255 255 255 / 8%); }
+.nav-shell { position: relative; width: calc(100% - 48px); min-height: 72px; margin: auto; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 24px; transition: min-height .3s var(--ease), padding .3s var(--ease); }
 .is-compact .nav-shell { min-height: 60px; }
 .brand { width: fit-content; display: inline-flex; align-items: center; min-height: 44px; }
 .monogram { font-size: 18px; font-weight: 600; line-height: 1; letter-spacing: -.04em; }
 .main-nav { display: flex; align-items: center; gap: 4px; }
 .main-nav a { font-size: 13px; color: var(--secondary); display: grid; place-items: center; min-height: 40px; padding-inline: 13px; border-radius: 999px; transition: color .2s, background .2s; }
-.main-nav a:hover { color: var(--accent-hover); background: rgb(255 255 255 / 55%); }
-.main-nav a[aria-current] { color: var(--accent-hover); background: rgb(218 236 252 / 85%); box-shadow: inset 0 1px 0 rgb(255 255 255 / 85%); }
+.main-nav a:hover { color: var(--accent-hover); background: rgb(255 255 255 / 38%); }
+.main-nav a[aria-current] { color: var(--accent-hover); background: rgb(218 236 252 / 58%); box-shadow: 0 2px 6px rgb(48 107 159 / 7%), inset 0 1px 0 rgb(255 255 255 / 90%); }
 .nav-shell > .button { justify-self: end; }
+.nav-shell > .button-small { background: linear-gradient(140deg, rgb(255 255 255 / 60%), rgb(230 244 244 / 22%)); border-color: rgb(255 255 255 / 75%); box-shadow: 0 4px 12px rgb(48 107 159 / 7%), inset 0 1px 0 rgb(255 255 255 / 90%); backdrop-filter: none; -webkit-backdrop-filter: none; }
+.nav-shell > .button-small:hover { background: rgb(255 255 255 / 65%); }
 .button { display: inline-flex; justify-content: center; align-items: center; gap: 10px; min-height: 48px; border-radius: 999px; padding: 13px 23px; border: 1px solid var(--glass-edge); backdrop-filter: blur(20px) saturate(160%); -webkit-backdrop-filter: blur(20px) saturate(160%); box-shadow: 0 12px 28px rgb(48 107 159 / 12%), inset 0 1px 0 rgb(255 255 255 / 70%); font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .4s var(--ease), transform .4s var(--ease), box-shadow .4s var(--ease); }
 .button-primary { background: linear-gradient(135deg, #1473cf, #0764bb); color: white; border-color: rgb(255 255 255 / 45%); }
 .button-primary:hover { background: linear-gradient(135deg, #0868c1, #0055a4); box-shadow: 0 18px 38px rgb(48 107 159 / 17%), inset 0 1px 0 white; }
@@ -362,5 +375,5 @@ details[open] > summary > .disclosure-caret { transform: rotate(180deg); }
   [data-reveal] { opacity: 1 !important; transform: none !important; }
   .button:active, .text-link:hover svg, .glass-depth, .about-story, .project-carousel, .statement-line > span { transform: none; }
 }
-@media (prefers-reduced-transparency: reduce) { .site-header, .glass-surface, .project-slide, .project-caption, .button, .contact-link { background: #f4f9fc; backdrop-filter: none; -webkit-backdrop-filter: none; } .glass-surface::before, .hero-atmosphere { display: none; } .button-primary { background: #0764bb; color: white; } .project-glass .form-two { background: #e1f1fa; backdrop-filter: none; } }
-@supports not (backdrop-filter: blur(20px)) { .site-header, .glass-surface, .project-slide, .project-caption, .button, .contact-link { background: #f4f9fc; } .button-primary { background: #0764bb; color: white; } }
+@media (prefers-reduced-transparency: reduce) { .site-header, .glass-surface, .project-slide, .project-caption, .button, .nav-shell > .button-small, .contact-link { background: #f4f9fc; backdrop-filter: none; -webkit-backdrop-filter: none; } .site-header::before, .site-header::after, .glass-surface::before, .hero-atmosphere { display: none; } .button-primary { background: #0764bb; color: white; } .project-glass .form-two { background: #e1f1fa; backdrop-filter: none; } }
+@supports not (backdrop-filter: blur(20px)) { .site-header, .glass-surface, .project-slide, .project-caption, .button, .nav-shell > .button-small, .contact-link { background: #f4f9fc; } .site-header::before, .site-header::after { display: none; } .button-primary { background: #0764bb; color: white; } }
