@@ -24,7 +24,7 @@ colors:
   glass-fill: "rgb(255 255 255 / 62%)"
   glass-edge: "rgb(255 255 255 / 80%)"
   opaque-fallback: "#f4f9fc"
-  navigation-tint: "rgb(240 249 255 / 38%)"
+  navigation-tint: "rgb(240 249 255 / 18%)"
   selected-filter-line: "#d6e3fa"
   scrollbar: "#a4c8e5"
   project-pagination: "#9b9da5"
@@ -101,6 +101,20 @@ typography:
     fontWeight: 600
     lineHeight: 1.5
     letterSpacing: "-.02em"
+  education-featured-title:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "32px"
+    fontWeight: 600
+    lineHeight: 1.2
+  education-mobile-title:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "25px"
+    fontWeight: 600
+    lineHeight: 1.2
+  school-mark-featured:
+    fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize: "19px"
+    fontWeight: 600
   skill-heading:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     fontSize: "18px"
@@ -422,12 +436,12 @@ Projects breaks out of the shell with centred previews and neighbouring peeks: w
 
 ## Elevation & Depth
 
-Shared hero/contact/chip surfaces use 28px blur / 170% saturation; project surfaces use 24px / 170%, captions 24px blur, buttons 20px / 160%, contact CTA 20px and decorative panes 26px. The navigation uses 32px blur, 180% saturation and 1.08 brightness beneath a translucent white/blue fill. A static diagonal sheen, a bright outer edge and a fine inner rim give the bar a light-catching glass finish. This is a CSS web approximation, with an opaque fallback. Bright white edges and blue offset shadows provide depth.
+Shared hero/contact/chip/education surfaces use 28px blur / 170% saturation; project surfaces use 24px / 170%, captions 24px blur, buttons 20px / 160%, contact CTA 20px and decorative panes 26px. The navigation uses 18px blur, 210% saturation and 1.1 brightness beneath a 12–28%-white/blue fill. Narrow highlights leave the centre more transparent, while bright outer and inner rims define the glass. Navigation labels use 500-weight ink for readability over the clearer backdrop. This is a CSS web approximation, with an opaque fallback. Bright white edges and blue offset shadows provide depth.
 
 ### Shadow Vocabulary
 
 - **Shared Glass:** `0 14px 36px rgb(48 107 159 / 10%), 0 3px 10px rgb(48 107 159 / 4%)` for chips and contact CTA.
-- **Navigation Glass:** `0 12px 32px rgb(48 107 159 / 9%), 0 2px 6px rgb(48 107 159 / 5%)`, with 95%-white top and 28%-white bottom inset highlights. The compact resume action has a smaller 4px/12px shadow and reuses the bar's backdrop instead of nesting another blur.
+- **Navigation Glass:** `0 14px 38px rgb(48 107 159 / 13%), 0 2px 6px rgb(48 107 159 / 5%)`, with 95%-white top, 55%-white bottom and fine side highlights. The compact resume action has a smaller 4px/12px shadow, a clearer 12–36% fill and reuses the bar's backdrop instead of nesting another blur.
 - **Deep Glass:** `0 24px 64px rgb(48 107 159 / 14%), 0 6px 18px rgb(48 107 159 / 6%)` for hero, panes, project surfaces and Contact.
 - **Button Depth:** `0 12px 28px rgb(48 107 159 / 12%)`, strengthened on hover.
 - **Project Hover:** `0 30px 72px rgb(48 107 159 / 18%), 0 8px 22px rgb(48 107 159 / 7%)` plus a white inset highlight.
@@ -438,7 +452,7 @@ Ambient and front-pane loops run 20s and pause offscreen or when the document is
 
 Reduced motion removes animations/transitions and spatial effects, keeps reveals visible, uses automatic anchors and commits rail changes immediately. Reduced transparency makes glass solid blue-white without blur, keeps the primary action deep blue with white lettering and hides reflection/hero atmosphere. Unsupported blur uses the same solid fill fallback. Print removes material and motion.
 
-**The Selective Glass Rule.** Apply visible glass to the header, hero, actions, project previews, individual skill chips, credential search and contact. Keep skills categories, experience and education as flat reading groups. Credential category disclosures share the achievements section's white surfaces without individual blur, shadows or hover movement.
+**The Selective Glass Rule.** Apply visible glass to the header, hero, actions, project previews, individual skill chips, education cards, credential search and contact. Keep skills categories and experience as flat reading groups. Education features NTU across the full desktop grid with its date and abbreviation beside the qualification; NYP and Woodgrove sit in two columns below. The cards have 24px corners, 28px padding (36px on NTU), ambient blue light and the shared glass material. At 540px and below, all three stack with 24px padding. Print restores plain date/text rows and removes abbreviation tiles and ambient light. Credential category disclosures share the achievements section's white surfaces without individual blur, shadows or hover movement.
 
 ## Shapes
 
