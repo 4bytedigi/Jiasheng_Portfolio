@@ -307,7 +307,11 @@ function Projects() {
 }
 
 function CredentialRow({ cert }) {
-  return <article className="credential-row"><div className="credential-details"><h4>{cert.title}</h4><p>{cert.issuer}{cert.note && <span className="course-note">{cert.note}</span>}</p></div><div className="credential-meta"><span className="credential-category">{cert.category}</span><span>{cert.date}</span>{cert.credentialId && <span className="credential-id">ID {cert.credentialId}</span>}</div></article>;
+  return <article className="credential-row">
+    <div className="credential-meta"><span className="credential-category">{cert.category}</span><span>{cert.date}</span></div>
+    <div className="credential-details"><h4>{cert.title}</h4><p>{cert.issuer}{cert.note && <span className="course-note">{cert.note}</span>}</p></div>
+    {cert.credentialId && <p className="credential-id">ID {cert.credentialId}</p>}
+  </article>;
 }
 
 function Credentials() {
@@ -319,7 +323,7 @@ function Credentials() {
   const clearSearch = () => { setQuery(''); setFilter('All'); searchInput.current?.focus(); };
   return <section className="credentials qualification-subsection" id="credentials" tabIndex={-1} aria-labelledby="credentials-title">
     <div className="subsection-heading"><h3 id="credentials-title" data-reveal>Credentials & courses.</h3><p>Continued learning in cloud, security, communications and leadership.</p></div>
-    <div className="credential-tools"><div className="filters" role="group" aria-label="Filter certifications">{categories.map(category => <button key={category} aria-pressed={filter === category} onClick={() => setFilter(category)}>{category}</button>)}</div><div className="search-field"><MagnifyingGlass size={18} aria-hidden="true" /><input ref={searchInput} type="search" value={query} onChange={event => setQuery(event.target.value)} aria-label="Search credentials" placeholder="Find a credential" /></div></div>
+    <div className="credential-tools"><div className="filters" role="group" aria-label="Filter certifications">{categories.map(category => <button type="button" key={category} aria-pressed={filter === category} aria-controls="credential-results" onClick={() => setFilter(category)}>{category}</button>)}</div><div className="search-field glass-surface"><MagnifyingGlass size={18} aria-hidden="true" /><input ref={searchInput} type="search" value={query} onChange={event => setQuery(event.target.value)} aria-label="Search credentials" aria-controls="credential-results" placeholder="Find a credential" /></div></div>
     <p className="result-count" role="status" aria-live="polite">{filtered.length} {filtered.length === 1 ? 'credential or course' : 'credentials & courses'}</p>
     <div className="credential-list" id="credential-results">{filtered.map(cert => <CredentialRow key={cert.id} cert={cert} />)}</div>
     <div className="print-only print-credential-list">{profile.certifications.map(cert => <CredentialRow key={cert.id} cert={cert} />)}</div>
