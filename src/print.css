@@ -2,7 +2,7 @@
   @page { size: A4; margin: 16mm; }
   :root { color: #1d1d1f; background: white; }
   body { font-size: 10pt; background: white; }
-  .header-anchor, .hero-atmosphere, .skip-link, .hero-actions, .hero-note, .projects, .credential-tools, .result-count, .credential-list, .empty-state, .site-footer { display: none !important; }
+  .header-anchor, .hero-atmosphere, .skip-link, .hero-actions, .hero-note, .projects, .credential-tools, .result-count, .credential-groups, .empty-state, .site-footer { display: none !important; }
   .print-only { display: block !important; }
   .section-shell { width: 100%; }
   .section-space, .overview { padding: 18px 0 !important; }
@@ -32,14 +32,13 @@
   .career-item + .career-item { margin-top: 18px; padding-top: 18px; }
   .career-description { margin-top: 8px; }
   .skill-list { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 20px; font-size: 10pt; }
-  .education-row, .credential-row, .award-row { break-inside: avoid; }
+  .education-row, .print-credential-row, .award-row { break-inside: avoid; }
   .education-row { grid-template-columns: 100px 1fr; gap: 18px; }
   .qualification-subsection { padding-top: 25px; }
   .credentials { padding: 25px 0 0; margin-top: 0; border-radius: 0; background: white; }
-  .credential-row { display: block; padding: 13px 0; border-radius: 0; background: white; border-bottom: 1px solid #dfe7ee; }
-  .credential-meta { justify-content: flex-start; margin-bottom: 6px; }
-  .credential-category { padding: 0; border-radius: 0; background: none; color: inherit; }
-  .credential-id { margin-top: 8px; padding-top: 0; border-top: 0; }
+  .print-credential-row { padding: 13px 0; border-bottom: 1px solid #dfe7ee; }
+  .print-credential-row > p { margin-top: 6px; }
+  .credential-facts { grid-template-columns: 1fr 1fr; gap: 8px 20px; padding: 10px 0 0; }
   .award-list { grid-template-columns: 1fr 1fr; gap: 20px; }
   .recognition { padding: 20px 0; margin-top: 0; background: white; }
   .award-row { min-height: 0; padding: 0; }

@@ -1,5 +1,15 @@
 # Credentials theme refinement
 
+## Category disclosures, 27 October 2026
+
+The credentials are grouped into four native category disclosures, collapsed by default. Within each category, each title/issuer summary opens to reveal the issued date, category, optional course note and ID. Existing category tags are now the category headings, replacing the redundant filter tabs. Search matches titles, providers, categories, notes and IDs; matching categories open automatically. Clearing or resetting search restores the collapsed overview.
+
+Desktop (1440px) and mobile (390px) browser checks passed: category counts 3/4/6/4, all four groups initially closed, independent item expansion, Enter activation, Space collapse, visible keyboard focus and no horizontal overflow with a long credential ID. A case-insensitive `network` search returned three records across two open categories. An ID search returned one record. Empty-state reset restored four closed categories and 17 records and focused the search input. The print list contains 17 plain articles with no disclosure elements, independent of the screen's state. Browser warning/error logs were empty.
+
+Screenshots: `.impeccable/review/credentials-grouped-desktop.jpg` and `credentials-grouped-mobile.jpg`. Print markup/style overrides were inspected; a new browser-print PDF was not exported.
+
+## Earlier card theme refinement
+
 27 October 2026. Target: the credentials and courses section on the existing portfolio.
 
 The section now uses the achievements panel's blue-tinted enclosure, white cards and corner radii. Filters follow the selected navigation pill treatment; the search field reuses the shared glass surface. Dates and categories align above titles, while credential IDs remain available in a quieter footer. The professional data, existing anchors and downloadable PDF are unchanged.

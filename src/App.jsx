@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { ArrowUpRight, ArrowRight, ArrowUp, DownloadSimple, MapPin, LinkedinLogo, MagnifyingGlass, Medal, SealCheck, GraduationCap, Trophy } from '@phosphor-icons/react';
+import { ArrowUpRight, ArrowRight, ArrowUp, CaretDown, DownloadSimple, MapPin, LinkedinLogo, MagnifyingGlass, Medal, SealCheck, GraduationCap, Trophy } from '@phosphor-icons/react';
 import profile from './profile.json';
 
 const pdfPath = '/Chua-Jia-Sheng-Resume.pdf';
@@ -306,27 +306,40 @@ function Projects() {
   </section>;
 }
 
-function CredentialRow({ cert }) {
-  return <article className="credential-row">
-    <div className="credential-meta"><span className="credential-category">{cert.category}</span><span>{cert.date}</span></div>
-    <div className="credential-details"><h4>{cert.title}</h4><p>{cert.issuer}{cert.note && <span className="course-note">{cert.note}</span>}</p></div>
-    {cert.credentialId && <p className="credential-id">ID {cert.credentialId}</p>}
-  </article>;
+function CredentialFacts({ cert }) {
+  return <dl className="credential-facts">
+    <div><dt>Issued</dt><dd>{cert.date}</dd></div>
+    <div><dt>Category</dt><dd>{cert.category}</dd></div>
+    {cert.note && <div><dt>Record type</dt><dd>{cert.note}</dd></div>}
+    {cert.credentialId && <div className="credential-fact-id"><dt>Credential ID</dt><dd>{cert.credentialId}</dd></div>}
+  </dl>;
+}
+
+function CredentialRow({ cert, print = false }) {
+  if (print) return <article className="print-credential-row"><h4>{cert.title}</h4><p>{cert.issuer}</p><CredentialFacts cert={cert} /></article>;
+  return <details className="credential-row">
+    <summary className="credential-summary"><span className="credential-summary-copy"><span className="credential-name">{cert.title}</span><span className="credential-issuer">{cert.issuer}</span></span><CaretDown className="disclosure-caret" size={18} aria-hidden="true" /></summary>
+    <CredentialFacts cert={cert} />
+  </details>;
 }
 
 function Credentials() {
-  const [filter, setFilter] = useState('All');
   const [query, setQuery] = useState('');
   const searchInput = useRef(null);
-  const categories = ['All', 'Cloud & software', 'Security', 'Communications', 'Leadership'];
-  const filtered = profile.certifications.filter(cert => (filter === 'All' || cert.category === filter) && `${cert.title} ${cert.issuer} ${cert.category}`.toLowerCase().includes(query.trim().toLowerCase()));
-  const clearSearch = () => { setQuery(''); setFilter('All'); searchInput.current?.focus(); };
+  const categories = ['Cloud & software', 'Security', 'Communications', 'Leadership'];
+  const searchTerm = query.trim().toLowerCase();
+  const filtered = profile.certifications.filter(cert => `${cert.title} ${cert.issuer} ${cert.category} ${cert.note || ''} ${cert.credentialId || ''}`.toLowerCase().includes(searchTerm));
+  const groups = categories.map(category => ({ category, records: filtered.filter(cert => cert.category === category) })).filter(group => group.records.length > 0);
+  const clearSearch = () => { setQuery(''); searchInput.current?.focus(); };
   return <section className="credentials qualification-subsection" id="credentials" tabIndex={-1} aria-labelledby="credentials-title">
     <div className="subsection-heading"><h3 id="credentials-title" data-reveal>Credentials & courses.</h3><p>Continued learning in cloud, security, communications and leadership.</p></div>
-    <div className="credential-tools"><div className="filters" role="group" aria-label="Filter certifications">{categories.map(category => <button type="button" key={category} aria-pressed={filter === category} aria-controls="credential-results" onClick={() => setFilter(category)}>{category}</button>)}</div><div className="search-field glass-surface"><MagnifyingGlass size={18} aria-hidden="true" /><input ref={searchInput} type="search" value={query} onChange={event => setQuery(event.target.value)} aria-label="Search credentials" aria-controls="credential-results" placeholder="Find a credential" /></div></div>
-    <p className="result-count" role="status" aria-live="polite">{filtered.length} {filtered.length === 1 ? 'credential or course' : 'credentials & courses'}</p>
-    <div className="credential-list" id="credential-results">{filtered.map(cert => <CredentialRow key={cert.id} cert={cert} />)}</div>
-    <div className="print-only print-credential-list">{profile.certifications.map(cert => <CredentialRow key={cert.id} cert={cert} />)}</div>
+    <div className="credential-tools"><p className="credential-hint">Browse a category. Open a credential for details.</p><div className="search-field glass-surface"><MagnifyingGlass size={18} aria-hidden="true" /><input ref={searchInput} type="search" value={query} onChange={event => setQuery(event.target.value)} aria-label="Search credentials" aria-controls="credential-results" placeholder="Find a credential" /></div></div>
+    <p className="result-count" role="status" aria-live="polite">{filtered.length} {filtered.length === 1 ? 'credential or course' : 'credentials & courses'} in {groups.length} {groups.length === 1 ? 'category' : 'categories'}</p>
+    <div className="credential-groups" id="credential-results">{groups.map(({ category, records }) => <details className="credential-group" key={`${category}-${searchTerm}`} open={searchTerm ? true : undefined}>
+      <summary className="credential-group-summary"><span className="credential-group-label">{category}</span><span className="credential-group-count" aria-label={`${records.length} credentials and courses`}>{records.length}</span><CaretDown className="disclosure-caret" size={22} aria-hidden="true" /></summary>
+      <div className="credential-list">{records.map(cert => <CredentialRow key={cert.id} cert={cert} />)}</div>
+    </details>)}</div>
+    <div className="print-only print-credential-list">{profile.certifications.map(cert => <CredentialRow key={cert.id} cert={cert} print />)}</div>
     {filtered.length === 0 && <div className="empty-state"><h4>No matching credentials.</h4><p>Try a different title, provider or category.</p><button className="button button-secondary" onClick={clearSearch}>Reset search</button></div>}
   </section>;
 }

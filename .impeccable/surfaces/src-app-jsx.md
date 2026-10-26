@@ -7,6 +7,10 @@ related_targets: ["src/styles.css","src/print.css"]
 
 # Editorial personal portfolio refinement
 
+## Latest credential interaction request, 27 October 2026
+
+The user requested category grouping, collapsed defaults and click-to-open credential details. This supersedes the earlier requirement that all credentials remain visibly expanded. Preserve the blue-tinted credentials panel and white surfaces. Show four native category disclosures with counts; each contains individual native credential disclosures showing title/issuer before expansion and only verified facts afterward. Search automatically opens matching categories; clearing search restores the collapsed overview. Keep all 17 complete records in the independent print list. Native Enter/Space activation, visible focus and mobile wrapping are required.
+
 Scope: existing one-page résumé. Mode: Read, with a professional introduction for recruiters.
 
 ## Direction contract

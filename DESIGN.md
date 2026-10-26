@@ -96,9 +96,9 @@ typography:
     letterSpacing: "-.02em"
   credential-title:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    fontSize: "17px"
+    fontSize: "16px"
     fontWeight: 600
-    lineHeight: 1.4
+    lineHeight: 1.5
     letterSpacing: "-.02em"
   skill-heading:
     fontFamily: "'Geist Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
@@ -407,17 +407,17 @@ Four flat skill groups span desktop with 28px row / 24px column gaps. Each list 
 
 The flat timeline stays 2026, 2025, 2024, 2022. Year groups use `120px minmax(0, 1fr)`, 34px gaps and 44px group separation. Desktop year labels pin at 110px within their own group. Career rows use `164px minmax(0, 1fr)` and a 25px gap; adjacent roles retain 35px margin/padding and a divider.
 
-Projects breaks out of the shell with centred previews and neighbouring peeks: width `min(1000px, 82vw)`, 20px gap and 16:9 ratio. Caption inset is 30px/42px. Credentials and achievements share a tinted enclosure with a 44px inset and 24px corners. Credentials use two columns with a 20px gap and white, 16px-radius cards with 28px padding. Each credential places its category and date above the title and issuer; optional IDs sit in a quiet footer. Wrapped filters sit in a translucent rounded track, paired with a 240px glass search pill. Credentials start after an 84px margin. Contact uses two columns, 56px inset and a 48px gap.
+Projects breaks out of the shell with centred previews and neighbouring peeks: width `min(1000px, 82vw)`, 20px gap and 16:9 ratio. Caption inset is 30px/42px. Credentials and achievements share a tinted enclosure with a 44px inset and 24px corners. Credentials use four stacked white category disclosures with 16px corners and 12px gaps. Category summaries have 28px horizontal padding, a count pill and a blue chevron. Opening a category shows compact title/issuer summaries; opening a credential reveals its date, category, optional course note and ID. All disclosures are native details/summary controls and start collapsed. Search opens matching categories automatically and clearing it returns to the collapsed overview. A 240px glass search pill accompanies the browsing hint. Credentials start after an 84px margin. Contact uses two columns, 56px inset and a 48px gap.
 
 ### Responsive behaviour
 
 - **1100px and below:** skill groups use two columns with 32px gaps; About copy gap becomes 40px; year/metadata columns narrow; tools stack and search caps at 360px.
-- **900px and below:** navigation reserves 110px at an 8px top inset and retains two rows with five 44px targets; scroll offset is 142px. Hero panel inset is 36px. About copy and Contact stack. Year labels return to ordinary flow; career rows stack. Education rows stack and academic separation becomes 62px. Credentials retain two columns with a 16px gap, 24px card padding and a 28px panel inset. Projects uses 86vw width / 12px gap and 24px/28px caption inset.
-- **540px and below:** hero/contact inset becomes 28px/24px. Chips use 11px inline inset; credentials and awards become single columns. Projects uses 6:5 ratio and 20px/22px caption inset. Contact action wraps within the panel.
+- **900px and below:** navigation reserves 110px at an 8px top inset and retains two rows with five 44px targets; scroll offset is 142px. Hero panel inset is 36px. About copy and Contact stack. Year labels return to ordinary flow; career rows stack. Education rows stack and academic separation becomes 62px. Credential category summaries use 24px horizontal padding inside a 28px panel inset. Projects uses 86vw width / 12px gap and 24px/28px caption inset.
+- **540px and below:** hero/contact inset becomes 28px/24px. Chips use 11px inline inset; awards become a single column. Credential summaries use 18px horizontal padding, and expanded facts stack in one column so long IDs wrap. Projects uses 6:5 ratio and 20px/22px caption inset. Contact action wraps within the panel.
 - **375px and below:** skills use one column and navigation labels use 11px. At 390px skills retain two columns.
 - **Print:** A4 with 16mm margins, full-width shell and 18px section spacing. Navigation, actions, atmosphere, Projects and screen credential list/tools disappear. All 17 credentials print independently of filters; all ten skills remain. Glass becomes plain white, years return to flow and masked text/depth transforms reset. Hero name is 30pt, role 14pt, headings 20pt and body 10pt. Browser print is separate from the downloadable résumé PDF.
 
-**The Visible Record Rule.** Keep every responsibility visible and every matching credential available without an expansion step; filters refine the reading list rather than gate it.
+**The Visible Record Rule.** Keep every responsibility visible. Following the user's category-disclosure request, credentials start collapsed by category and reveal their facts on demand. Search reveals matching categories, and the separate print list always contains all 17 complete records regardless of search or disclosure state.
 
 ## Elevation & Depth
 
@@ -436,7 +436,7 @@ Ambient and front-pane loops run 20s and pause offscreen or when the document is
 
 Reduced motion removes animations/transitions and spatial effects, keeps reveals visible, uses automatic anchors and commits rail changes immediately. Reduced transparency makes glass solid blue-white without blur, keeps the primary action deep blue with white lettering and hides reflection/hero atmosphere. Unsupported blur uses the same solid fill fallback. Print removes material and motion.
 
-**The Selective Glass Rule.** Apply visible glass to the header, hero, actions, project previews, individual skill chips, credential search and contact. Keep skills categories, experience and education as flat reading groups. Credential cards share the achievements section's white surfaces without individual blur, shadows or hover movement.
+**The Selective Glass Rule.** Apply visible glass to the header, hero, actions, project previews, individual skill chips, credential search and contact. Keep skills categories, experience and education as flat reading groups. Credential category disclosures share the achievements section's white surfaces without individual blur, shadows or hover movement.
 
 ## Shapes
 
